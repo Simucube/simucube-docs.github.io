@@ -1,0 +1,45 @@
+extra_css:
+  - css/extra.css
+  
+theme:
+  name: material
+  logo: assets/sclogo.png
+  favicon: assets/sclogo_white.png
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  #font:
+    #text: "TTSupermolot-BoldItalic"
+    
+site_name: Simucube Online Guide
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+    - Home: index.md
+    - ActivePedal: 
+        - Getting started: ActivePedal/Getting started.md
+        - FAQ: ActivePedal/FAQ.md
+        - Troubleshooting: ActivePedal/Troubleshooting.md
+    - TrueDrive: 
+        - Getting started: TD/Getting started.md
+        - Main window: TD/Main window.md
+        - Troubleshooting: TD/Troubleshooting.md

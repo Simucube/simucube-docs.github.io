@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Supermolot";
+  
+   src: url("assets/TT Supermolot Regular.otf") format("opentype"), url("assets/TT Supermolot Bold Italic.otf") format("opentype") 
+}
+
+h1,h2,h3,.md-ellipsis {
+  font-family: "TTSupermolot-BoldItalic"; 
+}
+
+/*[data-md-color-scheme="simucube"] {*/
+:root {
+  --md-primary-fg-color:        #e84e0f;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #02232B;
+
+
+  /*--md-primary-fg-color: #e84e0f;
+  --md-primary-bg-color: #02232B;*/
+/*  --md-primary-fg-color: #ffcc33;
+  --md-primary-bg-color: #cc1145;*/
+  /*--md-primary-fg-color:        #EE0F0F;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;*/
+}
