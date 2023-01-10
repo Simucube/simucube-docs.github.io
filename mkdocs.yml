@@ -37,6 +37,10 @@ nav:
     - Home: index.md
     - ActivePedal: 
         - Getting started: ActivePedal/Getting started.md
+        - Items needed: ActivePedal/Items needed.md
+        - Mounting: ActivePedal/Mounting.md
+        - Cabling: ActivePedal/Cabling.md
+        - Mechanical adjustments: ActivePedal/Mechanical adjustments.md
         - FAQ: ActivePedal/FAQ.md
         - Troubleshooting: ActivePedal/Troubleshooting.md
     - TrueDrive: 
