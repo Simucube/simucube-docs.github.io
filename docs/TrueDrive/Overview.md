@@ -1,0 +1,1 @@
+Main window and it's widgets.

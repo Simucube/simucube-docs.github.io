@@ -47,18 +47,20 @@ nav:
           - First time use: ActivePedal/First use.md
           - Profile templates: ActivePedal/Templates.md
           - Travel range: ActivePedal/Travel range.md
-          - Force curve: ActivePedal/Editing curve.md
+          - Force curve: ActivePedal/Force curve.md
           - Effects: ActivePedal/Effects.md
         - FAQ: ActivePedal/FAQ.md
         - Troubleshooting: ActivePedal/Troubleshooting.md
         - Specifications & developers:
           - Specifications: ActivePedal/Specifications.md
           - Game telemetry support: ActivePedal/Telemetry.md
-          - Dimensions & 3D models: ActivePedal/3Dmodels.md
+          - Dimensions & 3D models: ActivePedal/3D models.md
           - API: ActivePedal/API.md
     - TrueDrive 2:
         - Getting TrueDrive: TrueDrive/Getting started.md
         - App overview: TrueDrive/Overview.md
         - Profile manager: TrueDrive/Profile manager.md
-        - Device settings: TrueDrive/Device settings.md
+        - Device settings: 
+          - ActivePedal: TrueDrive/ActivePedal device settings.md
+          - Passive pedal: TrueDrive/Passive pedal device settings.md
         - Troubleshooting: TrueDrive/Troubleshooting.md
