@@ -1,0 +1,389 @@
+{
+  "main": {
+    "id": "cf0a657f609b0fc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bd58cb8e62cfe44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf7c3ea2e21174db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Cabling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12a53062f90b8d49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Items needed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "493d6010b723b9e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Mounting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51d77ec9a095eb6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Mechanical adjustments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a11c037e2d034f82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Safety.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8162bc94e1902dfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Templates.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6451e6896c562a07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Travel range.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb677132b7e9f28a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/First use.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87dc0c2eb8bd1b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Force curve.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a8ca3f1e427de4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Effects.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7591ceffbd5f677c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Telemetry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d716b3a200c1833d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/3D models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22c8c6266c93ea0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Travel range.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "180e37b170415bec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ActivePedal/Getting started.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4eff9530e303f88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrueDrive/Getting started.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a0e2a0fb18a54c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrueDrive/Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e312b50cb7ea675",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrueDrive/ActivePedal device settings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57e0281ca4784cc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrueDrive/Troubleshooting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad81bdddc2e216f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrueDrive/ActivePedal device settings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f30ab2506a6c5a8f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "ActivePedal/assets/cabling overview.png"
+              }
+            }
+          }
+        ],
+        "currentTab": 19
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "80c74d0ccc4d31b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "2086dd12f6132e43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "915b5f64b7c0597b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "45f930f1dff1571c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "62800689cb459562",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3c802c222bfd159e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f50eb7c2297f08e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbae27da8455aaea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ActivePedal/assets/cabling overview.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b4da1abe53214764",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ActivePedal/assets/cabling overview.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f1e147a083f28be",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "53661d59b1d2026b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ActivePedal/assets/cabling overview.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "915b5f64b7c0597b",
+  "lastOpenFiles": [
+    "ActivePedal/assets/Pasted image 20230116153653.png",
+    "ActivePedal/assets/cabling overview.png",
+    "ActivePedal/Cabling.md",
+    "TrueDrive/Passive pedal device settings.md",
+    "TrueDrive/ActivePedal device settings.md",
+    "TrueDrive/Profile manager.md",
+    "TrueDrive/Overview.md",
+    "index.md",
+    "ActivePedal/FAQ.md",
+    "TrueDrive/Troubleshooting.md"
+  ]
+}
