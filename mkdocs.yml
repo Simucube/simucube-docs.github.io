@@ -49,13 +49,13 @@ nav:
     - Home: index.md
     - ActivePedal: 
         - Getting started: ActivePedal/Getting started.md
+        - Hazards & safety: ActivePedal/Safety.md
         - Installation:
           - Items needed: ActivePedal/Items needed.md
+          - Mechanical adjustments: ActivePedal/Mechanical adjustments.md
           - Mounting: ActivePedal/Mounting.md
           - Cabling: ActivePedal/Cabling.md
-          - Mechanical adjustments: ActivePedal/Mechanical adjustments.md
           - Software: ActivePedal/Software.md
-        - Hazards & safety: ActivePedal/Safety.md
         - Usage: 
           - First time use: ActivePedal/First use.md
           - Profile templates: ActivePedal/Templates.md
@@ -69,7 +69,7 @@ nav:
           - Game telemetry support: ActivePedal/Telemetry.md
           - Dimensions & 3D models: ActivePedal/3D models.md
           - API: ActivePedal/API.md
-    - TrueDrive 2:
+    - TrueDrive:
         - Getting TrueDrive: TrueDrive/Getting started.md
         - App overview: TrueDrive/Overview.md
         - Profile manager: TrueDrive/Profile manager.md
