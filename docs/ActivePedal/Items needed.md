@@ -1,18 +1,44 @@
-![](assets/active%20pedal%20kit.png)
+Required items to make use of ActivePedal
 
-## Kit items
+* ActivePedal Primary set (for one ActivePedal system)
+* A fully functioning simracing rig. I.e. with:
+	* Gaming computer
+	* Steering wheel
+	* ActivePedal compatible passive pedals
 
-![](assets/mounting%20screws.png)
+Optional items
 
-| Number | Item                  | ActivePedal Primary set | ActivePedal Add-on set |
-| ------ | --------------------- | ----------------------- | ---------------------- |
-| 1      | ActivePedal           | 1 pc                    | 1 pc                   |
-| 2      | Screw kit             | 1 pc                    | 1 pc                   |
-| 3      | RJ45 cable            | 1 pc                    | 2 pcs                  |
-| 4      | Torx key              | 1 pc                    | 1 pc                   |
-| 5      | Power adapter         | 1 pc                    | 0 pcs                  |
-| 6      | AC power cable        | 0 pcs                   | 0 pcs                  |
-| 7      | DC power cable        | 1 pc                    | 1 pc                   |
-| 8      | SC-Link Hub           | 1 pc                    | 0 pcs                  |
-| 9      | USB cable             | 1 pc                    | 0 pcs                  |
-| 10     | SC-Link mounting tape | 1 pc                    | 0 pcs                  |
+* ActivePedal Add-on set(s) for second and third pedal. These remove the need for comaptible passive pedals
+* ActivePedal Base plate. This may ease installataion on rig and add ergonomic.
+
+## ActivePedal package contents
+
+### ActivePedal Primary set
+
+![](assets/whatsincluded%20primary%20set%20with%20balloons%20web.png)
+
+| Number | Item                  | Qty   |
+| ------ | --------------------- | ----- |
+| 1      | ActivePedal           | 1 pc  |
+| 2      | Power adapter         | 1 pc  |
+| 3      | AC power cord         | 1 pcs |
+| 4      | DC power cord         | 1 pc  |
+| 5      | SC-Link Hub           | 1 pc  |
+| 6      | USB cable             | 1 pc  |
+| 7      | RJ45 cable            | 1 pc  |
+| 8      | SC-Link mounting tape | 1 pc  |
+| 9      | Screw kit             | 1 pc  |
+| 10     | Torx key              | 1 pc  |
+
+### ActivePedal Add-on set
+
+![](assets/whatsincluded%20addon%20set%20with%20balloons%20web.png)
+
+| Number | Item                    | Qty   |
+| ------ | ----------------------- | ----- |
+| 1      | ActivePedal             | 1 pc  |
+| 2      | DC power cord           | 1 pc  |
+| 3      | Ethernet switch and PSU | 1 pc  |
+| 4      | RJ45 cables             | 2 pcs |
+| 5      | Screw kit               | 1 pc  |
+| 6      | Torx key                | 1 pc  |
