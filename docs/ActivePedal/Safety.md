@@ -1,1 +1,1 @@
-![](assets/hazards%20white%20bg.png)
+![](assets/hazards.png)
