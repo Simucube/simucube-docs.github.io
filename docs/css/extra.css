@@ -1,8 +1,13 @@
 @font-face {
-  font-family: "Supermolot";
-  
-   src: url("assets/TT Supermolot Regular.otf") format("opentype"), url("assets/TT Supermolot Bold Italic.otf") format("opentype") 
+  font-family: "TTSupermolot-Regular";
+  src: url("../assets/TT Supermolot Regular.otf") format("opentype")
 }
+
+@font-face { 
+  font-family: "TTSupermolot-BoldItalic";
+  src: url("../assets/TT Supermolot Bold Italic.otf") format("opentype") 
+}
+
 
 h1,h2,h3,.md-ellipsis {
   font-family: "TTSupermolot-BoldItalic"; 
@@ -27,4 +32,9 @@ h1,h2,h3,.md-ellipsis {
 .md-footer-meta
 {
 	display:none; /*hide mkdocs banner*/
+}
+
+div.md-content article.md-content__inner.md-typeset p img
+{
+	border-radius: 20px;
 }
