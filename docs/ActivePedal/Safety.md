@@ -1,2 +1,1 @@
-![](assets/unsafe%20zone.png)
-![](assets/force%20and%20speed%20hazard.png)
+![](assets/hazards%20white%20bg.png)
