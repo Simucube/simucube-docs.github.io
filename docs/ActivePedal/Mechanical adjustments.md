@@ -29,6 +29,7 @@ The easiest way to change pedal offset is done through True Drive configuration,
 ## Maximum force and travel
 
 ActivePedal has two mechanical settings for different purposes. Choose the mode according to your required force and travel ranges.
+
 ![](assets/force%20and%20travel%20range.png)
 
 To change the setting, follow the illustrated procedure and finally update the setting under [ActivePedal hardware configuration dialog](Software.md) in True Drive.
