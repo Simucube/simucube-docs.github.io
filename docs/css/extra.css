@@ -17,10 +17,10 @@ h1,h2,h3,.md-ellipsis {
 {
   /*
   SC colors:
-  orange: e84e0f
-  mystic serenity: 02232b or hsl(192deg 95% 10%);
+  orange: e84e0f  	hsl(17deg 88% 48%)
+  mystic serenity: 02232b or hsl(192deg 91% 9%);*/
 
-  /*--md-primary-fg-color:        #e84e0f;*/
+  --md-primary-fg-color:   rgb(243, 139, 21);
 /*  --md-primary-bg-color: #fff;*/ /*title bar text color*/
   /*--md-primary-fg-color: rgb(1,22,27);*/
   /*--md-primary-fg-color--light: #ECB7B7;
@@ -29,8 +29,8 @@ h1,h2,h3,.md-ellipsis {
   --md-default-fg-color--light: hsl(192deg 25% 70%); /*page title*/
   /*--md-hue: 192;*/
   /*--md-default-bg-color:  hsl(192 95 17);*/
-  --md-default-bg-color:  hsl(192deg 95% 10%);
-  --md-footer-bg-color: hsl(192deg 95% 7%);
+  --md-default-bg-color:  hsl(192deg 91% 10%);
+  --md-footer-bg-color: hsl(192deg 91% 7%);
 
   /*--md-primary-fg-color: #e84e0f;
   --md-primary-bg-color: #02232B;*/
