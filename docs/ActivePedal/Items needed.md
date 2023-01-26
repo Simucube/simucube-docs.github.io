@@ -1,18 +1,19 @@
-Required items to make use of ActivePedal
+## Required items to make use of ActivePedal
 
-* ActivePedal Primary set (for one ActivePedal system)
+For single ActivePedal system with one or two passive pedals:
 
-* A fully functioning simracing rig. I.e. with:
-
-	* Gaming computer
-
+* **ActivePedal Primary set**
+* A fully functioning simracing system
+	* A sturdy sim racing rig
+	* Gaming computer with an available USB port
 	* Steering wheel
+	* [ActivePedal compatible passive pedals](../Specifications/#compatible-passive-pedals)
 
-	* ActivePedal compatible passive pedals
+For systems with total of two or three ActivePedals:
 
-Optional items
+* 1 or 2 **ActivePedal Add-on set(s)**. Note that each of these remove the need for comaptible passive pedal.
 
-* ActivePedal Add-on set(s) for second and third pedal. These remove the need for comaptible passive pedals
+## Optional items
 
 * ActivePedal Base plate. This may ease installataion on rig and add ergonomic.
 
@@ -26,7 +27,7 @@ Optional items
 | ------------------------ | ----- |
 | 1. ActivePedal           | 1 pc  |
 | 2.  Power adapter        | 1 pc  |
-| 3.  AC power cord        | 1 pcs |
+| 3.  AC power cord        | 1 pc |
 | 4. DC power cord         | 1 pc  |
 | 5. SC-Link Hub           | 1 pc  |
 | 6. USB cable             | 1 pc  |
