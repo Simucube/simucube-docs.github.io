@@ -2,7 +2,7 @@
 
 ## :flag_gb: Safe use 
 
-Device's motorized moving parts may induce serious injury. Keep the moving parts clear and free to move while the power cord is plugged in.
+Device's motor powered moving parts may induce serious injury. Keep the moving parts clear and free to move while the power cord is plugged in.
 
 Only physically fit adult person may operate the device. Always keep children and pets away from the device.
 
