@@ -1,4 +1,4 @@
-Pedal face angle, height and extension may be mechanically adjusted with the included Torx key.
+Pedal face angle, height and travel offset may be mechanically adjusted with the included Torx key.
 
 ![](assets/pedal%20face%20all%20adjustments.png)
 
@@ -22,7 +22,7 @@ To alter pedal face angle
 
 ![](assets/pedal%20face%20angle%20adjustment.png)
 
-## Pedal offset
+## Pedal travel offset
 
 The easiest way to change pedal offset is done through True Drive configuration, see [Travel range](Travel%20range.md). To go beyond software configurable travel
 
@@ -32,7 +32,7 @@ The easiest way to change pedal offset is done through True Drive configuration,
 
 ![](assets/pedal%20offset%20adjustment.png)
 
-## Maximum force and travel
+## Optimizing force vs travel
 
 ActivePedal has two mechanical settings for different purposes. Choose the mode according to your required force and travel ranges.
 
