@@ -23,9 +23,31 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  #font:
-    #text: "TTSupermolot-BoldItalic"
-    
+  features:
+    - navigation.footer
+
+copyright: Copyright &copy; Granite Devices Inc
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/facebook 
+      link: https://facebook.com/simucube
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/simucube
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/company/granite-devices
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@simucube_official
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/simucube
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/simucube
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/simucube
+    - icon: fontawesome/brands/github
+      link: https://github.com/simucube      
+
 site_name: Simucube Online Guide
 
 markdown_extensions:
@@ -46,7 +68,10 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - toc:
       permalink: true
-
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      
 nav:
     - Home: index.md
     - ActivePedal: 

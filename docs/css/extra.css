@@ -29,8 +29,9 @@ h1,h2,h3,.md-ellipsis {
   --md-default-fg-color--light: hsl(192deg 25% 70%); /*page title*/
   /*--md-hue: 192;*/
   /*--md-default-bg-color:  hsl(192 95 17);*/
-  --md-default-bg-color:  hsl(192deg 91% 10%);
-  --md-footer-bg-color: hsl(192deg 91% 7%);
+  --md-default-bg-color:  hsl(192deg 91% 10%); /*page bg*/
+  --md-footer-bg-color: hsl(192deg 91% 7%); /*nav footer*/
+  --md-footer-bg-color--dark : hsl(192deg 91% 4%); /*copyright & some links footer*/
 
   /*--md-primary-fg-color: #e84e0f;
   --md-primary-bg-color: #02232B;*/
@@ -41,10 +42,10 @@ h1,h2,h3,.md-ellipsis {
   --md-primary-fg-color--dark:  #90030C;*/
 }
 
-.md-footer-meta
+/*.md-footer-meta
 {
-	display:none; /*hide mkdocs banner*/
-}
+	display:none; 
+}*/
 
 div.md-content article.md-content__inner.md-typeset p img
 {
