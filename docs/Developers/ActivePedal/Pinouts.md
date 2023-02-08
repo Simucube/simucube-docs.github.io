@@ -1,0 +1,1 @@
+External passive pedal connector pinout to be published here

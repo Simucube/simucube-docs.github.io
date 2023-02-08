@@ -28,6 +28,9 @@ theme:
 
 copyright: Copyright &copy; Granite Devices Inc
 
+repo_url: https://github.com/Simucube/simucube-docs.github.io
+repo_name: Contribute an edit
+
 extra:
   generator: false
   social:
@@ -91,11 +94,9 @@ nav:
           - Effects: ActivePedal/Effects.md
         - FAQ: ActivePedal/FAQ.md
         - Troubleshooting: ActivePedal/Troubleshooting.md
-        - Specifications & developers:
+        - Specifications:
           - Specifications: ActivePedal/Specifications.md
           - Game telemetry support: ActivePedal/Telemetry.md
-          - Dimensions & 3D models: ActivePedal/3D models.md
-          - API: ActivePedal/API.md
     - TrueDrive:
         - Getting TrueDrive: TrueDrive/Getting started.md
         - App overview: TrueDrive/Overview.md
@@ -104,3 +105,8 @@ nav:
           - ActivePedal: TrueDrive/ActivePedal device settings.md
           - Passive pedal: TrueDrive/Passive pedal device settings.md
         - Troubleshooting: TrueDrive/Troubleshooting.md
+    - Developers:
+      - ActivePedal:
+        - Dimensions & 3D models: Developers/ActivePedal/3D models.md
+        - Electrical pinouts: Developers/ActivePedal/Pinouts.md
+        - API: Developers/ActivePedal/API.md
