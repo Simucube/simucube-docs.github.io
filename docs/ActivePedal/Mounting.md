@@ -1,28 +1,23 @@
-# Simucube Baseplate
+## ActivePedal mounting 
 
-Simucube Baseplate is a optional accessory that provides easy mounting, adjustability and comfort when using certain pedals. List of compatible pedals in [specifications](Specifications.md#simucube-baseplate).
- 
-## Assembling Baseplate
+ActivePedal is mounted to the rig or baseplate by clamping it down by 4 to 6 pcs of M5 theaded screws with washers. 
 
-Each screw joint in assembly consists of the M6 bolt, split lock spring washer and a washer. Assemble each screw as illustrated below.
+For ActivePedal footprint dimensions, see [specifications](Specifications.md).
 
-![](assets/baseplate screw assy.png)
+![](assets/active%20pedal%206%20screws.png)
 
-Then, follow the step by step instructions as illustrated below.
+!!! Info
+    Minimum of four (4) screws must be used in clamping, but use all six (6) if possible. Tighten screws to sufficient torque (~2 Nm).
 
-![](assets/baseplate1.png)
+    *If* you're limited using four (4) screws *and* you can choose which ones to use, then prefer to use the **front** side and the **back** side screw holes of the pedal. This likely yields stiffer installation which in turn helps the dynamic performance and reduces the chance of oscillation.
 
-![](assets/baseplate2.png)
+## Mounting with Simucube Baseplate
 
-![](assets/baseplate3.png)
+Simucube Baseplate is a optional accessory that provides easy mounting, adjustability and comfort when using certain pedals. 
 
-## Mounting Baseplate to rig
+For more info and assembly instructions, see [Simucube Baseplate](Baseplate.md).
 
-Installing the baseplate to the rig depends on the rig model and construction. Most common methods are illustrated below.
-
-![](assets/baseplate mounting to rig complete.png)
-
-# Mounting ActivePedal directly to the rig
+## Mounting directly to the rig
 
 ActivePedal may be mounted also without Baseplate directly to the rig. Installation method depends on the rig model and construction. Most common methods are illustrated below.
 
@@ -36,16 +31,3 @@ ActivePedal may be mounted also without Baseplate directly to the rig. Installat
 <figcaption>Mounting on through-hole plate</figcaption>
 </figure>
 
-# ActivePedal mounting 
-
-In all above installation methods, ActivePedal itself is mounted by clamping it down by 4 to 6 pcs of M5 theaded screws with washers. 
-
-For ActivePedal footprint dimensions, see [specifications](Specifications.md).
-
-!!! Info
-    Minimum of four (4) screws must be used in clamping, but use all six (6) if possible. Tighten screws to sufficient torque (~2 Nm).
-
-!!! Tip
-    *If* you're limited using four (4) screws *and* you can choose which ones to use, then prefer to use the **front** side and the **back** side screw holes of the pedal. This likely yields stiffer installation which in turn helps the dynamic performance and reduces the chance of oscillation.
-
-![](assets/active%20pedal%206%20screws.png)
