@@ -14,6 +14,8 @@ Then, follow the step by step instructions as illustrated below.
 
 ![](assets/baseplate2.png)
 
+Height and tilt of the foot rest can be set by loosening and tightening the following four screws in desired position.
+
 ![](assets/baseplate3.png)
 
 ## Mounting Baseplate to rig
