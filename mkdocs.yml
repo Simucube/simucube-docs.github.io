@@ -55,6 +55,9 @@ extra:
 
 site_name: Simucube Online Guide
 
+plugins:
+    - mkdocs-video
+    
 markdown_extensions:
   - admonition
   - pymdownx.details
