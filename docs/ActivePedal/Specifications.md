@@ -28,11 +28,11 @@ Selected games are supported with game telemetry data utilizing effects, such as
 - Iracing
 - Assetto Corsa Competizione
 
-More titles are being developed and released with TrueDrive software udpates.
+More titles are being developed and released with Tuner software udpates.
 
-## ActivePedal & TrueDrive compatible passive pedals
+## ActivePedal & Tuner compatible passive pedals
 
-Specific passive pedals have been verified by Simucube to be connectable to ActivePedal system. "Connectable" in here means that the pedal may be wired to one of ActivePedal external pedal ports and get the benefits of configuring them through TrueDrive. 
+Specific passive pedals have been verified by Simucube to be connectable to ActivePedal system. "Connectable" in here means that the pedal may be wired to one of ActivePedal external pedal ports and get the benefits of configuring them through Tuner. 
 
 ### Connectable passive pedals
 
@@ -48,9 +48,9 @@ Supported with separately sold link cable:
 
 ### Other passive pedals
 
-Generally any USB connected pedal should work with ActivePedals as long as they are physically fittable in the same rig. Using direct USB connection on passive pedals will rely on their respective software thus are not confugrable through TrueDrive.
+Generally any USB connected pedal should work with ActivePedals as long as they are physically fittable in the same rig. Using direct USB connection on passive pedals will rely on their respective software thus are not confugrable through Tuner.
 
-Additional to USB connection, most of load cell sensor based passive pedals could work via ActivePedal external pedal input and with TrueDrive regardless of not being listed in this page. Fitting them in ActivePedal system may require third party or DIY adapter.
+Additional to USB connection, most of load cell sensor based passive pedals could work via ActivePedal external pedal input and with Tuner regardless of not being listed in this page. Fitting them in ActivePedal system may require third party or DIY adapter.
 
 ## Mechanical dimensions, electrical pinouts, API
 

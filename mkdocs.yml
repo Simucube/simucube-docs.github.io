@@ -102,14 +102,15 @@ nav:
         - Accessories:
           - Baseplate: ActivePedal/Baseplate.md
           - Heusinkveld adapter: ActivePedal/Heusinkveld adapter.md
-    - TrueDrive:
-        - Getting TrueDrive: TrueDrive/Getting started.md
-        - App overview: TrueDrive/Overview.md
-        - Profile manager: TrueDrive/Profile manager.md
+    - Tuner:
+        - Getting Tuner: Tuner/Getting started.md
+        - App overview: Tuner/Overview.md
+        - Profile manager: Tuner/Profile manager.md
         - Device settings: 
-          - ActivePedal: TrueDrive/ActivePedal device settings.md
-          - Passive pedal: TrueDrive/Passive pedal device settings.md
-        - Troubleshooting: TrueDrive/Troubleshooting.md
+          - ActivePedal: Tuner/ActivePedal device settings.md
+          - Passive pedal: Tuner/Passive pedal device settings.md
+        - Troubleshooting: Tuner/Troubleshooting.md
+        - Chanlge log: Tuner/Changelog.md
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:

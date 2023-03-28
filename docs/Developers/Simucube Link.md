@@ -4,7 +4,7 @@
 - Stable: all devices are galvanically isolated eliminating interference issues
 - Real-time: sub-millisecond latency
 - Immersion: game telemetry data delivered to devices for immersive effects
-- One app: TrueDrive configuration software for all Simucube Link devices
+- One app: Tuner configuration software for all Simucube Link devices
 - Maintenance: all device's firmwares in the Link are upgradeable with single click
 
 <figure markdown>
@@ -18,4 +18,4 @@
 
 Simucube Link Hub supports virtually unlimited Simucube Link compatible devices. To add more than one device, an standard Ethernet switch is needed to build a network of devices.
 
-Simucube Link Hub is configuration free. All devices in the Link network will appear automatically in TrueDrive.
+Simucube Link Hub is configuration free. All devices in the Link network will appear automatically in Tuner.
