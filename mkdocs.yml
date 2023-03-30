@@ -106,17 +106,11 @@ nav:
           - Baseplate: ActivePedal/Baseplate.md
           - Heusinkveld adapter: ActivePedal/Heusinkveld adapter.md
     - Tuner:
-        - Getting Tuner: Tuner/Getting started.md
-        - App overview: Tuner/Overview.md
-        - Profile manager: Tuner/Profile manager.md
-        - Device settings: 
-          - ActivePedal: Tuner/ActivePedal device settings.md
-          - Passive pedal: Tuner/Passive pedal device settings.md
-        - Troubleshooting: Tuner/Troubleshooting.md
+        - Download: Tuner/Download.md
         - Change log: Tuner/Changelog.md
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:
         - Dimensions & 3D models: Developers/ActivePedal/3D models.md
         - Electrical pinouts: Developers/ActivePedal/Pinouts.md
-        - API: Developers/ActivePedal/API.md
+#        - API: Developers/ActivePedal/API.md
