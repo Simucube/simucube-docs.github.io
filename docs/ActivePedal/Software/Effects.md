@@ -7,7 +7,7 @@ List of simulators which support ABS and Motor Vibration:
 - Assetto Corsa Competitizione
 - iRacing
 
-List of simulators which support Trantion control:
+List of simulators which support Traction control:
 
 - Assetto Corsa
 - Assetto Corsa Competitizione
