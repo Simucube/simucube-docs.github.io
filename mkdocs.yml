@@ -90,12 +90,15 @@ nav:
           - Mechanical adjustments: ActivePedal/Mechanical adjustments.md
           - Mounting: ActivePedal/Mounting.md
           - Cabling: ActivePedal/Cabling.md
-          - Software: ActivePedal/Software.md
-        - Usage: 
-          - First time use: ActivePedal/First use.md
-          - Profile templates: ActivePedal/Templates.md
-          - Force curve: ActivePedal/Force curve.md
-          - Effects: ActivePedal/Effects.md
+          - Software: ActivePedal/Software/Software.md
+        - Using software: 
+          - First time setup: ActivePedal/Software/First use.md
+          - Configuration and calibration: ActivePedal/Software/Configuration.md
+          - Profiles: ActivePedal/Software/Profiles.md
+          - Pedal feel: ActivePedal/Software/Pedal feel.md
+          - Simulator input mapping: ActivePedal/Software/SW input mapping.md
+          - Effects: ActivePedal/Software/Effects.md
+          - Passive pedal setup: ActivePedal/Software/Passive pedal setup.md
         - FAQ: ActivePedal/FAQ.md
         - Troubleshooting: ActivePedal/Troubleshooting.md
         - Specifications: ActivePedal/Specifications.md
@@ -110,7 +113,7 @@ nav:
           - ActivePedal: Tuner/ActivePedal device settings.md
           - Passive pedal: Tuner/Passive pedal device settings.md
         - Troubleshooting: Tuner/Troubleshooting.md
-        - Chanlge log: Tuner/Changelog.md
+        - Change log: Tuner/Changelog.md
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:
