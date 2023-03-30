@@ -90,7 +90,6 @@ nav:
           - Mechanical adjustments: ActivePedal/Mechanical adjustments.md
           - Mounting: ActivePedal/Mounting.md
           - Cabling: ActivePedal/Cabling.md
-          - Software: ActivePedal/Software/Software.md
         - Using software: 
           - First time setup: ActivePedal/Software/First use.md
           - Configuration and calibration: ActivePedal/Software/Configuration.md

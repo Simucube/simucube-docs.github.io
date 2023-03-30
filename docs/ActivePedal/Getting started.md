@@ -1,3 +1,1 @@
-!!! Info
-    Under construction
-    
+Simucube welcomes you to the club of ActivePedal users. To get started, follow the guide by navigating the left hand navigation menu in top-down order.
