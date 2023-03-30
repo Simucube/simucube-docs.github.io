@@ -1,5 +1,7 @@
-# About
+# Simucube Online Guide
 
-!!! note
+These pages contain the latest information for the following Simucube products and topics:
 
-	Setup of Simucube online guide is in early progress. For end users, nothing useful to see here.
+- ActivePedal
+- Tuner software
+- Developer information

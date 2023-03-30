@@ -1,10 +1,3 @@
-!!! Info
-    Page Under construction
-
-## Kits
-
-2 varianttia, selitä
-
 ## Installation
 
 ### Mounting Heusinkveld Sprint pedals
@@ -17,12 +10,10 @@ This step is specific only to Heusinkveld Sprint pedals installed on Simucube Ba
 
 Simucube to Heusinkveld adapter cables work with all Heusinkveld models. 
 
-Connect Heusinkveld peadl with the adapter the to ActivePedal's back panel port PEDAL 1 or PEDAL 2. No matter which which port number is used for throttle, gas or brake passive pedal as the pedal role will be configured in TrueDrive.
+Connect Heusinkveld peadl with the adapter the to ActivePedal's back panel port PEDAL 1 or PEDAL 2. No matter which which port number is used for throttle, gas or brake passive pedal as the pedal role will be configured in Tuner.
 
-![](assets/heusinkveld%20adapter.png)
+![](assets/heusinkveld%20adapter.png){width=450}
 
 ## Software setup
 
-1. Add new device to TrueDrive. Instructions TODO.
-2. Calibrate pedal. Instructions TODO.
-3. Edit dead zone or curve. Instructions TODO.
+Follow the instructions of [Tuner passive pedal setup](Software/Passive%20pedal%20setup.md).
