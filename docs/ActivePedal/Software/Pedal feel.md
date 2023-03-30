@@ -51,7 +51,9 @@ Damping removes the "springiness" from the pedal feel by resisting fast changes 
 
 This passive effect can be useful in throttle. It gives stickiness when starting to move the pedal from stop position. Strength means how sticky it is and smoothness means how tough the movement from stickyness is.
 
-!!! Will potentially change in the future. !!
+!!! Info
+    Will potentially change in the future.
+
 
 
 
