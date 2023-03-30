@@ -4,12 +4,7 @@
 
 # 1. Install Tuner
 
-Simucube Tuner is a configuration software for ActivePedals. To get started:
-
-1. [Download Tuner](../Tuner/Download.md)
-2. Install Tuner
-3. Follow to [First time use](Software/First%20use.md)
-
+Simucube Tuner is a configuration software for ActivePedals. To get started [download Tuner](../Tuner/Download.md) and launch the installer.
 
 ## 2. Powering on
 
@@ -39,6 +34,6 @@ As part of the first time setup, user is asked to calibrate the force sensor. Fo
 
 More about configuration and calibration on the next section.
 
-## 4. Drive
+## 4. Test drive
 
 Launch your simulator and take your first test drive.
