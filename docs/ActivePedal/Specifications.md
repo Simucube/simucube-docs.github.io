@@ -26,6 +26,7 @@ ActivePedal appears to computer as a standard USB game controller and therefore 
 Selected games are supported with game telemetry data utilizing effects, such as motor RPM vibration, ABS effect and more. Titles supported at the moment are:
 
 - Iracing
+- Assetto Corsa
 - Assetto Corsa Competizione
 
 More titles are being developed and released with Tuner software udpates.
