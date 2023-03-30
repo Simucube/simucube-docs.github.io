@@ -10,7 +10,7 @@ This step is specific only to Heusinkveld Sprint pedals installed on Simucube Ba
 
 Simucube to Heusinkveld adapter cables work with all Heusinkveld models. 
 
-Connect Heusinkveld peadl with the adapter the to ActivePedal's back panel port PEDAL 1 or PEDAL 2. No matter which which port number is used for throttle, gas or brake passive pedal as the pedal role will be configured in Tuner.
+Connect Heusinkveld pedal with the adapter the to ActivePedal's back panel port PEDAL 1 or PEDAL 2. No matter which which port number is used for throttle, gas or brake passive pedal as the pedal role will be configured in Tuner.
 
 ![](assets/heusinkveld%20adapter.png){width=450}
 

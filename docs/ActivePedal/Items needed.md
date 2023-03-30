@@ -11,11 +11,11 @@ For single ActivePedal system with one or two passive pedals:
 
 For systems with total of two or three ActivePedals:
 
-* 1 or 2 **ActivePedal Add-on set(s)**. Note that each of these remove the need for comaptible passive pedal.
+* 1 or 2 **ActivePedal Add-on set(s)**. Note that each of these remove the need for compatible passive pedal.
 
 ## Optional items
 
-* ActivePedal Base plate. This may ease installataion on rig and add ergonomic.
+* ActivePedal Base plate. This may ease installation on rig and improve ergonomics.
 
 ## ActivePedal package contents
 

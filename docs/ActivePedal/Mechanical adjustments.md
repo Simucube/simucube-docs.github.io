@@ -24,7 +24,7 @@ To adjust the angle of the pedal face:
 
 ## Pedal travel offset
 
-The easiest way to change pedal offset is done through TrueDrive configuration. To extend beyond software configurable travel range:
+The easiest way to change pedal offset is done through Tuner configuration. To extend beyond software configurable travel range:
 
 1. Loosen the two (2) screws on pedal rod
 2. Move the sliding parts to the desired positions
@@ -42,7 +42,7 @@ To change the mode:
 
 1. Re-asseble parts as illustrated procedure
 2. Tighten screws to appriximately 3 Nm torque.
-3. Update the setting under [ActivePedal hardware configuration dialog](Software.md) in TrueDrive.
+3. Update the setting under [ActivePedal hardware configuration dialog](Software.md) in Tuner.
 
 !!! tip
 
