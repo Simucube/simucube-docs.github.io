@@ -1,13 +1,21 @@
-!!! Info
-    Under construction
+# First use
 
-![](assets/Pasted%20image%2020230116165924.png)
+![](../assets/first use.png){ width="450" }
 
-## 1. Powering on
+# 1. Install Tuner
+
+Simucube Tuner is a configuration software for ActivePedals. To get started:
+
+1. [Download Tuner](../Tuner/Download.md)
+2. Install Tuner
+3. Follow to [First time use](Software/First%20use.md)
+
+
+## 2. Powering on
 
 After the installation steps are completed it is time to turn on the ActivePedal. This is done by pressing the button on the backside of the pedal.
 
-## 2. Software configuration
+## 3. Software configuration
 
 ### Device state indicators
 
@@ -26,9 +34,11 @@ ActivePedal is shipped without firmware. Therefore, when the Simucube Tuner soft
 When the firmware is updated, the ActivePedal is seen as a new device in device panel on the left side of the application. There is a yellow indicator which means that device has not been configured correctly yet. Press the device on the device panel.
 As part of the first time setup, user is asked to calibrate the force sensor. Force sensor calibration button is highlighted. Press the button to calibrate the force sensor.
 
-!! Do not touch pedal when calibration is ongoing !!
+!!! Info
+    Do not press or move pedal when performing calibration or while saving configuration. Instead let pedal stay untouched until the calibration dialog is closed.
 
-More about configuration and calibration on next section.
+More about configuration and calibration on the next section.
 
+## 4. Drive
 
-
+Launch your simulator and take your first test drive.
