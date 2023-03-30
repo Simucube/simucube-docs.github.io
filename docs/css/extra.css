@@ -1,30 +1,35 @@
 @font-face {
-  font-family: "Supermolot";
-  
-   src: url("assets/TT Supermolot Regular.otf") format("opentype"), url("assets/TT Supermolot Bold Italic.otf") format("opentype") 
+  font-family: "TTSupermolot-Regular";
+  src: url("../assets/TT Supermolot Regular.otf") format("opentype")
 }
+
+@font-face { 
+  font-family: "TTSupermolot-BoldItalic";
+  src: url("../assets/TT Supermolot Bold Italic.otf") format("opentype") 
+}
+
 
 h1,h2,h3,.md-ellipsis {
   font-family: "TTSupermolot-BoldItalic"; 
 }
 
-/*[data-md-color-scheme="simucube"] {*/
-:root {
-  --md-primary-fg-color:        #e84e0f;
-  --md-primary-fg-color--light: #ECB7B7;
-  --md-primary-fg-color--dark:  #02232B;
+[data-md-color-scheme="slate"] 
+{
+  /*
+  Simucube brand colors:
+  orange: #e84e0f  hsl(17deg 88% 48%)
+  mystic serenity: #02232b  hsl(192deg 91% 9%);*/
 
-
-  /*--md-primary-fg-color: #e84e0f;
-  --md-primary-bg-color: #02232B;*/
-/*  --md-primary-fg-color: #ffcc33;
-  --md-primary-bg-color: #cc1145;*/
-  /*--md-primary-fg-color:        #EE0F0F;
-  --md-primary-fg-color--light: #ECB7B7;
-  --md-primary-fg-color--dark:  #90030C;*/
+  --md-hue: 192;
+  --md-primary-fg-color:   rgb(243, 139, 21); /*title bar text color*/
+  --md-default-fg-color--light: hsl(192deg 25% 70%); /*page title*/
+  --md-default-bg-color:  hsl(192deg 91% 10%); /*page bg*/
+  --md-footer-bg-color: hsl(192deg 91% 7%); /*nav footer*/
+  --md-footer-bg-color--dark : hsl(192deg 91% 4%); /*copyright & social links footer*/
 }
 
-.md-footer-meta
+
+div.md-content article.md-content__inner.md-typeset p img
 {
-	display:none; /*hide mkdocs banner*/
+	border-radius: 20px;
 }

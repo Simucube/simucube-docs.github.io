@@ -1,3 +1,5 @@
+use_directory_urls: false # setting this false makes static html work without --no-directory-url build flag
+
 extra_css:
   - css/extra.css
   
@@ -23,27 +25,91 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  #font:
-    #text: "TTSupermolot-BoldItalic"
-    
+  features:
+    - navigation.footer
+
+copyright: Copyright &copy; Granite Devices Inc
+
+repo_url: https://github.com/Simucube/simucube-docs.github.io
+repo_name: Contribute an edit
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/facebook 
+      link: https://facebook.com/simucube
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/simucube
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/company/granite-devices
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@simucube_official
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/simucube
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/simucube
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/simucube
+    - icon: fontawesome/brands/github
+      link: https://github.com/simucube      
+
 site_name: Simucube Online Guide
 
+plugins:
+    - mkdocs-video
+    
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-
+  - attr_list
+  - md_in_html
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - assets/abbreviations.md
+  - pymdownx.keys
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      
 nav:
     - Home: index.md
     - ActivePedal: 
         - Getting started: ActivePedal/Getting started.md
-        - Items needed: ActivePedal/Items needed.md
-        - Mounting: ActivePedal/Mounting.md
-        - Cabling: ActivePedal/Cabling.md
-        - Mechanical adjustments: ActivePedal/Mechanical adjustments.md
+        - Hazards & safety: ActivePedal/Safety.md
+        - Installation:
+          - Items needed: ActivePedal/Items needed.md
+          - Mechanical adjustments: ActivePedal/Mechanical adjustments.md
+          - Mounting: ActivePedal/Mounting.md
+          - Cabling: ActivePedal/Cabling.md
+        - Using software: 
+          - First time setup: ActivePedal/Software/First use.md
+          - Configuration and calibration: ActivePedal/Software/Configuration.md
+          - Profiles: ActivePedal/Software/Profiles.md
+          - Pedal feel: ActivePedal/Software/Pedal feel.md
+          - Simulator input mapping: ActivePedal/Software/input mapping.md
+          - Effects: ActivePedal/Software/Effects.md
+          - Passive pedal setup: ActivePedal/Software/Passive pedal setup.md
         - FAQ: ActivePedal/FAQ.md
         - Troubleshooting: ActivePedal/Troubleshooting.md
-    - TrueDrive: 
-        - Getting started: TD/Getting started.md
-        - Main window: TD/Main window.md
-        - Troubleshooting: TD/Troubleshooting.md
+        - Specifications: ActivePedal/Specifications.md
+        - Accessories:
+          - Baseplate: ActivePedal/Baseplate.md
+          - Heusinkveld adapter: ActivePedal/Heusinkveld adapter.md
+    - Tuner:
+        - Download: Tuner/Download.md
+        - Change log: Tuner/Changelog.md
+    - Developers:
+      - Simucube Link: Developers/Simucube Link.md
+      - ActivePedal:
+        - Dimensions & 3D models: Developers/ActivePedal/3D models.md
+        - Electrical pinouts: Developers/ActivePedal/Pinouts.md
+#        - API: Developers/ActivePedal/API.md
