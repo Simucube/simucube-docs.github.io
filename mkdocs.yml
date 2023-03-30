@@ -95,7 +95,7 @@ nav:
           - Configuration and calibration: ActivePedal/Software/Configuration.md
           - Profiles: ActivePedal/Software/Profiles.md
           - Pedal feel: ActivePedal/Software/Pedal feel.md
-          - Simulator input mapping: ActivePedal/Software/SW input mapping.md
+          - Simulator input mapping: ActivePedal/Software/input mapping.md
           - Effects: ActivePedal/Software/Effects.md
           - Passive pedal setup: ActivePedal/Software/Passive pedal setup.md
         - FAQ: ActivePedal/FAQ.md
