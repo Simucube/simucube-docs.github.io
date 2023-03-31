@@ -40,7 +40,7 @@ ActivePedal has two mechanical settings. Choose the mode according to your prefe
 
 To change the mode:
 
-1. Re-asseble parts as illustrated procedure
+1. Re-assemble parts as illustrated procedure
 2. Tighten screws to appriximately 3 Nm torque.
 3. Update the setting under [ActivePedal hardware configuration dialog](Software.md) in Tuner.
 

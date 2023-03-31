@@ -7,7 +7,7 @@ For single ActivePedal system with one or two passive pedals:
 	* A sturdy sim racing rig
 	* Gaming computer with an available USB port
 	* Steering wheel
-	* [ActivePedal compatible passive pedals](../Specifications/#compatible-passive-pedals)
+	* [ActivePedal compatible passive pedals](Specifications.md#activepedal-tuner-compatible-passive-pedals)
 
 For systems with total of two or three ActivePedals:
 

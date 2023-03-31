@@ -18,7 +18,7 @@ Set pedal starting position by moving pedal rest position slider. Pedal moves to
 
 ## 3. Set pedal role
 
-Pedal role drop-down menu is used to select the role of the pedal. i.e. Brake, Throttle or Clutch. If two pedals have same role or the has not been selected then it is indicated as configuration error (Yellow circle).
+Pedal role drop-down menu is used to select the role of the pedal. i.e. Brake, Throttle or Clutch. If two pedals have same role or the role has not been selected then it is indicated as configuration error (Yellow circle).
 
 ## 4. Perform calibration
 
