@@ -14,9 +14,13 @@ For personal assistance, head to Simucube's friendly user community or official 
 
 [Frequently Asked Questions](FAQ.md) about ActivePedal.
 
+## Red circle indicator on device in Tuner
+
+This means that device has faulted. The faults are cleared by pressing a button "Clear faults" on top of device panel.
+
 ## No Simucube Link Hub -message in Tuner
 
-Make sure that USb-cable is connected to Simucube Link Hub and computer. Press USB-cable hard enough to Simucube Link Hub USB-connector to make sure it is properly connected.
+Make sure that USB-cable is connected to Simucube Link Hub and computer. Press USB-cable hard enough to Simucube Link Hub USB-connector to make sure it is properly connected.
 
 ## Simucube Link Hub led indicators
 

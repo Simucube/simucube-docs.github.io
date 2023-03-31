@@ -1,4 +1,4 @@
-You may download older tuner releases from [link here].
+You may download older tuner releases from here in the future.
 
 | Version | Release date | Changes         |
 | ------- | ------------ | --------------- |
