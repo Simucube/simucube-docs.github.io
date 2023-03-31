@@ -29,7 +29,6 @@ Installing the baseplate to the rig depends on the rig model and construction. M
 ### Compatible pedals
 
 * Simucube ActivePedal
-* Simucube Throttle
 * Heusinkveld Sim Pedal Sprint (with separately sold mounting kit)
 * Heusinkveld Sim Pedal Ultimate
 * Heusinkveld Sim Pedal Ultimate+

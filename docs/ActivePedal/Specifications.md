@@ -37,10 +37,6 @@ Specific passive pedals have been verified by Simucube to be connectable to Acti
 
 ### Connectable passive pedals
 
-Out-of-the box support:
-
-* Simucube Throttle
-
 Supported with separately sold link cable:
 
 * Heusinkveld Sim Pedals Sprint
