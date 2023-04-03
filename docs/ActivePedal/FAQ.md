@@ -6,11 +6,11 @@
 
 ??? question "Which passive pedals are compatible *without* adapter?"
 
-    Simucube passive pedals are supported out-of-the-box. See also [Specifications](../Specifications#compatible-passive-pedals).
+    Simucube passive pedals are supported out-of-the-box. See also [Specifications](Specifications.md#compatible-passive-pedals).
 
 ??? question "What pedals are compatible *with* adapter?"
 
-    Simucube offers adapters for the most used passive pedals in the market. See the list from [Specifications](../Specifications#compatible-passive-pedals).
+    Simucube offers adapters for the most used passive pedals in the market. See the list from [Specifications](Specifications.md#compatible-passive-pedals).
 
 ??? question "Does ActivePedal require also the Simucube BasePlate item?"
 
