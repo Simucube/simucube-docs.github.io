@@ -2,6 +2,8 @@ When the ActivePedal is correctly configured, the main adjustment window is seen
 
 The main feature of the ActivePedal is the limitless possibility to adjust the pedal feel. This is done solely with the Tuner software.
 
+![](assets/activepedaloverall.png)
+
 ### Force curve
 
 The force which is felt on the pedal on travel range is adjusted by adjusting the force curve. Force curve adjustment is done by moving force curve "nodes". The pedal feel can be tested "on the fly" after releasing the press from the node.

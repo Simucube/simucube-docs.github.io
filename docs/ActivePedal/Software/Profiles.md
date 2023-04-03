@@ -3,6 +3,7 @@ Profiles are configuration sets of one or multiple pedals. Profiles can be used 
 
 Profiles can be found in device panel, on top of all devices.
 
+![](assets/tunermainwin.png)
 
 ## Quick start guide
 
@@ -31,7 +32,12 @@ User can add tags which describe the profile and also write a description what t
 
 Templates are integrated profiles which cannot be changed. If you want to use a template as a base for profile then just clone it and you have a base for a new profile.
 
-
 ## Autosaving
 
 Current pedal configuration is continuously autosaved. This means that the configuration is always as it should be, even though the Tuner is restarted for whatever reason.
+
+## Search and load profile
+
+Click the LOAD button to open a profile search view. Double click selected profile to load it. The profile is instantly applied to relevant devices.
+
+![](assets/loadprofile.png)

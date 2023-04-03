@@ -42,7 +42,7 @@ To change the mode:
 
 1. Re-assemble parts as illustrated procedure
 2. Tighten screws to appriximately 3 Nm torque.
-3. Update the setting under [ActivePedal hardware configuration dialog](Software.md) in Tuner.
+3. Update the setting under [ActivePedal hardware configuration dialog](Software/Configuration.md) in Tuner.
 
 !!! tip
 

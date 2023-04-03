@@ -1,5 +1,7 @@
 When the device tab is viewed for the very first time, the device configuration windows is displayed automatically, and calibration is forced. After this, the configuration can be launched from a configure -button on top of the device window.
 
+![](assets/configureactivepedal.png)
+
 !!! Info
     Follow the setup procedure in the following order.
 

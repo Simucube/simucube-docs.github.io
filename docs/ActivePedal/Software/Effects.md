@@ -1,6 +1,8 @@
 
 The effects use telemetry from a simulator to create different kinds of effects. The effects have limited simulator support but the support will keep increasing as the time goes on.
 
+![](assets/effects.png)
+
 List of simulators which support ABS and Motor Vibration:
 
 - Assetto Corsa

@@ -1,6 +1,8 @@
 
 Passive pedals can be used with an ActivePedal. To use external pedals connected to ActivePedal they need to be added as a device to Tuner.
 
+![](assets/passivepedalconfigure.png)
+
 ## Adding passive pedal
 
 To add passive pedal, press Add device -button found on bottom left corner of the Tuner and select "Passive pedal". Now a new device is seen on a device panel. The device has not been configured and therefore it shows yellow circle (not configured). Press the passive pedal on the device panel.
@@ -16,3 +18,5 @@ To calibrate the passive pedal, press the calibrate button. Then fully press the
 From the main passive pedal view, the input range slider is used to setup dead zones for your pedal. This means when the 0% and 100% is sent to the game.
 
 The force data can be sent to the simulator directly by using linear mapping or it is also possible to customize how the force data is sent to the simulator by selecting "curve mapping". The custom mapping setup is done by dragging nodes on curve mapping graph.
+
+![](assets/passivepedalsettings.png)

@@ -2,6 +2,6 @@
 
 These pages contain the latest information for the following Simucube products and topics:
 
-- ActivePedal
-- Tuner software
+- [ActivePedal](ActivePedal/Getting started.md)
+- [Tuner software](Tuner/Download.md)
 - Developer information
