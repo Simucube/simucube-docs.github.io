@@ -1,3 +1,5 @@
+## Before you buy
+
 ??? question "Which rigs are compatible with ActivePedal?"
 
     Rig compatibility depends just on mechanical fitting and mounting, which means that nearly all rigs are compatible at least with some installation effort. To get an idea, see  [Mounting](../Mounting).
@@ -23,3 +25,17 @@
 ??? question "What is the ideal ActivePedal setup for smooth connectivity and use?"
 
     See our recommendations from [Items needed](../Items needed) and consequent installation pages.
+
+## After you have it
+
+??? question "Shall I power off ActivePedal when not using it?"
+
+    ActivePedal may be left powered on for unlimited amount of time without side effects. However it is a good practive to power them off to reduce idle power consumption, and for maximial safety (especially if untrailed person, children or pets have access to them).
+
+    Tip: to eliminate the need to use the push-button behind the ActivePedal for power on/off, one may connect power adapter to AC extension cord with a switch or to remote controllable AC switch. This way multiple pedals may be switched on/off simulatenously in more ergonomical way.
+
+??? question "Is it normal that resistance/friction of pedal reduces after the initial use?"
+
+    Yes. Lead screw grease will settle during initial usage and this feels like friction reduction while device is unpowered. 
+    
+    Worth noting that while the device is powered on, the sensation shall not change noticeably over use because pedal's sensor based active control will compensate such changes.
