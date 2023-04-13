@@ -12,14 +12,16 @@ Note: These ports are not meant for any external lighting as current limit of th
 
 ### Connecting a load cell
 
-| Pin | Load cell wiring                        |
+| Pin | Load cell wiring, typical color scheme  |
 | --- | --------------------------------------- |
 | 1   | (not connected)                         |
-| 2   | E+                                      |
-| 3   | S-                                      |
-| 4   | S+                                      |
-| 5   | E-                                      |
+| 2   | E+ (red)                                |
+| 3   | S- (white)                              |
+| 4   | S+ (green)                              |
+| 5   | E- (black)                              |
 | 6   | Optional cable shield (not connected elsewhere) |
+
+Colors represent a typical coloring scheme of 4-wire load cells, but it is not guaranteed. Always check the datasheet from the manufacturer if possible. Wiring a load cell incorrectly will not cause any harm, only incorrect measurements. When correctly connected, applying force to the measurement direction of the load cell will cause the measured value to rise.
 
 ![](assets/passive_pedal_loadcell_pinout.png)
 
