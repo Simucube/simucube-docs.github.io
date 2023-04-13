@@ -32,6 +32,7 @@ copyright: Copyright &copy; Granite Devices Inc
 
 repo_url: https://github.com/Simucube/simucube-docs.github.io
 repo_name: Contribute an edit
+edit_uri: edit/main/docs/
 
 extra:
   generator: false
@@ -57,6 +58,7 @@ site_name: Simucube Online Guide
 
 plugins:
     - mkdocs-video
+    - search
     
 markdown_extensions:
   - admonition
