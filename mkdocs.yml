@@ -109,6 +109,7 @@ nav:
     - Tuner:
         - Download: Tuner/Download.md
         - Change log: Tuner/Changelog.md
+        - Command line options: Tuner/Command line options.md
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:
