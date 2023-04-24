@@ -6,7 +6,7 @@ Simulator input mapping means how the ActivePedal data is sent to the simulator.
 
 If the ActivePedal role is configured as brake then the info on how hard the pedal has been pressed is sent to the simulator based on force.
 
-If the ActivePedal role is configured as clutch or brake then the info on pedal press is sent to the simulator based on pedal position.
+If the ActivePedal role is configured as throttle or clutch then the info on pedal press is sent to the simulator based on the position of the pedal.
 
 ## Dead zones: Force/Position input range
 
