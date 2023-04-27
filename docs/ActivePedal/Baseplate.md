@@ -2,6 +2,12 @@
 
 Simucube Baseplate is a optional accessory that provides easy mounting, adjustability and comfort when using certain pedals. List of compatible pedals in [specifications](Specifications.md#simucube-baseplate).
 
+## Video guide
+
+Video guide of ActivePedal adjustments and Baseplate installation from time 1:37.
+
+![type:video](https://www.youtube.com/embed/EzzKEWTEJeI)
+
 ## Assembling Baseplate
 
 Each screw joint in assembly consists of the M6 bolt, split lock spring washer and a washer. Assemble each screw as illustrated below.
