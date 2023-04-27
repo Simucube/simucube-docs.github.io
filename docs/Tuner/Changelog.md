@@ -1,4 +1,4 @@
-You may download older tuner releases from here in the future.
+[Download](Download.md) the latest version.
 
 | Version | Release date | Changes         |
 | ------- | ------------ | --------------- |

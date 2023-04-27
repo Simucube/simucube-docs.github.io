@@ -1,6 +1,6 @@
 # Download Tuner
 
-This is a direct [download link](https://simucubetunerdownloads.s3.eu-west-1.amazonaws.com/SimucubeTunerSetup.exe) to the latest Simucube Tuner app.
+[Download Tuner :material-download-circle:](https://simucubetunerdownloads.s3.eu-west-1.amazonaws.com/SimucubeTunerSetup.exe) - the latest version of the Simucube Tuner app.
 
 ## User guides
 
