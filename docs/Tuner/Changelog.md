@@ -1,4 +1,4 @@
-[Download](Download.md) the latest version.
+[Download](index.md) the latest version.
 
 | Version | Release date | Changes         |
 | ------- | ------------ | --------------- |

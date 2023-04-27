@@ -4,7 +4,7 @@
 
 ## 1. Install Tuner
 
-Simucube Tuner is a configuration software for ActivePedals. To get started [download Tuner](../../Tuner/Download.md) and launch the installer.
+Simucube Tuner is a configuration software for ActivePedals. To get started [download Tuner](../../Tuner/index.md) and launch the installer.
 
 ## 2. Check cabling
 

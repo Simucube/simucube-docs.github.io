@@ -27,6 +27,7 @@ theme:
         name: Switch to light mode
   features:
     - navigation.footer
+    - navigation.indexes
 
 copyright: Copyright &copy; Granite Devices Inc
 
@@ -59,7 +60,11 @@ site_name: Simucube Online Guide
 plugins:
     - mkdocs-video
     - search
-    
+    - redirects:
+        redirect_maps:
+          'ActivePedal/Getting started.md': 'ActivePedal/index.md'
+          'Tuner/Download.md': 'Tuner/index.md'
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -85,7 +90,7 @@ markdown_extensions:
 nav:
     - Home: index.md
     - ActivePedal: 
-        - Getting started: ActivePedal/Getting started.md
+        - ActivePedal/index.md
         - Hazards & safety: ActivePedal/Safety.md
         - Installation:
           - Items needed: ActivePedal/Items needed.md
@@ -106,8 +111,8 @@ nav:
         - Accessories:
           - Baseplate: ActivePedal/Baseplate.md
           - Heusinkveld adapter: ActivePedal/Heusinkveld adapter.md
-    - Tuner:
-        - Download: Tuner/Download.md
+    - Tuner: 
+        - Tuner/index.md
         - Change log: Tuner/Changelog.md
         - Command line options: Tuner/Command line options.md
     - Developers:
