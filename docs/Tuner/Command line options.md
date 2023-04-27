@@ -10,6 +10,7 @@ Options:
 	                any changes to the currently active profile
 	--start-all   - Start all connected devices. Works only when given to the secondary
 	                instance. WILL CAUSE DEVICES TO MOVE.
+	--tray        - Don't create a window. Only launch as a tray icon.
 	-h/--help     - Print this information and exit.
 	-v/--version  - Print software version number and exit.
 ```
