@@ -118,6 +118,6 @@ nav:
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:
-        - Dimensions & 3D models: Developers/ActivePedal/3D models.md
+        - Dimensions & 3D models: Developers/ActivePedal/Drawings.md
         - Electrical pinouts: Developers/ActivePedal/Pinouts.md
 #        - API: Developers/ActivePedal/API.md
