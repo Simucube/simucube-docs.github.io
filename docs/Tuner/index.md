@@ -6,7 +6,7 @@ Tuner is the configuration sofware tool for Simucube Link based devices, such as
 
 ## Download
 
-[Download Tuner :material-download-circle:](https://simucubetunerdownloads.s3.eu-west-1.amazonaws.com/SimucubeTunerSetup.exe) - the latest version of the Simucube Tuner app.
+[:material-download-circle: Simucube Tuner](https://simucubetunerdownloads.s3.eu-west-1.amazonaws.com/SimucubeTunerSetup.exe) (latest release)
 
 ## User guides
 
