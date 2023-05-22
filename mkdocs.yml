@@ -105,6 +105,14 @@ nav:
           - Simulator input mapping: ActivePedal/Software/input mapping.md
           - Effects: ActivePedal/Software/Effects.md
           - Passive pedal setup: ActivePedal/Software/Passive pedal setup.md
+        - Game setup: 
+          - ActivePedal/games/index.md
+          - Overview: ActivePedal/games/index.md
+          - Automobilista: ActivePedal/games/Automobilista.md
+          - BeamNG.drive: ActivePedal/games/BeamNG.md
+          - Live for Speed: ActivePedal/games/LFS.md
+          - rFactor 1: ActivePedal/games/RF1.md
+          - rFactor 2: ActivePedal/games/RF2.md
         - FAQ: ActivePedal/FAQ.md
         - Troubleshooting: ActivePedal/Troubleshooting.md
         - Specifications: ActivePedal/Specifications.md
