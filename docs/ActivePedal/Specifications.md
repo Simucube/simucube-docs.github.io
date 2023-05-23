@@ -19,17 +19,17 @@
 ActivePedal appears to computer as a standard USB game controller and therefore it works with any racing game that supports such device (basically all racing games). In these games device acts as USB pedal without game telemetry data based effects.
 
 - Also in this mode, pedal profile and feel is fully configurable by force-travel curve, friction, damping and game output mapping curve. 
-- Device may be be software configured to act as a brake, throttle or clutch.
+- Device may be software configured to act as a brake, throttle or clutch.
 
 ### With telemetry data effects
 
-Selected games are supported with game telemetry data utilizing effects, such as motor RPM vibration, ABS effect and more. Titles supported at the moment are:
+Active effects like RPM and ABS are only supported by games that can produce required telemetry data and are supported
+by the Tuner software. See [game support list](games/index.md) for list of these games and required steps to enable
+telemetry data if game doesn't provide it automatically.
 
-- Iracing
-- Assetto Corsa
-- Assetto Corsa Competizione
 
-More titles are being developed and released with Tuner software udpates.
+
+Support for more games are being developed and are released in future Tuner software updates.
 
 ## ActivePedal & Tuner compatible passive pedals
 
