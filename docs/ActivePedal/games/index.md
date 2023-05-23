@@ -2,16 +2,18 @@
 
 This section covers all supported simulator game titles. Overview of supported features and first time setup guides.
 
-| Game                       | ABS              | TC               | RPM              | Setup                                 |
-| -------------------------- | ---------------- | ---------------- | ---------------- | ------------------------------------- |
-| Assetto Corsa              | :material-check: | :material-check: | :material-check: | Automatic                             |
-| Assetto Corsa Competizione | :material-check: | :material-check: | :material-check: | Automatic                             |
+| Game                       | ABS              | TC <sup>1</sup>  | RPM              | Setup                                  |
+| -------------------------- | ---------------- | ---------------- | ---------------- | -------------------------------------- |
+| Assetto Corsa              | :material-check: | :material-check: | :material-check: | Automatic                              |
+| Assetto Corsa Competizione | :material-check: | :material-check: | :material-check: | Automatic                              |
 | Automobilista 2            | :material-check: | :material-check: | :material-check: | [:material-wrench:](Automobilista2.md) |
-| BeamNG.drive               | :material-check: | :material-check: | :material-check: | [:material-wrench:](BeamNG.md)        |
-| Live for Speed             | :material-check: | :material-check: | :material-check: | [:material-wrench:](LFS.md)           |
-| iRacing                    | :material-check: |                  | :material-check: | Automatic                             |
-| Project CARS 1             | :material-check: |                  | :material-check: | [:material-wrench:](pCARS.md)           |
-| Project CARS 2             | :material-check: |                  | :material-check: | [:material-wrench:](pCARS2.md)           |
+| BeamNG.drive               | :material-check: | :material-check: | :material-check: | [:material-wrench:](BeamNG.md)         |
+| Live for Speed             | :material-check: | :material-check: | :material-check: | [:material-wrench:](LFS.md)            |
+| iRacing                    | :material-check: |                  | :material-check: | Automatic                              |
+| Project CARS 1             | :material-check: |                  | :material-check: | [:material-wrench:](pCARS.md)          |
+| Project CARS 2             | :material-check: |                  | :material-check: | [:material-wrench:](pCARS2.md)         |
+
+ <sup>1</sup> TC stands for Traction Control effect. Some games do not provide telemetry data needed for this effect.
 
 ## Automatic setup
 
