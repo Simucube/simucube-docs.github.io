@@ -2,7 +2,7 @@
 
 This section covers all supported simulator game titles. Overview of supported features and first time setup guides.
 
-| Game                       | ABS              | TC <sup>1</sup>  | RPM              | Setup                                  |
+| Game                       | ABS              | TC <sup>1</sup>  | RPM              | Setup <sup>2</sup>                     |
 | -------------------------- | ---------------- | ---------------- | ---------------- | -------------------------------------- |
 | Assetto Corsa              | :material-check: | :material-check: | :material-check: | Automatic                              |
 | Assetto Corsa Competizione | :material-check: | :material-check: | :material-check: | Automatic                              |
@@ -13,18 +13,14 @@ This section covers all supported simulator game titles. Overview of supported f
 | Project CARS 1             | :material-check: |                  | :material-check: | [:material-wrench:](pCARS.md)          |
 | Project CARS 2             | :material-check: |                  | :material-check: | [:material-wrench:](pCARS2.md)         |
 
- <sup>1</sup> TC stands for Traction Control effect. Some games do not provide telemetry data needed for this effect.
+<sup>1</sup> TC stands for Traction Control effect. Some games do not provide telemetry data needed for this effect.
 
-## Automatic setup
+<sup>2</sup> Automatic in the table means that the game does not require game configuration. Just have the Tuner app running in background to use telemetry data.
 
-Games marked as "Automatic" in the table do not require configuration. Just have the game running with Tuner and telemetry data is obtained automatically.
+## Checking game telemetry status
 
-## Check game telemetry status
+To check whether telemetry data is connected to Tuner, look at the left bottom edge telemetry status area of Tuner main window. When supported the simulator is detected as running, the status should say SIMULATOR CONNECTED and name of the simulator should be shown in the following line. 
 
-To check whether telemetry data is connected to Tuner, look at the left bottom edge telemetry status area of Tuner main window.
-When supported the simulator is detected as running, the status should be "SIMULATOR CONNECTED" and name of the simulator
-should be shown in the following line. If game is running but Tuner hasn't received telemetry data yet,
-"Waiting for telemetry data" status text is displayed. Most games only provide any kind of telemetry data, when the
-simulation is running, so it is normal to see this in the main menu. If there is no telemetry effects and this text
-is still shown when the simulation is running, see game specific instructions and verify that telemetry is suitably
-configured.
+If game is running but Tuner hasn't received telemetry data yet, "Waiting for telemetry data" status text is displayed. Most games provide provide telemetry data only while the race is running thus it is expected to see this text in the status area when game is in menus. 
+
+If there are no telemetry effects and this text is still shown when the simulation is running, see game specific instructions and verify that telemetry is suitably configured.
