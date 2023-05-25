@@ -119,6 +119,16 @@ nav:
         - Accessories:
           - Baseplate: ActivePedal/Baseplate.md
           - Heusinkveld adapter: ActivePedal/Heusinkveld adapter.md
+    - Throttle:
+        - Simucube Throttle/index.md
+        - Installation:
+            - Items needed: Simucube Throttle/Items needed.md
+            - Mechanical adjustments: Simucube Throttle/Mechanical adjustments.md
+            - Mounting: Simucube Throttle/Mounting.md
+        - Using software: ActivePedal/Software/Passive pedal setup.md
+        - Troubleshooting: Simucube Throttle/Troubleshooting.md
+        - FAQ: Simucube Throttle/FAQ.md
+        - Specifications: Simucube Throttle/Specifications.md
     - Tuner: 
         - Tuner/index.md
         - Change log: Tuner/Changelog.md
@@ -129,3 +139,4 @@ nav:
         - Dimensions & 3D models: Developers/ActivePedal/Drawings.md
         - Electrical pinouts: Developers/ActivePedal/Pinouts.md
 #        - API: Developers/ActivePedal/API.md
+      - Throttle: Developers/Simucube Throttle/Drawings.md
