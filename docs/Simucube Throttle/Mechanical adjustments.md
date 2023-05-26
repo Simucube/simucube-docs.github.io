@@ -58,7 +58,7 @@ To adjust the angle of the pedal face:
 
 1: Apply pressure to pedalface
 <br>
-2: Unsrew end stop
+2: Unscrew end stop
 
 ![](assets/spring_1.svg){width="400"}
 <br>

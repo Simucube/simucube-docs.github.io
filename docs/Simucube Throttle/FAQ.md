@@ -15,3 +15,8 @@
 ??? question "Does Simucube Throttle require also the Simucube BasePlate item?"
 
     No. Simucube BasePlate is designed to make installation easier, enhance ergonomics wiht foot rest, and add adjustability. For list of required items, see [Items needed](Items needed.md).
+
+??? question "Are ActivePedal and Throttle pedal faces interchangeable?"
+
+    Yes. The Throttle and ActivePedal share identical dimensions for their pedal face attachments, allowing for interchangeability of pedal faces between the two.
+
