@@ -32,9 +32,9 @@ Throttle may be mounted also without Baseplate directly to the rig. Installation
 <figcaption>Mounting on through-hole plate</figcaption>
 </figure>
 
-## Optional rubber pedal face
+## Optional non-slip pedal pad
 
-Rubber is attached with an adhesive backing to the pedal face surface.
+Pad is attached with an adhesive backing to the pedal face surface.
 <br/>
 <br/>
 <br/>
