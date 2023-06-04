@@ -11,6 +11,7 @@ Options:
 	--start-all   - Start all connected devices. Works only when given to the secondary
 	                instance. WILL CAUSE DEVICES TO MOVE.
 	--tray        - Don't create a window. Only launch as a tray icon.
+	                Also doesn't raise the window on top if this is given for the secondary instance
 	-h/--help     - Print this information and exit.
 	-v/--version  - Print software version number and exit.
 ```
@@ -26,7 +27,7 @@ Passing path to profile will cause that profile to be imported, and then Tuner w
    - Copy SimucubeTuner shortcut from desktop to some other directory and rename it
    - Right click it and open its properties.
    - Add command line arguments to Target text input after the path to sc-tuner.exe
-   - `"C:\Program Files\SimucubeTuner\sc-tuner.exe" --start--all "C:\Users\Simucube\hotkey_profiles\hotkey1.td2p"`
+   - `"C:\Program Files\SimucubeTuner\sc-tuner.exe" --tray "C:\Users\Simucube\hotkey_profiles\hotkey1.td2p"`
    - Click ok
 3. Now if the shortcut is clicked when Tuner is already open, pedals are started and hotkey1.td2p profile is activated. Test that it works correctly.
 4. Use keyboard manufacturer's software, Stream Deck or other tool that allows launching programs with external input and add mapping that launches the previously created shortcut, when a key is pressed.
