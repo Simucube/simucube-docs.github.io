@@ -29,8 +29,9 @@ Passing path to profile will cause that profile to be imported, and then Tuner w
    - Add command line arguments to Target text input after the path to sc-tuner.exe
    - `"C:\Program Files\SimucubeTuner\sc-tuner.exe" --tray "C:\Users\Simucube\hotkey_profiles\hotkey1.td2p"`
    - Click ok
-3. Now if the shortcut is clicked when Tuner is already open, pedals are started and hotkey1.td2p profile is activated. Test that it works correctly.
+3. Now if the shortcut is clicked, Tuner is started if it isn't already running and `hotkey1.td2p` profile is activated. Test that it works correctly.
 4. Use keyboard manufacturer's software, Stream Deck or other tool that allows launching programs with external input and add mapping that launches the previously created shortcut, when a key is pressed.
+5. `--start-all` option can also be added to start pedals if they aren't in active state already, but it is usually better to make separate shortcut for that functionality.
 
 
 
