@@ -12,6 +12,7 @@ This section covers all supported simulator game titles. Overview of supported f
 | iRacing                    | :material-check: |                  | :material-check: | Automatic                              |
 | Project CARS 1             | :material-check: |                  | :material-check: | [:material-wrench:](pCARS.md)          |
 | Project CARS 2             | :material-check: |                  | :material-check: | [:material-wrench:](pCARS2.md)         |
+| RaceRoom Racing Experience | :material-check: | :material-check: | :material-check: | Automatic                              |
 
 <sup>1</sup> TC stands for Traction Control effect. Some games do not provide telemetry data needed for this effect.
 
