@@ -2,19 +2,20 @@
 
 This section covers all supported simulator game titles. Overview of supported features and first time setup guides.
 
-| Game                       | ABS              | TC <sup>1</sup>  | RPM              | G-Force              | Setup <sup>2</sup>                     |
+| Game                       | ABS              | TC <sup>1</sup>  | RPM              | G-Force          | Setup <sup>2</sup>                     |
 | -------------------------- | ---------------- | ---------------- | ---------------- | ---------------- | -------------------------------------- |
 | Assetto Corsa              | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                              |
 | Assetto Corsa Competizione | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                              |
 | Automobilista 2            | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](Automobilista2.md) |
 | BeamNG.drive               | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](BeamNG.md)         |
+| Codemasters F1             |                  |                  | :material-check: | :material-check: | [:material-wrench:](F1.md)             |
+| Dirt Rally                 |                  |                  | :material-check: | :material-check: | [:material-wrench:](DirtRally.md)      |
 | Live for Speed             | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](LFS.md)            |
 | iRacing                    | :material-check: |                  | :material-check: |                  | Automatic                              |
 | Project CARS 1             | :material-check: |                  | :material-check: | :material-check: | [:material-wrench:](pCARS.md)          |
 | Project CARS 2             | :material-check: |                  | :material-check: | :material-check: | [:material-wrench:](pCARS2.md)         |
 | RaceRoom Racing Experience | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                              |
-| Codemasters F1             |                  |                  | :material-check: | :material-check: | [:material-wrench:](F1.md)             |
-| Dirt Rally                 |                  |                  | :material-check: | :material-check: | [:material-wrench:](DirtRally.md)      |
+
 
 <sup>1</sup> TC stands for Traction Control effect. Some games do not provide telemetry data needed for this effect.
 
