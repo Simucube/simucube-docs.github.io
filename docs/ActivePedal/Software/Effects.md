@@ -1,18 +1,6 @@
-
-The effects use telemetry from a simulator to create different kinds of effects. The effects have limited simulator support but the support will keep increasing as the time goes on.
+The effects use telemetry from a simulator to create different kinds of effects. The effects have limited simulator support but the support will keep increasing as the time goes on. See [Game setup](games/index.md) for complete list of supported games and effects, and required steps to enable the telemetry support from the game.
 
 ![](assets/effects.png)
-
-List of simulators which support ABS and Motor Vibration:
-
-- Assetto Corsa
-- Assetto Corsa Competitizione
-- iRacing
-
-List of simulators which support Traction control:
-
-- Assetto Corsa
-- Assetto Corsa Competitizione
 
 ## Motor vibration
 
@@ -32,7 +20,17 @@ ABS effect simulates brake ABS feeling when ABS activates.
 
 ## Traction control
 
-If loss of traction occurs in car wheels, this can be indicated with traction control effect.
+Traction control activation can be felt, when this effect is enabled.
 
 - Frequency: Frequency of pulses when traction control activates.
 - Intensity: Used to adjust how powerful the effect is.
+
+## G-force
+
+![](assets/gforceeffect.png)
+
+The effect simulates feeling of G-forces pushing the driver towards the seat belts and the pedals during braking and the sinking in the seat when accelerating.
+
+The effect has two sides, the movement and the texture. The movement is slow adjustment of the pedals position that causes the main feeling of the g-forces. The texture side provides small sharper effects that react to shorter changes in the acceleration of the car like switching gears or colliding.
+
+Movement speed controls how quickly movement effect reaches the maximum pedal movement. Increasing it will provide shorter and sharper effect. Max pedal movement specifies how much the pedal position can differ from its normal position based on the force curve and other pedal feel adjustments.
