@@ -34,3 +34,20 @@ The effect simulates feeling of G-forces pushing the driver towards the seat bel
 The effect has two sides, the movement and the texture. The movement is slow adjustment of the pedals position that causes the main feeling of the g-forces. The texture side provides small sharper effects that react to shorter changes in the acceleration of the car like switching gears or colliding.
 
 Movement speed controls how quickly movement effect reaches the maximum pedal movement. Increasing it will provide shorter and sharper effect. Max pedal movement specifies how much the pedal position can differ from its normal position based on the force curve and other pedal feel adjustments.
+
+## Brake threshold vibrations
+
+Brake threshold vibrations allow getting notification when the game input reaches the defined trigger level. This allows optimizing braking patterns to avoid tire wear or lock up. This effect doesn't require any telemetry data from the game so it is always available regardless of the game.
+
+Trigger input level slider defines the brake game input that must be reached for the effect to activate. Intensity slider controls the strength of the first vibration and vibrations are reduced from that based on the fade slider value. Setting fade to 100% means that effect is only single vibration
+that occurs when going past the trigger level. Effect resets when going below 20% game input.
+Effect frequency slider controls the frequency of the vibrations.
+
+
+![](assets/brakethreshold.png)
+
+## Clutch bite point
+
+Clutch bite point effects gives vibrations when the game input is near the defined trigger level. Vibration is stronger closer the pedal is to the trigger point. Effect feel is controlled by intensity slider which increases the strength of the vibrations and frequency slider that controls the frequency of the effect. Trigger smoothness slider controls the width of the trigger zone, increasing it will make the effect less pin point around the defined trigger level.
+
+![](assets/clutchbitepoint.png)

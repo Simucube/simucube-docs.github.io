@@ -29,5 +29,4 @@ This game uses UDP technology to deliver telemetry data. Only one application ca
 That primary telemetry receiver must then forward the telemetry data for other application that require data.
 So if any other app is using this game's telemetry data (i.e. Simhub), then Tuner connection to data may be blocked.
 
-You can instead follow SimHub's instructions for LFS telemetry configuration (which uses ports 63392 and 63393),
-and then forward the telemetry data to Tuner and port 4444 following [these instructions](https://github.com/SHWotever/SimHub/wiki/Sharing-UDP-data-with-other-applications).
+You can instead follow SimHub's instructions for telemetry configuration and then forward the telemetry data to Tuner and port 20777 following [these instructions](https://github.com/SHWotever/SimHub/wiki/Sharing-UDP-data-with-other-applications).
