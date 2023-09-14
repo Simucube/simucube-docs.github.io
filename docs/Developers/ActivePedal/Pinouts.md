@@ -1,6 +1,6 @@
 ## Passive pedal port
 
-Simucube ActivePedal has two integrated load cell amplifiers and analog voltage inputs. The ports labeled as PEDAL 1 and PEDAL 2 support de-facto standard 4-wire *load cell* pedals and *hall effect sensor* based pedals. The load cell circuit has been optimized for typical 1 kOhm load cells.
+Simucube ActivePedal has two integrated load cell amplifiers and analog voltage inputs. The ports labeled as PEDAL 1 and PEDAL 2 support de-facto standard 4-wire *load cell* pedals. The load cell circuit has been optimized for typical 1 kOhm load cells.
 
 Connector type for the passive pedal ports is a 6 pin *RJ12 6P6C* connector.
 
@@ -24,18 +24,3 @@ Note: These ports are not meant for any external lighting as current limit of th
 Colors represent a typical coloring scheme of 4-wire load cells, but it is not guaranteed. Always check the datasheet from the manufacturer if possible. Wiring a load cell incorrectly will not cause any harm, only incorrect measurements. When correctly connected, applying force to the measurement direction of the load cell will cause the measured value to rise.
 
 ![](assets/passive_pedal_loadcell_pinout.png)
-
-### Connecting a hall effect sensor
-
-Hall effect sensor output type has to be analog voltage and has to be rated to withstand supply voltage of 5 VDC.
-
-| Pin | Hall effect sensor wiring                            |
-| --- | ---------------------------------------------------- |
-| 1   | Sensor signal (0-5 VDC)                              |
-| 2   | Sensor positive supply voltage (5 VDC, 30 mA max)    |
-| 3   | Connect this pin through a 10 kOhm resistor to pin 2 |
-| 4   | Connect this pin through a 10 kOhm resistor to pin 5 |
-| 5   | Sensor negative supply voltage (GND)                 |
-| 6   | Optional cable shield (not connected elsewhere)      |
-
-![](assets/passive_pedal_hall_effect_pinout.png)
