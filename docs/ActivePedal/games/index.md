@@ -11,7 +11,7 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 | Automobilista 2            | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](Automobilista2.md) |     |     |     |     |     |     |
 | BeamNG.drive               | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](BeamNG.md)         |     |     |     |     |     |     |
 | Codemasters F1             |                  |                  | :material-check: | :material-check: | [:material-wrench:](F1.md)             |     |     |     |     |     |     |
-| Dirt Rally                 |                  |                  | :material-check: | :material-check: | [:material-wrench:](DirtRally.md)      |     |     |     |     |     |     |
+| Dirt Rally 1 & 2           |                  |                  | :material-check: | :material-check: | [:material-wrench:](DirtRally.md)      |     |     |     |     |     |     |
 | Live for Speed             | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](LFS.md)            |     |     |     |     |     |     |
 | iRacing                    | :material-check: |                  | :material-check: |                  | Automatic                              |     |     |     |     |     |     |
 | Project CARS 1             | :material-check: |                  | :material-check: | :material-check: | [:material-wrench:](pCARS.md)          |     |     |     |     |     |     |

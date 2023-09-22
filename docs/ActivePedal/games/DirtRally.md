@@ -2,7 +2,7 @@
 
 ## Setup
 
-Telemetry for both **Dirt Rally** and **Dirt Rally 2.0** games needs to be enabled from a games config file.
+Telemetry for both **Dirt Rally** and **Dirt Rally 2.0** games needs to be enabled from a config file of the game.
 
 1. Navigate to **Documents\\My Games\\*{GAME}*\\hardwaresettings\\**  folder.
     - **Dirt Rally (1):** Replace *{GAME}* with **DiRT Rally**
