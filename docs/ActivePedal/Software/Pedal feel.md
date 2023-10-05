@@ -1,28 +1,28 @@
 When the ActivePedal is correctly configured, the main adjustment window is seen. 
 
-The main feature of the ActivePedal is the limitless possibility to adjust the pedal feel. This is done solely with the Tuner software.
+ActivePedal provides unlimited adjustment and configuration to help sim racers define pedals as per their preference and needs. The Tuner software allows for on-the-fly adjustability so you can tune and test in realtime.
 
 ![](assets/activepedaloverall.png)
 
 ### Force curve
 
-The force which is felt on the pedal on travel range is adjusted by adjusting the force curve. Force curve adjustment is done by moving force curve "nodes". The pedal feel can be tested "on the fly" after releasing the press from the node.
+The force which is felt on the pedal on travel range is adjusted by adjusting the force curve. Move eash node as desired and once you release a node, you can test the force on-the-fly.
 
-There is virtual backwall after the travel range which stops the movement so there is no worry that a user might push the pedal too much.
+ActivePedal employs a virtual, software driven end-stop to ensure that each pedal cannot be pushed beyond its limits.
 
 ### Pedal travel
 
-Below the force curve there is a pedal travel slider. Pedal travel slider defines the maximum range of the pedal movement. The force curve is then adjusted to this range.
+Below the force curve, the pedal travel slider allows you to define the maximum physical pedal travel range. Once changed, the force curve is then adjusted to this range.
 
-The travel is calculated from the center of the pedal face and it follows circle circumference.
+The travel is calculated from the center of the pedal face and it follows a circular circumference.
 
-### Maximum force of the curve.
+### Curve maximum force
 
-On right side of the force curve there is curve maximum force -slider. This sets the force which is felt at the top of the force curve grid.
+Right of the force curve, the maximum force slider defines the maximum pressure required to reach the top of the force curve as per the grid.
 
 ### Preload
 
-Preload is on the left side of the force curve. It means the force that is needed for pedal to start moving from the rest position. This can be used to rest your foot on the pedal without activating it.
+Left of the force curve, the preload slider defines the minimum force required to actually move the pedal from the default rest position. Preload is typically used to allow your foot to rest on the pedal without the pedal moving or activating game input.
 
 One method to set preload is to rest your feet on the pedal and raise the preload until pedal is in the rest position.
 
