@@ -8,11 +8,11 @@ ActivePedal provides unlimited adjustment and configuration to help sim racers d
 
 The force which is felt on the pedal on travel range is adjusted by adjusting the force curve. Move eash node as desired and once you release a node, you can test the force on-the-fly.
 
-ActivePedal employs a virtual, software driven end-stop to ensure that each pedal cannot be pushed beyond it's limits.
+ActivePedal employs a virtual, software driven end-stop to ensure that each pedal cannot be pushed beyond its limits.
 
 ### Pedal travel
 
-Below the force curve, the pedal travel slider allows you to define the maximum physical pedal travel range. Once changedThe force curve is then adjusted to this range.
+Below the force curve, the pedal travel slider allows you to define the maximum physical pedal travel range. Once changed, the force curve is then adjusted to this range.
 
 The travel is calculated from the center of the pedal face and it follows a circular circumference.
 
@@ -22,7 +22,7 @@ Right of the force curve, the maximum force slider defines the maximum pressure 
 
 ### Preload
 
-Left of the force curve, the preload slider defines the minimum force required to actually move the pedal from the default rest position. Preload is typically used to allow your foot to rest on the pedal without activating the pedal force.
+Left of the force curve, the preload slider defines the minimum force required to actually move the pedal from the default rest position. Preload is typically used to allow your foot to rest on the pedal without the pedal moving or activating game input.
 
 One method to set preload is to rest your feet on the pedal and raise the preload until pedal is in the rest position.
 
