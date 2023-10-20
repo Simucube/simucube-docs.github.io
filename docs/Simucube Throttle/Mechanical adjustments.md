@@ -56,6 +56,17 @@ To adjust the angle of the pedal face:
 
 ## Spring replacement
 
+### Important note
+During spring replacement, do not let the pedal go out of bounds of nominal movement as illustrated in the image below.
+
+![](assets/spring_change_wrong.svg){width="400"}
+
+Keep the pedal upright during the change:
+
+![](assets/spring_change_right.svg){width="400"}
+
+### Changing the spring
+
 1: Apply pressure to pedalface
 <br>
 2: Unscrew end stop
