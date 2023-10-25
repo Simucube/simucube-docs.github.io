@@ -27,11 +27,13 @@ theme:
         name: Switch to light mode
   features:
     - navigation.footer
+    - navigation.indexes
 
 copyright: Copyright &copy; Granite Devices Inc
 
 repo_url: https://github.com/Simucube/simucube-docs.github.io
 repo_name: Contribute an edit
+edit_uri: edit/main/docs/
 
 extra:
   generator: false
@@ -57,7 +59,12 @@ site_name: Simucube Online Guide
 
 plugins:
     - mkdocs-video
-    
+    - search
+    - redirects:
+        redirect_maps:
+          'ActivePedal/Getting started.md': 'ActivePedal/index.md'
+          'Tuner/Download.md': 'Tuner/index.md'
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -83,7 +90,7 @@ markdown_extensions:
 nav:
     - Home: index.md
     - ActivePedal: 
-        - Getting started: ActivePedal/Getting started.md
+        - ActivePedal/index.md
         - Hazards & safety: ActivePedal/Safety.md
         - Installation:
           - Items needed: ActivePedal/Items needed.md
@@ -98,18 +105,41 @@ nav:
           - Simulator input mapping: ActivePedal/Software/input mapping.md
           - Effects: ActivePedal/Software/Effects.md
           - Passive pedal setup: ActivePedal/Software/Passive pedal setup.md
+        - Game setup: 
+          - ActivePedal/games/index.md
+          - Overview: ActivePedal/games/index.md
+          - Automobilista 2: ActivePedal/games/Automobilista2.md
+          - BeamNG.drive: ActivePedal/games/BeamNG.md
+          - Codemasters F1: ActivePedal/games/F1.md
+          - Dirt Rally: ActivePedal/games/DirtRally.md
+          - Live for Speed: ActivePedal/games/LFS.md
+          - Project CARS: ActivePedal/games/pCARS.md
+          - Project CARS 2: ActivePedal/games/pCARS2.md
+          - WRC Generations: ActivePedal/games/WRC Generations.md
         - FAQ: ActivePedal/FAQ.md
         - Troubleshooting: ActivePedal/Troubleshooting.md
         - Specifications: ActivePedal/Specifications.md
         - Accessories:
           - Baseplate: ActivePedal/Baseplate.md
           - Heusinkveld adapter: ActivePedal/Heusinkveld adapter.md
-    - Tuner:
-        - Download: Tuner/Download.md
+    - Throttle:
+        - Simucube Throttle/index.md
+        - Installation:
+            - Items needed: Simucube Throttle/Items needed.md
+            - Mechanical adjustments: Simucube Throttle/Mechanical adjustments.md
+            - Mounting: Simucube Throttle/Mounting.md
+        - Using software: ActivePedal/Software/Passive pedal setup.md
+        - Troubleshooting: Simucube Throttle/Troubleshooting.md
+        - FAQ: Simucube Throttle/FAQ.md
+        - Specifications: Simucube Throttle/Specifications.md
+    - Tuner: 
+        - Tuner/index.md
         - Change log: Tuner/Changelog.md
+        - Command line options: Tuner/Command line options.md
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:
-        - Dimensions & 3D models: Developers/ActivePedal/3D models.md
+        - Dimensions & 3D models: Developers/ActivePedal/Drawings.md
         - Electrical pinouts: Developers/ActivePedal/Pinouts.md
 #        - API: Developers/ActivePedal/API.md
+      - Throttle: Developers/Simucube Throttle/Drawings.md

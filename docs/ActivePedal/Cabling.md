@@ -20,7 +20,7 @@ The illustration below demostrates the typical configurations of ActivePedal. Ac
 !!! Info "Connecting passive pedals"
     Passive pedals that are not designed for ActivePedal connector will require an adapter cable. Check navigate to Accessories section for current availability. 
 
-    For example Simucube Throttle is directy compatible (no adapter needed) and Heusinkveld pedals require an adapter cable.
+    For example Heusinkveld pedals require an adapter cable.
 
 ![](assets/cabling%20overview.png)
 
