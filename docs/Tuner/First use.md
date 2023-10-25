@@ -1,6 +1,6 @@
 # First use
 
-![](../assets/first use.png){ width="450" }
+![](../../ActivePedal/assets/first use.png){ width="450" }
 
 ## 1. Install Tuner
 

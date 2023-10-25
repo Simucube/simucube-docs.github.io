@@ -24,7 +24,7 @@ ActivePedal appears to computer as a standard USB game controller and therefore 
 ### With telemetry data effects
 
 Active effects like RPM and ABS are only supported by games that can produce required telemetry data and are supported
-by the Tuner software. See [game support list](games/index.md) for list of these games and required steps to enable
+by the Tuner software. See [game support list](../Tuner/games/index.md) for list of these games and required steps to enable
 telemetry data if game doesn't provide it automatically.
 
 

@@ -10,7 +10,7 @@ Tuner is the configuration sofware tool for Simucube Link based devices, such as
 
 ## User guides
 
-[Using Tuner with ActivePedal](../ActivePedal/Software/First%20use.md)
+[Using Tuner with ActivePedal](../Tuner/First%20use.md)
 
 ## Chat with developers
 

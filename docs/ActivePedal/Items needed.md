@@ -6,8 +6,10 @@ For single ActivePedal system with one or two passive pedals:
 * A fully functioning simracing system
 	* A sturdy sim racing rig
 	* Gaming computer with an available USB port
+    * [:material-download-circle: Simucube Tuner](https://simucubetunerdownloads.s3.eu-west-1.amazonaws.com/SimucubeTunerSetup.exe) (latest release)
 	* Steering wheel
 	* [ActivePedal compatible passive pedals](Specifications.md#activepedal-tuner-compatible-passive-pedals)
+  
 
 For systems with total of two or three ActivePedals:
 
@@ -31,7 +33,7 @@ For systems with total of two or three ActivePedals:
 | 4. DC power cord         | 1 pc  |
 | 5. SC-Link Hub           | 1 pc  |
 | 6. USB cable             | 1 pc  |
-| 7. RJ45 cable            | 1 pc  |
+| 7. RJ45 cable            | 1 pc  | 
 | 8. SC-Link mounting tape | 1 pc  |
 | 9. Screw kit             | 1 pc  |
 | 10. Torx key             | 1 pc  |

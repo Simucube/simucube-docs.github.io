@@ -20,7 +20,7 @@ Throttle is designed to be used with ActivePedal and it may be wired to one of A
 
 ### Connectable passive pedals
 
-Supported with separately sold link cable:
+Supported with separately sold connector cable:
 
 * Heusinkveld Sim Pedals Sprint
 * Heusinkveld Sim Pedals Ultimate

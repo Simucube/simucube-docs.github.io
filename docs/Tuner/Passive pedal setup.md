@@ -3,9 +3,9 @@ Passive pedals can be used with an ActivePedal. To use external pedals connected
 
 ![](assets/passivepedalconfig.png)
 
-## Adding passive pedal
+## Adding a passive pedal
 
-To add passive pedal, press Add device -button found on bottom left corner of the Tuner and select "Passive pedal". Now a new device is seen on a device panel. The device has not been configured and therefore it shows yellow circle (not configured). Press the passive pedal on the device panel.
+To add a passive pedal, press Add device -button found on bottom left corner of the Tuner and select "Passive pedal". Now a new device is seen on a device panel. The device has not been configured and therefore it shows yellow circle (not configured). Press the passive pedal on the device panel.
 
 ## Initial configuration and calibration
 
