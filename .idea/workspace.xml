@@ -9,7 +9,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e91a145c-d2b6-4524-b211-f07f6bf6c1a6" name="Changes" comment="" />
+    <list default="true" id="e91a145c-d2b6-4524-b211-f07f6bf6c1a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ActivePedal/Drawings.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ActivePedal/Drawings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ActivePedal/Heusinkveld adapter.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ActivePedal/Heusinkveld adapter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ActivePedal/Mechanical adjustments.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ActivePedal/Mechanical adjustments.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ActivePedal/Specifications.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ActivePedal/Specifications.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Developers/ActivePedal/Drawings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Tuner/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Tuner/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Tuner/Effects.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Tuner/Effects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Tuner/First use.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Tuner/First use.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +50,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/simucube-docs.github.io&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/simucube-docs-private-WIP&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,6 +70,7 @@
       <workItem from="1697466508709" duration="25466000" />
       <workItem from="1698141099273" duration="2342000" />
       <workItem from="1698226965143" duration="608000" />
+      <workItem from="1698234147584" duration="882000" />
     </task>
     <servers />
   </component>

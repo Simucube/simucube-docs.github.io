@@ -16,4 +16,4 @@ Connect Heusinkveld pedal with the adapter the to ActivePedal's back panel port 
 
 ## Software setup
 
-Follow the instructions of [Tuner passive pedal setup](Software/Passive%20pedal%20setup.md).
+Follow the instructions of [Tuner passive pedal setup](../Tuner/Passive%20pedal%20setup.md).

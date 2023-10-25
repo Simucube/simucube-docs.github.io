@@ -4,7 +4,7 @@
 
 ## Pedal travel range
 
-Illustration of maximum pedal travel range when combining motorized movement range *and* the pedal offset adjustment range. For further details, see [mechanical adjustments](../../ActivePedal/Mechanical%20adjustments.md) page. In this illustration:
+Illustration of maximum pedal travel range when combining motorized movement range *and* the pedal offset adjustment range. For further details, see [mechanical adjustments](Mechanical%20adjustments.md) page. In this illustration:
 
 * Pedal face height adjustment in the middle position
 * Pedal travel & force range has been set into the longer stroke option

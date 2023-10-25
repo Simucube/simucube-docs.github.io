@@ -1,14 +1,14 @@
 # First use
 
-![](../../ActivePedal/assets/first use.png){ width="450" }
+![](assets/first use.png){ width="450" }
 
 ## 1. Install Tuner
 
-Simucube Tuner is a configuration software for ActivePedals. To get started [download Tuner](../../Tuner/index.md) and launch the installer.
+Simucube Tuner is a configuration software for ActivePedals. To get started [download Tuner](index.md) and launch the installer.
 
 ## 2. Check cabling
 
-If you haven't done connections yet, see [cabling](../Cabling.md).
+If you haven't done connections yet, see [cabling](../ActivePedal/Cabling.md).
 
 ## 3. Power on
 
@@ -44,4 +44,4 @@ Launch your simulator and take your first test drive.
 
 ## 6. Configuring your Active Pedal
 
-Go to [Tuner section](../../Tuner/Configuration.md) of the documentation to continue with setting up your Active Pedal.
+Go to [Tuner section](Configuration.md) of the documentation to continue with setting up your Active Pedal.
