@@ -6,7 +6,7 @@ ActivePedal provides unlimited adjustment and configuration to help sim racers d
 
 ### Force curve
 
-The force which is felt on the pedal on travel range is adjusted by adjusting the force curve. Move eash node as desired and once you release a node, you can test the force on-the-fly.
+The force which is felt on the pedal on travel range is adjusted by adjusting the force curve. Move each node as desired and once you release a node, you can test the force on-the-fly.
 
 ActivePedal employs a virtual, software driven end-stop to ensure that each pedal cannot be pushed beyond its limits.
 
