@@ -40,9 +40,10 @@ Movement speed controls how quickly movement effect reaches the maximum pedal mo
 Brake threshold vibrations allow getting notification when the game input reaches the defined trigger level. This allows optimizing braking patterns to avoid tire wear or lock up. This effect doesn't require any telemetry data from the game so it is always available regardless of the game.
 
 Trigger input level slider defines the brake game input that must be reached for the effect to activate. Intensity slider controls the strength of the first vibration and vibrations are reduced from that based on the fade slider value. Setting fade to 100% means that effect is only single vibration
-that occurs when going past the trigger level. Effect resets when going below 20% game input.
-Effect frequency slider controls the frequency of the vibrations.
 
+that occurs when going past the trigger level. Effect resets when going below 20% game input.
+
+Effect frequency slider controls the frequency of the vibrations.
 
 ![](assets/brakethreshold.png)
 
@@ -51,3 +52,11 @@ Effect frequency slider controls the frequency of the vibrations.
 Clutch bite point effects gives vibrations when the game input is near the defined trigger level. Vibration is stronger closer the pedal is to the trigger point. Effect feel is controlled by intensity slider which increases the strength of the vibrations and frequency slider that controls the frequency of the effect. Trigger smoothness slider controls the width of the trigger zone, increasing it will make the effect less pin point around the defined trigger level.
 
 ![](assets/clutchbitepoint.png)
+
+## Brake Lockup
+
+Gives vibration feedback when brakes/wheels lock during braking. Intensity slider controls the amplitude of the vibration. Activation sensitivity affects how easily effect triggers on micro-lockups that occur in trail braking, when one of the wheel briefly locks when turning in a corner. Higher activation sensitivity will trigger the effect more easily and often.
+
+Effect strength and frequency change with the car speed and lockup severity.
+
+![](assets/brakelockup.png)
