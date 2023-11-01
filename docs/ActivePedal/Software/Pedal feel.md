@@ -2,7 +2,7 @@ When the ActivePedal is correctly configured, the main adjustment window is seen
 
 ActivePedal provides unlimited adjustment and configuration to help sim racers define pedals as per their preference and needs. The Tuner software allows for on-the-fly adjustability so you can tune and test in realtime.
 
-![](assets/pedal-feel-numbered.png)
+![](assets/pedal_feel.png)
 
 ## Pedal feel
 
@@ -39,24 +39,22 @@ On top of the force curve there is curve-preset buttons which set the force curv
 - Logarithmic B
 - Logarithmic C
 
+### 6 — End stop feeling
+
+These options change how the pedal handles reaching either end of movement range. Soft feeling will try to limit movement smoothly and not stop pedal as abruptly as the other options. It is also most quiet option. Hard end stop feeling will stop the pedal more precisely and quickly to the configured limits. 
+
 ## Passive effects
 
 Passive effects mean the effects which modify how the pedal feel. These are not game effects and therefore work in all cases.
 
-### 6 — Damping
+### 7 — Damping
 
 Damping removes the "springiness" from the pedal feel by resisting fast changes in velocity.
 
-### 7- Friction
+### 8 — Friction
 
 Friction gives "sticky" feel when pedal starts moving. The strength means how much friction feel there is. This passive effect is usually used in throttle.
 
-## 8 — Import
+## 9 — Import
 
-Pedal feel from an existing profile can be imported from a "hamburger" menu which is at the top right corner of the Pedal feel -section. By importing feel from profile; the travel, maximum force, force curve, preload, damping and simulaton input mapping will change.
-
-
-
-
-
-
+Pedal feel from an existing profile can be imported from a "hamburger" menu which is at the top right corner of the Pedal feel -section. By importing feel from profile; the travel, maximum force, force curve, preload, damping and simulation input mapping will change.
