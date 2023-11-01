@@ -2,7 +2,7 @@
 
 ??? question "Which rigs are compatible with ActivePedal?"
 
-    Rig compatibility depends just on mechanical fitting and mounting, which means that nearly all rigs are compatible at least with some installation effort. To get an idea, see  [Mounting](../Mounting).
+    Rig compatibility depends just on mechanical fitting and mounting, which means that nearly all rigs are compatible at least with some installation effort. To get an idea, see  [Mounting](Mounting.md).
 
     However, not all rigs are created equal. One quality aspect of rig is their rigidity and their vibration damping properties. Typically worst ones in this sense are thin and/or flexible metal structure rigs, while in other hand rigid metallic or plywood rigs exhibit high vibration damping. This may affect the quality of feeling, and in worst case could cause oscillation issues.
 
@@ -16,7 +16,7 @@
 
 ??? question "Does ActivePedal require also the Simucube BasePlate item?"
 
-    No. Simucube BasePlate is designed to make installation easier, enhance ergonomics wiht foot rest, and add adjustability. For list of required items, see [Items needed](../Items needed).
+    No. Simucube BasePlate is designed to make installation easier, enhance ergonomics wiht foot rest, and add adjustability. For list of required items, see [Items needed](Items needed.md).
 
 ??? question "Does Simucube BasePlate accommodate other pedals?"
 
@@ -24,7 +24,7 @@
 
 ??? question "What is the ideal ActivePedal setup for smooth connectivity and use?"
 
-    See our recommendations from [Items needed](../Items needed) and consequent installation pages.
+    See our recommendations from [Items needed](Items needed.md) and consequent installation pages.
 
 ## After you have it
 
