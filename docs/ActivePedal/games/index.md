@@ -12,13 +12,14 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 | BeamNG.drive               | :material-check: | :material-check: | :material-check: | :material-check: |     | [:material-wrench:](BeamNG.md)         |
 | Codemasters F1             |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](F1.md)             |
 | Dirt Rally 1 & 2           |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](DirtRally.md)      |
-| Forza Motorsport 8        |    |    | :material-check: | :material-check: |   | [:material-wrench:](Forza Motorsport 8.md)            |
+| EA Sports WRC              |                  |                  | :material-check: | :material-check: | :material-check: | [Automatic*](EA Sports WRC.md)      |
+| Forza Motorsport 8         |                  |                  | :material-check: | :material-check: |                  | [:material-wrench:](Forza Motorsport 8.md)            |
 | Live for Speed             | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](LFS.md)            |
 | iRacing                    | :material-check: |                  | :material-check: |                  |     | Automatic                              |
 | Project CARS 1             | :material-check: |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](pCARS.md)          |
 | Project CARS 2             | :material-check: |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](pCARS2.md)         |
 | RaceRoom Racing Experience | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                              |
-| Richard Burns Rally            |                  |                  | :material-check: | :material-check: |   | [:material-wrench:](DirtRally.md)      |
+| Richard Burns Rally        |                  |                  | :material-check: | :material-check: |   | [:material-wrench:](DirtRally.md)      |
 | WRC Generations            | :material-check: | :material-check: | :material-check: | :material-check: |   | [:material-wrench:](WRC Generations.md)  |
 
 
