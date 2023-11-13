@@ -92,15 +92,18 @@ nav:
     - ActivePedal: 
         - ActivePedal/index.md
         - Hazards & safety: ActivePedal/Safety.md
-        - Installation:
+        - Hardware & software setup:
           - Items needed: ActivePedal/Items needed.md
-          - Mechanical adjustments: ActivePedal/Mechanical adjustments.md
           - Mounting: ActivePedal/Mounting.md
           - Cabling: ActivePedal/Cabling.md
-        - Using software:
-          - First time setup: ActivePedal/Software/First use.md
-          - Physical configuration: ActivePedal/Software/Physical configuration.md
-        - Game effect support: ActivePedal/Game effect support.md
+          - Software setup: ActivePedal/Software/First use.md #TODO poista tunerin alta nämä 
+          - Mechanical adjustments: ActivePedal/Mechanical adjustments.md #TODO yhdistä softaohjeet tähän dokkariin, eli ActivePedal/Software/Physical configuration.md sisältö
+          - Adding passive pedal: Tuner/Passive pedal setup.md
+        - Effect settings:
+          - Enabling game effects: ActivePedal/Game effect support.md
+          - Pedal feel: Tuner/Pedal feel.md
+          - Simulator input mapping: Tuner/input mapping.md
+          - Effects: Tuner/Effects.md
         - FAQ: ActivePedal/FAQ.md
         - Troubleshooting: ActivePedal/Troubleshooting.md
         - Specifications: ActivePedal/Specifications.md
@@ -110,19 +113,20 @@ nav:
           - Heusinkveld adapter: ActivePedal/Heusinkveld adapter.md
     - Throttle:
         - Simucube Throttle/index.md
-        - Installation:
+        - Hardware & software setup:
             - Items needed: Simucube Throttle/Items needed.md
             - Mechanical adjustments: Simucube Throttle/Mechanical adjustments.md
             - Mounting: Simucube Throttle/Mounting.md
-        - Using software: Tuner/Passive pedal setup.md
+            - Software setup: Simucube Throttle/tynkasivu ohjeisiin.md #TODO tynkäsivu, jossa kerrotaan että katso AP alta
         - Troubleshooting: Simucube Throttle/Troubleshooting.md
         - FAQ: Simucube Throttle/FAQ.md
         - Specifications: Simucube Throttle/Specifications.md
     - Tuner: 
         - Tuner/index.md
-        - First use: Tuner/First use.md
-        - Configuration and calibration: Tuner/Configuration.md
-        - Setting up game telemetry support:
+        - Getting Tuner: Tuner/index.md
+#        - First use: Tuner/First use.md #TODO poista filut
+#        - Configuration and calibration: Tuner/Configuration.md #todo poista filut
+        - Enabling game telemetry effects:
           - Overview: Tuner/games/index.md
           - Automobilista 2: Tuner/games/Automobilista2.md
           - BeamNG.drive: Tuner/games/BeamNG.md
@@ -132,11 +136,7 @@ nav:
           - Project CARS: Tuner/games/pCARS.md
           - Project CARS 2: Tuner/games/pCARS2.md
           - WRC Generations: Tuner/games/WRC Generations.md
-        - Profiles: Tuner/Profiles.md
-        - Pedal feel: Tuner/Pedal feel.md
-        - Simulator input mapping: Tuner/input mapping.md
-        - Effects: Tuner/Effects.md
-        - Passive pedal setup: Tuner/Passive pedal setup.md
+        - Managing profiles: Tuner/Profiles.md
         - Change log: Tuner/Changelog.md
         - Command line options: Tuner/Command line options.md
     - Developers:
