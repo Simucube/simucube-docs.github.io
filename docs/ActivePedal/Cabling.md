@@ -18,7 +18,7 @@ Description of ports below.
 The illustration below demostrates the typical configurations of ActivePedal. ActivePedal kits will come with the necessary cables.
 
 !!! Info "Connecting passive pedals"
-    Passive pedals that are not designed for ActivePedal connector will require an adapter cable. Check navigate to Accessories section for current availability. 
+    Passive pedals that are not designed for ActivePedal connector will require an adapter cable. Navigate to Accessories section for current availability. 
 
     For example Heusinkveld pedals require an adapter cable.
 

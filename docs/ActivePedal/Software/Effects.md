@@ -1,4 +1,4 @@
-The effects use telemetry from a simulator to create different kinds of effects. The effects have limited simulator support but the support will keep increasing as the time goes on. See [Game setup](../games/index.md) for complete list of supported games and effects, and required steps to enable the telemetry support from the game.
+The effects use telemetry from a simulator to create different kinds of effects. The effects have limited simulator support but the support will keep increasing as the time goes on. See [Game setup](../../Tuner/games/index.md) for complete list of supported games and effects, and required steps to enable the telemetry support from the game.
 
 ![](assets/effects.png)
 
