@@ -51,5 +51,5 @@ Additional to USB connection, most of load cell sensor based passive pedals coul
 
 ## Mechanical dimensions, electrical pinouts, API
 
-See [drawings section](../Developers/ActivePedal/Drawings.md).
+For Mounting hole footprint images and 3D models, see [drawings section](Drawings.md). For Electrical pinouts etc. see Developer section [Electrical pinouts](../Developers/ActivePedal/Pinouts.md)
 

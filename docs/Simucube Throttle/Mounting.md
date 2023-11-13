@@ -2,7 +2,7 @@
 
 Throttle is mounted to the rig or baseplate by clamping it down by 4 pcs of M5 theaded screws with washers. 
 
-For  footprint dimensions, see [drawings](../Developers/Simucube%20Throttle/Drawings.md).
+For  footprint dimensions, see [drawings](Drawings.md).
 
 ![](assets/installation.svg#gh-light-mode-only){width="500"}
 ![](assets/installation_darkmode.svg#gh-dark-mode-only){width="500"}

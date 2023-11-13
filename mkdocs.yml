@@ -84,65 +84,65 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       
 nav:
     - Home: index.md
     - ActivePedal: 
         - ActivePedal/index.md
         - Hazards & safety: ActivePedal/Safety.md
-        - Installation:
+        - Hardware & software setup:
           - Items needed: ActivePedal/Items needed.md
-          - Mechanical adjustments: ActivePedal/Mechanical adjustments.md
           - Mounting: ActivePedal/Mounting.md
           - Cabling: ActivePedal/Cabling.md
-        - Using software: 
-          - First time setup: ActivePedal/Software/First use.md
-          - Configuration and calibration: ActivePedal/Software/Configuration.md
-          - Profiles: ActivePedal/Software/Profiles.md
+          - Software setup: ActivePedal/Software/First use.md
+          - Configuration & Mechanical adjustments: ActivePedal/Mechanical adjustments.md #TODO yhdistä softaohjeet tähän dokkariin, eli ActivePedal/Software/Physical configuration.md sisältö
+          - Adding passive pedal: ActivePedal/Software/Passive pedal setup.md
+        - Effect settings:
+          - Enabling game effects: ActivePedal/Game effect support.md
           - Pedal feel: ActivePedal/Software/Pedal feel.md
           - Simulator input mapping: ActivePedal/Software/input mapping.md
           - Effects: ActivePedal/Software/Effects.md
-          - Passive pedal setup: ActivePedal/Software/Passive pedal setup.md
-        - Game setup: 
-          - ActivePedal/games/index.md
-          - Overview: ActivePedal/games/index.md
-          - Automobilista 2: ActivePedal/games/Automobilista2.md
-          - BeamNG.drive: ActivePedal/games/BeamNG.md
-          - Codemasters F1: ActivePedal/games/F1.md
-          - Dirt Rally 1 & 2: ActivePedal/games/DirtRally.md
-          - EA Sports WRC: ActivePedal/games/EA Sports WRC.md
-          - Forza Motorsport 8: ActivePedal/games/Forza Motorsport 8.md
-          - Live for Speed: ActivePedal/games/LFS.md
-          - Project CARS: ActivePedal/games/pCARS.md
-          - Project CARS 2: ActivePedal/games/pCARS2.md
-          - Richard Burns Rally: ActivePedal/games/RBR.md
-          - WRC Generations: ActivePedal/games/WRC Generations.md
         - FAQ: ActivePedal/FAQ.md
         - Troubleshooting: ActivePedal/Troubleshooting.md
         - Specifications: ActivePedal/Specifications.md
+        - Drawings & 3D models: ActivePedal/Drawings.md
         - Accessories:
           - Baseplate: ActivePedal/Baseplate.md
           - Heusinkveld adapter: ActivePedal/Heusinkveld adapter.md
     - Throttle:
         - Simucube Throttle/index.md
-        - Installation:
+        - Hardware & software setup:
             - Items needed: Simucube Throttle/Items needed.md
             - Mechanical adjustments: Simucube Throttle/Mechanical adjustments.md
             - Mounting: Simucube Throttle/Mounting.md
-        - Using software: ActivePedal/Software/Passive pedal setup.md
+            - Software setup: Simucube Throttle/setup.md
         - Troubleshooting: Simucube Throttle/Troubleshooting.md
         - FAQ: Simucube Throttle/FAQ.md
         - Specifications: Simucube Throttle/Specifications.md
+        - Drawings & 3D models: Simucube Throttle/Drawings.md
     - Tuner: 
         - Tuner/index.md
+        - Getting Tuner: Tuner/index.md
+        - Enabling game telemetry effects:
+          - Game telemetry setup: Tuner/games/index.md
+          - Automobilista 2: Tuner/games/Automobilista2.md
+          - BeamNG.drive: Tuner/games/BeamNG.md
+          - Codemasters F1: Tuner/games/F1.md
+          - Dirt Rally 1 & 2: Tuner/games/DirtRally.md
+          - EA Sports WRC: Tuner/games/EA Sports WRC.md
+          - Forza Motorsport 8: Tuner/games/Forza Motorsport 8.md
+          - Live for Speed: Tuner/games/LFS.md
+          - Project CARS: Tuner/games/pCARS.md
+          - Project CARS 2: Tuner/games/pCARS2.md
+          - Richard Burns Rally: Tuner/games/RBR.md
+          - WRC Generations: Tuner/games/WRC Generations.md
+        - Managing profiles: Tuner/Profiles.md
         - Change log: Tuner/Changelog.md
         - Command line options: Tuner/Command line options.md
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:
-        - Dimensions & 3D models: Developers/ActivePedal/Drawings.md
         - Electrical pinouts: Developers/ActivePedal/Pinouts.md
 #        - API: Developers/ActivePedal/API.md
-      - Throttle: Developers/Simucube Throttle/Drawings.md

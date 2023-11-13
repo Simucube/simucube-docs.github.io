@@ -1,8 +1,44 @@
+## Configuration
+
+When the device tab is viewed for the very first time, the device configuration window is displayed automatically and calibration is forced. After this, the configuration can be launched from a configure -button on top of the device window.
+
+![](Software/assets/configureactivepedal.png)
+
+!!! Info
+    Follow the setup procedure in the following order.
+
+### 1 - Set physical configuration
+
+There are two configurations on the configuration panel which need to match the physical ActivePedal configuration:
+
+1. Force adjustment piece position: High / Low
+2. Rod length (3 positions): Short / Middle / Long
+
+Match the physical configuration and the configuration seen in the software.
+
+### 2 - Set pedal starting position
+
+Set pedal starting position by moving pedal rest position slider. Pedal moves to the position when mouse button is released. The pedal starting position affects on maximum movement range of the pedal -- the more forward the position, the greater the travel range of the pedal. The rest position can also be used to align the pedal plate position.
+
+### 3 - Set pedal role
+
+Pedal role drop-down menu is used to select the role of the pedal -- Brake, Throttle or Clutch. If more than one pedal has the same role or the role has not been selected, a yellow circle will indicate a configuration error.
+
+### 4 - Perform calibration
+
+The ActivePedal calibration measures forces during calibration to suit a variety of scenarios. Press the "Calibrate force sensor" button to begin the calibration process.
+
+It is recommended to calibrate the force sensor everytime the ActivePedal is moved, reattached or when the physical rod configuration has been changed.
+
+!!! Info
+    Do not press or move pedal when performing calibration or while saving configuration -- wait until the calibration dialog is closed.
+
+## Mechanical Adjustments
 Pedal face angle, height and travel offset may be mechanically adjusted with the included Torx key.
 
 ![](assets/pedal%20face%20all%20adjustments.png)
 
-## Pedal face height
+### Pedal face height
 
 To adjust the height of pedal face:
 
@@ -12,7 +48,7 @@ To adjust the height of pedal face:
 
 ![](assets/pedal%20face%20vertical%20adjustment.png)
 
-## Pedal face angle
+### Pedal face angle
 
 To adjust the angle of the pedal face:
 
@@ -22,7 +58,7 @@ To adjust the angle of the pedal face:
 
 ![](assets/pedal%20face%20angle%20adjustment.png)
 
-## Pedal travel offset
+### Pedal travel offset
 
 The easiest way to change pedal offset is done through Tuner configuration. To extend beyond software configurable travel range:
 
@@ -32,7 +68,7 @@ The easiest way to change pedal offset is done through Tuner configuration. To e
 
 ![](assets/pedal%20offset%20adjustment.png)
 
-## Optimizing force vs travel
+### Optimizing force vs travel
 
 ActivePedal has two mechanical settings. Choose the mode according to your preferred force and travel range.
 
@@ -49,3 +85,5 @@ To change the mode:
     For most users, leaving this setting in default mode (high force & less travel) will be sufficient for all scenarions. 
 
 ![](assets/changing%20force%20range.png)
+
+

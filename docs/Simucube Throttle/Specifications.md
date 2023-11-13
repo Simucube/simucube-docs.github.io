@@ -28,5 +28,5 @@ Supported with separately sold link cable:
 
 ## Mechanical dimensions
 
-See [drawings section](../Developers/Simucube Throttle/Drawings.md).
+See [drawings section](Drawings.md).
 
