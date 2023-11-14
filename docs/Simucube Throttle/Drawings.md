@@ -21,7 +21,7 @@ Dimension of maximum pedal travel range when adjustments are as follows:
 * Pedal face angle in the "least tilted" option
 * Pedal travel in maximum position
 
-For further details, see [mechanical adjustments](../../Simucube%20Throttle/Mechanical%20adjustments.md) page.
+For further details, see [mechanical adjustments](Mechanical%20adjustments.md) page.
 
 ## Mounting hole footprint
 

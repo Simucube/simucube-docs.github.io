@@ -97,7 +97,7 @@ nav:
           - Mounting: ActivePedal/Mounting.md
           - Cabling: ActivePedal/Cabling.md
           - Software setup: ActivePedal/Software/First use.md
-          - Configuration & Mechanical adjustments: ActivePedal/Mechanical adjustments.md #TODO yhdistä softaohjeet tähän dokkariin, eli ActivePedal/Software/Physical configuration.md sisältö
+          - Configuration & Mechanical adjustments: ActivePedal/Mechanical adjustments.md
           - Adding passive pedal: ActivePedal/Software/Passive pedal setup.md
         - Effect settings:
           - Enabling game effects: ActivePedal/Game effect support.md
