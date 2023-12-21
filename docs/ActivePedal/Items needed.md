@@ -33,7 +33,7 @@ For systems with total of two or three ActivePedals:
 | 6. USB cable             | 1 pc  |
 | 7. RJ45 cable            | 1 pc  |
 | 8. SC-Link mounting tape | 1 pc  |
-| 9. Screw kit             | 1 pc  |
+| 9. Screw kit <br> &ensp; &ensp; - M5x25 allen head bolts <br> &ensp; &ensp; - M5x35 allen head bolts <br> &ensp; &ensp; - M5 washers, small <br> &ensp; &ensp; - M5 washers, large <br> &ensp; &ensp; - M5 nylock nut <br> &ensp; &ensp; - M5 t-slot nut, 8mm slot <br> | <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc  |
 | 10. Torx key             | 1 pc  |
 
 ### ActivePedal Add-on set
@@ -46,5 +46,5 @@ For systems with total of two or three ActivePedals:
 | 2. DC power cord           | 1 pc  |
 | 3. Ethernet switch and PSU | 1 pc  |
 | 4. RJ45 cables             | 2 pcs |
-| 5. Screw kit               | 1 pc  |
+| 5. Screw kit <br> &ensp; &ensp; - M5x25 allen head bolts <br> &ensp; &ensp; - M5x35 allen head bolts <br> &ensp; &ensp; - M5 washers, small <br> &ensp; &ensp; - M5 washers, large <br> &ensp; &ensp; - M5 nylock nut <br> &ensp; &ensp; - M5 t-slot nut, 8mm slot <br> | <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc  |
 | 6. Torx key                | 1 pc  |
