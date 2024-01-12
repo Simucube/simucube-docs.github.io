@@ -14,7 +14,7 @@ From version 2.0.0 onwards, the Tuner software Simucube supports wireless wheels
 1. Select Wireless Wheel from the device list
 2. Press **Configure** button
 
-![assets/img_2.png](img_2.png)
+![](assets/img_2.png)
 
 ### Disconnect a wheel
 1. From the wheel config menu press **Disconnect** button
@@ -28,7 +28,7 @@ From version 2.0.0 onwards, the Tuner software Simucube supports wireless wheels
 1. Select Wireless Wheel from the device list
 2. Press **Configure** button
 
-![assets/img.png](img.png)
+![](assets/img.png)
 ### Calibrate analog paddles
 - Follow the instructions on the screen and adjust the maximum and minimum values of the analog paddles
 so that in the end the resting position the output is 0% and when the paddle is fully pressed the output is 100%
@@ -65,7 +65,7 @@ so that in the end the resting position the output is 0% and when the paddle is 
 ### Open Car configuration menu
 - Select **SIMULATOR CONNECTED** from the bottom of the left side menu
 
-![assets/img_3.png](img_3.png)
+![](assets/img_3.png)
 
 ### Select game
 - The game that is currently running will be automatically selected, 
