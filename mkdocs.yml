@@ -141,6 +141,7 @@ nav:
         - Managing profiles: Tuner/Profiles.md
         - Change log: Tuner/Changelog.md
         - Command line options: Tuner/Command line options.md
+        - Wireless wheels: Tuner/Wireless wheels.md
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:
