@@ -33,7 +33,7 @@ Support for more games are being developed and are released in future Tuner soft
 
 ## ActivePedal & Tuner compatible passive pedals
 
-Specific passive pedals have been verified by Simucube to be connectable to ActivePedal system. "Connectable" in here means that the pedal may be wired to one of ActivePedal external pedal ports and get the benefits of configuring them through Tuner. 
+Together with the ActivePedal you may also purchase a passive throttle pedal, the [Simucube Throttle](../Simucube Throttle/index.md). In addition specific passive pedals have been verified by Simucube to be connectable to ActivePedal system. "Connectable" in here means that the pedal may be wired to one of ActivePedal external pedal ports and get the benefits of configuring them through Tuner. 
 
 ### Connectable passive pedals
 

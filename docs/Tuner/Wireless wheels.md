@@ -78,7 +78,7 @@ but you can also adjust settings for other games by selecting them from the **Se
   - If the game does not offer the car name through the telemetry or **Use car specific profile** is not checked the **Default** car will be used.
 
 ### RPM range values
-#### First sift light
+#### First shift light
 RPM value for when the first shift light turns on.
 #### Last shift light
 RPM value for when the last shift light turns on.

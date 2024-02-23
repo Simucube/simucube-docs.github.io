@@ -16,7 +16,7 @@
 
 ## ActivePedal compability
 
-Throttle is designed to be used with ActivePedal and it may be wired to one of ActivePedal's external pedal ports. This allows you to configure Throttle pedal through Tuner. In addition, you can continue to use "Connectable" passive pedals as previously. 
+Throttle is designed to be used with ActivePedal and it may be wired to one of ActivePedal's external pedal ports. This allows you to configure Throttle pedal through Tuner. In addition, you can continue to use "Connectable" passive pedals as previously for example as a clutch pedal. 
 
 ### Connectable passive pedals
 

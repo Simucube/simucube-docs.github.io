@@ -1,6 +1,6 @@
 ## Setup
 
-Telemetry for both **Dirt Rally** and **Dirt Rally 2.0** games needs to be enabled from a games config file.
+Telemetry for **WRC Generations** needs to be enabled from a games config file.
 
 1. Navigate to **Documents\\My Games\\WRCG\\**  folder.
 2. Open file **"UserSettings.cfg"** in a text editor.
