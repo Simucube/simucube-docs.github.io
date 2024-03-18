@@ -21,7 +21,7 @@ For systems with total of two or three ActivePedals:
 
 ### ActivePedal Primary set
 
-![](assets/whatsincluded%20primary%20set%20with%20balloons%20web.png)
+![](assets/whatsincluded%20primary%20set%20with%20balloons.png)
 
 | Item                     | Qty   |
 | ------------------------ | ----- |
@@ -37,7 +37,7 @@ For systems with total of two or three ActivePedals:
 
 ### ActivePedal Add-on set
 
-![](assets/whatsincluded%20addon%20set%20with%20balloons%20web.png)
+![](assets/whatsincluded%20addon%20set%20with%20balloons.png)
 
 | Item                       | Qty   |
 | -------------------------- | ----- |
