@@ -60,6 +60,7 @@ site_name: Simucube Online Guide
 plugins:
     - mkdocs-video
     - search
+    - link-marker
     - redirects:
         redirect_maps:
           'ActivePedal/Getting started.md': 'ActivePedal/index.md'
