@@ -49,6 +49,14 @@ Installing the baseplate to the rig depends on the rig model and construction. M
 
 ### Package content
 
-* Base plate as parts (needs assembly)
-* Mounting screws (to rig) & L-shaped hex key wrench
-* Quick start guide
+| Item                     | Qty   |
+| ------------------------ | ----- |
+| Side plate | 2 pc  |
+| Heel plate | 1 pc  |
+| Extrusion, narrow, length 360mm | 1 pc  |
+| Extrusion, wide, length 360mm | 3 pc  |
+| Screw kit - Assembly<br> &ensp; &ensp; - M6x20 allen head bolts <br> &ensp; &ensp; - M6 washers <br> &ensp; &ensp; - M6 lock washers <br> &ensp; &ensp; |	<br> 20 pc <br> 20 pc <br> 20 pc |
+| Screw kit - Installation<br> &ensp; &ensp; - M8x16 allen head bolts <br> &ensp; &ensp; - M8x20 allen head bolts <br> &ensp; &ensp; - M8x25 allen head bolts <br> &ensp; &ensp; - M8 washers <br> &ensp; &ensp; - M8 nylock nut <br> &ensp; &ensp; - M8 t-slot nut, 8mm slot <br> | <br> 4 pc <br> 4 pc <br> 4 pc <br> 4 pc <br> 4 pc <br> 4 pc |
+| Hex key, 5mm | 1 pc  |
+| Hex key, 6mm | 1 pc  |
+| Assembly guide | 1 pc  |
