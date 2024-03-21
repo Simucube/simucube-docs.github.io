@@ -1,2 +1,2 @@
 ## Enabling game support
-To enable game support in Tuner, copy **sc-rfactor2-plugin-x64.dll** file from Tuner installation folder **data/game_plugins/** to the **Plugins** folder in the root folder where the game is installed.
+To enable game support in Tuner, copy **sc-rfactor2-plugin-x64.dll** file from Tuner installation folder **data/game_plugins/** to the **Bin64/Plugins** folder in the root folder where the game is installed. 
