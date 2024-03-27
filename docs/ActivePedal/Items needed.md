@@ -21,24 +21,23 @@ For systems with total of two or three ActivePedals:
 
 ### ActivePedal Primary set
 
-![](assets/whatsincluded%20primary%20set%20with%20balloons%20web.png)
+![](assets/whatsincluded%20primary%20set%20with%20balloons.png)
 
 | Item                     | Qty   |
 | ------------------------ | ----- |
 | 1. ActivePedal           | 1 pc  |
 | 2.  Power adapter        | 1 pc  |
 | 3.  AC power cord        | 1 pc |
-| 4. DC power cord         | 1 pc  |
-| 5. SC-Link Hub           | 1 pc  |
-| 6. USB cable             | 1 pc  |
-| 7. RJ45 cable            | 1 pc  |
-| 8. SC-Link mounting tape | 1 pc  |
-| 9. Screw kit <br> &ensp; &ensp; - M5x25 allen head bolts <br> &ensp; &ensp; - M5x35 allen head bolts <br> &ensp; &ensp; - M5 washers, small <br> &ensp; &ensp; - M5 washers, large <br> &ensp; &ensp; - M5 nylock nut <br> &ensp; &ensp; - M5 t-slot nut, 8mm slot <br> | <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc  |
-| 10. Torx key             | 1 pc  |
+| 4. SC-Link Hub           | 1 pc  |
+| 5. USB cable             | 1 pc  |
+| 6. RJ45 cable            | 1 pc  |
+| 7. SC-Link mounting tape | 1 pc  |
+| 8. Screw kit <br> &ensp; &ensp; - M5x25 allen head bolts <br> &ensp; &ensp; - M5x35 allen head bolts <br> &ensp; &ensp; - M5 washers, small <br> &ensp; &ensp; - M5 washers, large <br> &ensp; &ensp; - M5 nylock nut <br> &ensp; &ensp; - M5 t-slot nut, 8mm slot <br> | <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc <br> 6 pc  |
+| 9. Torx key             | 1 pc  |
 
 ### ActivePedal Add-on set
 
-![](assets/whatsincluded%20addon%20set%20with%20balloons%20web.png)
+![](assets/whatsincluded%20addon%20set%20with%20balloons.png)
 
 | Item                       | Qty   |
 | -------------------------- | ----- |

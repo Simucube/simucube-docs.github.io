@@ -60,6 +60,7 @@ site_name: Simucube Online Guide
 plugins:
     - mkdocs-video
     - search
+    - link-marker
     - redirects:
         redirect_maps:
           'ActivePedal/Getting started.md': 'ActivePedal/index.md'
@@ -127,6 +128,7 @@ nav:
         - Getting Tuner: Tuner/index.md
         - Enabling game telemetry effects:
           - Game telemetry setup: Tuner/games/index.md
+          - Automobilista : Tuner/games/Automobilista.md
           - Automobilista 2: Tuner/games/Automobilista2.md
           - BeamNG.drive: Tuner/games/BeamNG.md
           - Codemasters F1: Tuner/games/F1.md
@@ -134,8 +136,11 @@ nav:
           - EA Sports WRC: Tuner/games/EA Sports WRC.md
           - Forza Motorsport 8: Tuner/games/Forza Motorsport 8.md
           - Live for Speed: Tuner/games/LFS.md
+          - Le Mans Ultimate: Tuner/games/LMU.md
           - Project CARS: Tuner/games/pCARS.md
           - Project CARS 2: Tuner/games/pCARS2.md
+          - rFactor : Tuner/games/rf.md
+          - rFactor 2: Tuner/games/rf2.md
           - Richard Burns Rally: Tuner/games/RBR.md
           - WRC Generations: Tuner/games/WRC Generations.md
         - Managing profiles: Tuner/Profiles.md
