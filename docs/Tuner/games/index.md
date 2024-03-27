@@ -4,27 +4,27 @@ This section covers all supported simulator game titles. Overview of supported f
 
 Brake threshold vibration and clutch bite point effects don't require telemetry data and are available in all games.
 
-| Game                       | ABS              | TC <sup>1</sup>  | RPM              | G-Force          | Brake Lockup | Setup <sup>2</sup>                         |
-|----------------------------| ---------------- | ---------------- | ---------------- | ---------------- | ------------ |--------------------------------------------|
+| Game                       | ABS              | TC <sup>1</sup>  | RPM              | G-Force          | Brake Lockup     | Setup <sup>2</sup>                         |
+|----------------------------|------------------|------------------| ---------------- | ---------------- |------------------|--------------------------------------------|
 | Assetto Corsa              | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                                  |
 | Assetto Corsa Competizione | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                                  |
-| Automobilista              | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](Automobilista.md)      |
+| Automobilista              |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](Automobilista.md)      |
 | Automobilista 2            | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](Automobilista2.md)     |
-| BeamNG.drive               | :material-check: | :material-check: | :material-check: | :material-check: |     | [:material-wrench:](BeamNG.md)             |
+| BeamNG.drive               | :material-check: | :material-check: | :material-check: | :material-check: |                  | [:material-wrench:](BeamNG.md)             |
 | Codemasters F1             |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](F1.md)                 |
 | Dirt Rally 1 & 2           |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](DirtRally.md)          |
 | EA Sports WRC              |                  |                  | :material-check: | :material-check: | :material-check: | [Automatic*](EA Sports WRC.md)             |
 | Forza Motorsport 8         |                  |                  | :material-check: | :material-check: |                  | [:material-wrench:](Forza Motorsport 8.md) |
 | Live for Speed             | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](LFS.md)                |
 | Le Mans Ultimate           | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](LMU.md)                |
-| iRacing                    | :material-check: |                  | :material-check: |                  |     | Automatic                                  |
+| iRacing                    | :material-check: |                  | :material-check: |                  |                  | Automatic                                  |
 | Project CARS 1             | :material-check: |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](pCARS.md)              |
 | Project CARS 2             | :material-check: |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](pCARS2.md)             |
 | rFactor                    | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](rf.md)                 |
 | rFactor 2                  | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](rf2.md)                |
 | RaceRoom Racing Experience | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                                  |
-| Richard Burns Rally        |                  |                  | :material-check: | :material-check: |   | [:material-wrench:](DirtRally.md)          |
-| WRC Generations            | :material-check: | :material-check: | :material-check: | :material-check: |   | [:material-wrench:](WRC Generations.md)    |
+| Richard Burns Rally        |                  |                  | :material-check: | :material-check: |                  | [:material-wrench:](DirtRally.md)          |
+| WRC Generations            | :material-check: | :material-check: | :material-check: | :material-check: |                  | [:material-wrench:](WRC Generations.md)    |
 
 
 <sup>1</sup> TC stands for Traction Control effect. Some games do not provide telemetry data needed for this effect.
