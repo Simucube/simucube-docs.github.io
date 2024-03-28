@@ -15,17 +15,25 @@
 2. Attach the battery cover **A** using the supplied screws.
 3. Press the white power button **B** to power the wheel.
 4. Open True Drive. Connect the wheel by pressing both paddles for 5 seconds and using True Drive.
+5. The wheel is now ready to use.
 
-![tahko_battery.png](assets%2Ftahko_battery.png)
-![tahko_wheel back.png](assets%2Ftahko_wheel%20back.png)
+For Simucube Tuner wireless wheel pairing instructions, please visit the [Wireless wheels](../Tuner/Wireless%20wheels.md) page in the Tuner section.
+
+![tahko_wheel_battery.svg](assets%2Ftahko_wheel_battery.svg)
+![tahko_wheel_back.svg](assets%2Ftahko_wheel_back.svg)
 
 Check Simucube’s [YouTube channel](https://youtube.com/SIMUCUBE) for more tutorials.
 
-## Warranty
-This product has a 24-month limited warranty.
-Warranty terms are available at https://simucube.com/terms-and-conditions/.
+## Button label stickers
+The package includes label stickers for customizing your steering wheel to your liking.
+
+The numbers on the sticker sheet match the positions in the illustration above.
+
+![tahko_wheel_front.svg](assets%2Ftahko_wheel_front.svg)
 
 ## Simucube button
+**Note: The Simucube button is currently only supported in True Drive.**
+
 The Simucube button is used to change force feedback parameters straight from the wheel. Here is how to use it:
 1. Hold down the Simucube Button C over one second to enter Simucube Button mode
 2. Use the 7-way switch D to select a parameter to modify
@@ -43,11 +51,9 @@ The Simucube button is used to change force feedback parameters straight from th
 
 Pressing a parameter selection for more than 2 seconds will reset the parameter to the previous value in True Drive.
 
-![tahko_wheel_front.png](assets%2Ftahko_wheel_front.png)
-## Button label stickers
-The package includes label stickers for customizing your steering wheel to your liking.
-
-The numbers on the sticker sheet match the positions in the illustration above.
+## Warranty
+This product has a 24-month limited warranty.
+Warranty terms are available at [https://simucube.com/terms-and-conditions/](https://simucube.com/terms-and-conditions/)
 
 ## Manufacturer information
 Granite Devices Oy

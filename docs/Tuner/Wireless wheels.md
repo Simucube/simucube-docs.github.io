@@ -1,4 +1,4 @@
-From version 2.0.0 onwards, the Tuner software Simucube supports wireless wheels trough [Simucube Link Hub](../Developers/Simucube%20Link.md#simucube-link-hub).
+From version 2.0.0 onwards, the Tuner software Simucube supports wireless wheels through [Simucube Link Hub](../Developers/Simucube%20Link.md#simucube-link-hub).
 
 ## Getting started
 
