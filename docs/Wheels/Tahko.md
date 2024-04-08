@@ -19,8 +19,10 @@
 
 For Simucube Tuner wireless wheel pairing instructions, please visit the [Wireless wheels](../Tuner/Wireless%20wheels.md) page in the Tuner section.
 
-![tahko_wheel_battery.svg](assets%2Ftahko_wheel_battery.svg)
-![tahko_wheel_back.svg](assets%2Ftahko_wheel_back.svg)
+![](assets%2Ftahko_wheel_battery.svg#gh-light-mode-only)
+![](assets%2Ftahko_wheel_battery_dark.svg#gh-dark-mode-only)
+![](assets%2Ftahko_wheel_back.svg#gh-light-mode-only)
+![](assets%2Ftahko_wheel_back_dark.svg#gh-dark-mode-only)
 
 Check Simucube’s [YouTube channel](https://youtube.com/SIMUCUBE) for more tutorials.
 
@@ -29,7 +31,8 @@ The package includes label stickers for customizing your steering wheel to your 
 
 The numbers on the sticker sheet match the positions in the illustration above.
 
-![tahko_wheel_front.svg](assets%2Ftahko_wheel_front.svg)
+![](assets%2Ftahko_wheel_front.svg#gh-light-mode-only)
+![](assets%2Ftahko_wheel_front_dark.svg#gh-dark-mode-only)
 
 ## Simucube button
 **Note: The Simucube button is currently only supported in True Drive.**
