@@ -123,6 +123,10 @@ nav:
         - FAQ: Simucube Throttle/FAQ.md
         - Specifications: Simucube Throttle/Specifications.md
         - Drawings & 3D models: Simucube Throttle/Drawings.md
+    - Wheels:
+        - Wheels/index.md
+        - Valo GT-23: Wheels/Valo.md
+        - Tahko wheels: Wheels/Tahko.md
     - Tuner: 
         - Tuner/index.md
         - Getting Tuner: Tuner/index.md
