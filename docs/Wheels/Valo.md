@@ -6,6 +6,7 @@
 | **2** USB Type-C charging cable | 1 pc     |
 | **3** Torx T-10 L-wrench        | 1 pc     |
 | **4** Quick Start Guide         | 1 pc     |
+
 ![valo_wheel.svg](assets%2Fvalo_wheel.svg)
 
 ## Software & User guide
