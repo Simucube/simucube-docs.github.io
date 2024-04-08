@@ -10,7 +10,7 @@
 ![valo_wheel.svg](assets%2Fvalo_wheel.svg)
 
 ## Software & User guide
-The Simucube Valo GT-23 wheel is supported by the Simucube Tuner. Download the latest version of the Simucube software from [here](html://www.simucube.com/downloads)
+The Simucube Valo GT-23 wheel is supported by the Simucube Tuner. Download the latest version of the Simucube software from [here](https://www.simucube.com/downloads)
 The user guide for the Simucube software can be found [here](../Tuner/index.md).
 
 ## Charging
