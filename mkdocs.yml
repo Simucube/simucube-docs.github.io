@@ -65,6 +65,7 @@ plugins:
         redirect_maps:
           'ActivePedal/Getting started.md': 'ActivePedal/index.md'
           'Tuner/Download.md': 'Tuner/index.md'
+          'ActivePedal/games/index.md' : 'Tuner/games/index.md'
 
 markdown_extensions:
   - admonition
