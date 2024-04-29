@@ -94,10 +94,10 @@ Keep the pedal upright during the change:
 <br>
 <br>
 
-![](assets/diagram_spring_change_light.svg#gh-light-mode-only){width="400"}
-![](assets/diagram_spring_change_dark.svg#gh-dark-mode-only){width="400"}
+![](assets/diagram_spring_change_light_rev2.svg#gh-light-mode-only){width="400"}
+![](assets/diagram_spring_change_dark_rev2.svg#gh-dark-mode-only){width="400"}
 
-Pre-installed spring is red curve on diagram, extra spring included in package is blue curve.
+Pre-installed spring is red curve on diagram. From the additional springs, blue curve is softer and green curve is harder.
 
 <br>
 <br>
