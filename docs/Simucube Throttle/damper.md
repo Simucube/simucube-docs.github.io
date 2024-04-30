@@ -1,7 +1,5 @@
 # Throttle Damper instructions
 
-<br>
-
 ## What's inside the package
 
 <br>
@@ -26,7 +24,7 @@
 ## How to adjust the damper
 
 <br>
-To adjust the damper, push the rod to either inwards or pull outwards against the end stop. Keep slightly pushing/pulling the rod and you should feel it attaching to the bypass valve screw, which adjusts the damping rate. By turning the screw clockwise the damping rate increases and vice versa. The screw should move quite easily and do NOT use excessive force if the screw does not move any further. Especially when increasing the damping rate, you can close the bypass valve shut if operated incorrectly, which locks the damper in place. 
+To adjust the damper, push the rod to either inwards or pull outwards against the end stop. Keep slightly pushing/pulling the rod and you should feel it attaching to the bypass valve screw, which adjusts the damping rate. By turning the screw clockwise the damping rate increases and vice versa. The screw should move quite easily and excessive force should NOT be used, if the screw does not move any further. Especially when increasing the damping rate, the bypass valve can be closed shut if operated incorrectly, which locks the damper in place. 
 <br>
 <br>
 
