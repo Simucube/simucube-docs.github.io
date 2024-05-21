@@ -24,7 +24,11 @@
 ## How to adjust the damper
 
 <br>
-To adjust the damper, push the rod to either inwards or pull outwards against the end stop. Keep slightly pushing/pulling the rod and you should feel it attaching to the bypass valve screw, which adjusts the damping rate. By turning the screw clockwise the damping rate increases and vice versa. The screw should move quite easily and excessive force should NOT be used, if the screw does not move any further. Especially when increasing the damping rate, the bypass valve can be closed shut if operated incorrectly, which locks the damper in place. 
+To adjust the damper, push the rod to either inwards or pull outwards against the end stop. Keep slightly pushing/pulling the rod and you should feel it attaching to the bypass valve screw, which adjusts the damping rate. By turning the screw clockwise the damping rate increases and vice versa. The screw should move quite easily and excessive force should NOT be used, if the screw does not move any further.
+<br>
+<br>
+!!! Warning
+    If the damping rate is adjusted to maximum, the damper can be really difficult to move! This should be avoided and if excessive force is used, the damper can be locked in place.
 <br>
 <br>
 
