@@ -23,7 +23,7 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 | rFactor                    | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](rf.md)                 |
 | rFactor 2                  | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](rf2.md)                |
 | RaceRoom Racing Experience | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                                  |
-| Richard Burns Rally        |                  |                  | :material-check: | :material-check: |                  | [:material-wrench:](DirtRally.md)          |
+| Richard Burns Rally        |                  |                  | :material-check: | :material-check: |                  | [:material-wrench:](RBR.md)                |
 | WRC Generations            | :material-check: | :material-check: | :material-check: | :material-check: |                  | [:material-wrench:](WRC Generations.md)    |
 
 
