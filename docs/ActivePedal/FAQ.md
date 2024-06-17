@@ -8,7 +8,7 @@
 
 ??? question "Which passive pedals are compatible *without* adapter?"
 
-    Simucube passive pedals are supported out-of-the-box. See also [Specifications](Specifications.md#compatible-passive-pedals).
+    Simucube passive pedals are supported out-of-the-box. See also [Specifications](Specifications.md).
 
 ??? question "What pedals are compatible *with* adapter?"
 

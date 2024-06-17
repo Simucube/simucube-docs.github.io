@@ -1,6 +1,6 @@
 # Simucube Baseplate
 
-Simucube Baseplate is a optional accessory that provides easy mounting, adjustability and comfort when using certain pedals. List of compatible pedals in [specifications](Specifications.md#simucube-baseplate).
+Simucube Baseplate is a optional accessory that provides easy mounting, adjustability and comfort when using certain pedals. List of compatible pedals in [specifications](Specifications.md).
 
 ## Video guide
 
