@@ -1,5 +1,7 @@
 # Throttle Damper instructions
 
+![type:video](https://youtube.com/embed/oT7KdsW5c4A)
+
 ## What's inside the package
 
 <br>
