@@ -9,7 +9,7 @@ When the device tab is viewed for the very first time, the device configuration 
 
 ### 1 - Set physical configuration
 
-There are two configurations on the configuration panel which need to match the physical ActivePedal configuration:
+There are two configurations on the configuration panel which need to match the physical ActivePedal Ultimate configuration:
 
 1. Force adjustment piece position: High / Low
 2. Rod length (3 positions): Short / Middle / Long
@@ -26,9 +26,9 @@ Pedal role drop-down menu is used to select the role of the pedal -- Brake, Thro
 
 ### 4 - Perform calibration
 
-The ActivePedal calibration measures forces during calibration to suit a variety of scenarios. Press the "Calibrate force sensor" button to begin the calibration process.
+The ActivePedal Ultimate calibration measures forces during calibration to suit a variety of scenarios. Press the "Calibrate force sensor" button to begin the calibration process.
 
-It is recommended to calibrate the force sensor everytime the ActivePedal is moved, reattached or when the physical rod configuration has been changed.
+It is recommended to calibrate the force sensor everytime the ActivePedal Ultimate is moved, reattached or when the physical rod configuration has been changed.
 
 !!! Info
     Do not press or move pedal when performing calibration or while saving configuration -- wait until the calibration dialog is closed.
@@ -70,7 +70,7 @@ The easiest way to change pedal offset is done through Tuner configuration. To e
 
 ### Optimizing force vs travel
 
-ActivePedal has two mechanical settings. Choose the mode according to your preferred force and travel range.
+ActivePedal Ultimate has two mechanical settings. Choose the mode according to your preferred force and travel range.
 
 ![](assets/force%20and%20travel%20range.png)
 
@@ -78,7 +78,7 @@ To change the mode:
 
 1. Re-assemble parts as illustrated procedure
 2. Tighten screws to appriximately 3 Nm torque.
-3. Update the setting under [ActivePedal hardware configuration dialog](Mechanical%20adjustments.md#configuration) in Tuner.
+3. Update the setting under [ActivePedal Ultimate hardware configuration dialog](Mechanical%20adjustments.md#configuration) in Tuner.
 
 !!! tip
 

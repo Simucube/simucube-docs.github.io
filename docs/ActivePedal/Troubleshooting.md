@@ -12,7 +12,7 @@ For personal assistance, head to Simucube's friendly user community or official 
 
 ## See also 
 
-[Frequently Asked Questions](FAQ.md) about ActivePedal.
+[Frequently Asked Questions](FAQ.md) about ActivePedal Ultimate.
 
 ## Red circle indicator on device in Tuner
 

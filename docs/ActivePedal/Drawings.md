@@ -14,15 +14,15 @@ Illustration of maximum pedal travel range when combining motorized movement ran
 
 ## Mounting hole footprint
 
-Printable footprint with dimensions (A4 size, print in actual size)
+Printable footprint with dimensions
 
-[:material-download-circle: Simucube ActivePedal footprint](assets/activepedal-mounting-hole-dimensions.pdf)
+[:material-download-circle: Simucube ActivePedal Ultimate footprint](assets/activepedal-mounting-hole-dimensions.pdf)
 
 ## 3D models
 
-[:material-download-circle: Simucube ActivePedal (2023)](assets/ActivePedal 2023 3D model.step)
+[:material-download-circle: Simucube ActivePedal Ultimate (2023)](assets/ActivePedal 2023 3D model.step)
 
-[:material-download-circle: Simucube ActivePedal standard pedal face (2023)](assets/ActivePedal 2023 pedal face 3d model.step)
+[:material-download-circle: Simucube ActivePedal Ultimate standard pedal face (2023)](assets/ActivePedal 2023 pedal face 3d model.step)
 
 [:material-download-circle: Simucube Baseplate (2023)](assets/Baseplate 2023 3d model.step)
 

@@ -91,7 +91,7 @@ markdown_extensions:
       
 nav:
     - Home: index.md
-    - ActivePedal: 
+    - ActivePedal Ultimate: 
         - ActivePedal/index.md
         - Hazards & safety: ActivePedal/Safety.md
         - Hardware & software setup:
@@ -113,6 +113,28 @@ nav:
         - Accessories:
           - Baseplate: ActivePedal/Baseplate.md
           - Heusinkveld adapter: ActivePedal/Heusinkveld adapter.md
+    - ActivePedal Pro: 
+        - ActivePedalPro/index.md
+        - Hazards & safety: ActivePedalPro/Safety.md
+        - Hardware & software setup:
+          - Items needed: ActivePedalPro/Items needed.md
+          - Mounting: ActivePedalPro/Mounting.md
+          - Cabling: ActivePedalPro/Cabling.md
+          - Software setup: ActivePedalPro/Software/First use.md
+          - Configuration & Mechanical adjustments: ActivePedalPro/Mechanical adjustments.md
+          - Adding passive pedal: ActivePedalPro/Software/Passive pedal setup.md
+        - Effect settings:
+          - Enabling game effects: ActivePedalPro/Game effect support.md
+          - Pedal feel: ActivePedalPro/Software/Pedal feel.md
+          - Simulator input mapping: ActivePedalPro/Software/input mapping.md
+          - Effects: ActivePedalPro/Software/Effects.md
+        - FAQ: ActivePedalPro/FAQ.md
+        - Troubleshooting: ActivePedalPro/Troubleshooting.md
+        - Specifications: ActivePedalPro/Specifications.md
+        - Drawings & 3D models: ActivePedalPro/Drawings.md
+        - Accessories:
+          - Baseplate: ActivePedalPro/Baseplate.md
+          - Heusinkveld adapter: ActivePedalPro/Heusinkveld adapter.md
     - Throttle:
         - Simucube Throttle/index.md
         - Hardware & software setup:

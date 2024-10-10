@@ -1,8 +1,8 @@
-## ActivePedal mounting 
+## ActivePedal Ultimate mounting 
 
-ActivePedal is mounted to the rig or baseplate by clamping it down by 4 to 6 pcs of M5 theaded screws with washers. 
+ActivePedal Ultimate is mounted to the rig or baseplate by clamping it down by 4 to 6 pcs of M5 theaded screws with washers. 
 
-For ActivePedal footprint dimensions, see [specifications](Specifications.md).
+For ActivePedal Ultimate footprint dimensions, see [specifications](Specifications.md).
 
 ![](assets/active%20pedal%206%20screws.png)
 
@@ -19,7 +19,7 @@ For more info and assembly instructions, see [Simucube Baseplate](Baseplate.md).
 
 ## Mounting directly to the rig
 
-ActivePedal may be mounted also without Baseplate directly to the rig. Installation method depends on the rig model and construction. Most common methods are illustrated below.
+ActivePedal Ultimate may be mounted also without Baseplate directly to the rig. Installation method depends on the rig model and construction. Most common methods are illustrated below.
 
 <figure markdown>
 ![](assets/screw%20to%20profile%20slot.png){ width="350" }

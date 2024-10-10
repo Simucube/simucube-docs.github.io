@@ -1,4 +1,4 @@
-# ActivePedal specifications
+# ActivePedal Ultimate specifications
 
 ## Physical
 
@@ -7,7 +7,7 @@
 | Dimensions        | 100 x 250 x 402 mm                                                                                         |
 | Weight            | 6 kg                                                                                                       |
 | Connectors        | Simucube Link, two external passive pedal ports, power in, power out                                       |
-| Force range       | 1-150 kg (default) or 1-120 kg ([user configurable](Mechanical adjustments.md#optimizing-force-vs-travel)) |
+| Force range       | 1-170 kg (default) or 1-120 kg ([user configurable](Mechanical adjustments.md#optimizing-force-vs-travel)) |
 | Travel range      | 1-62 mm (default) or 1-79 mm ([user configurable](Mechanical adjustments.md#optimizing-force-vs-travel))   |
 | Power consumption | 10 - 100 W in average use, 480 W peak                                                                      |
 
@@ -16,7 +16,7 @@
 
 ### As standard pedal
 
-ActivePedal appears to computer as a standard USB game controller and therefore it works with any racing game that supports such device (basically all racing games). In these games device acts as USB pedal without game telemetry data based effects.
+ActivePedal Ultimate appears to computer as a standard USB game controller and therefore it works with any racing game that supports such device (basically all racing games). In these games device acts as USB pedal without game telemetry data based effects.
 
 - Also in this mode, pedal profile and feel is fully configurable by force-travel curve, friction, damping and game output mapping curve. 
 - Device may be software configured to act as a brake, throttle or clutch.

@@ -4,7 +4,7 @@ Simucube Baseplate is a optional accessory that provides easy mounting, adjustab
 
 ## Video guide
 
-Video guide of ActivePedal adjustments and Baseplate installation from time 1:37.
+Video guide of ActivePedal Ultimate adjustments and Baseplate installation from time 1:37.
 
 ![type:video](https://www.youtube.com/embed/EzzKEWTEJeI)
 
@@ -34,7 +34,7 @@ Installing the baseplate to the rig depends on the rig model and construction. M
 
 ### Compatible pedals
 
-* Simucube ActivePedal
+* Simucube ActivePedal (Ultimate & Pro)
 * Heusinkveld Sim Pedal Sprint (with separately sold mounting kit)
 * Heusinkveld Sim Pedal Ultimate
 * Heusinkveld Sim Pedal Ultimate+
