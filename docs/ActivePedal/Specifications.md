@@ -7,8 +7,8 @@
 | Dimensions        | 100 x 250 x 402 mm                                                                                         |
 | Weight            | 6 kg                                                                                                       |
 | Connectors        | Simucube Link, two external passive pedal ports, power in, power out                                       |
-| Force range       | 1-170 kg (default) or 1-120 kg ([user configurable](Mechanical adjustments.md#optimizing-force-vs-travel)) |
-| Travel range      | 1-62 mm (default) or 1-79 mm ([user configurable](Mechanical adjustments.md#optimizing-force-vs-travel))   |
+| Force range       | Up to 170 kg (default) or up to 120 kg ([user configurable](Mechanical adjustments.md#optimizing-force-vs-travel)) |
+| Travel range      | 5-62 mm (default) or 5-79 mm ([user configurable](Mechanical adjustments.md#optimizing-force-vs-travel))   |
 | Power consumption | 10 - 100 W in average use, 480 W peak                                                                      |
 
 
