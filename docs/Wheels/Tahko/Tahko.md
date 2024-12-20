@@ -17,7 +17,7 @@
 4. Open True Drive. Connect the wheel by pressing both paddles for 5 seconds and using True Drive.
 5. The wheel is now ready to use.
 
-For Simucube Tuner wireless wheel pairing instructions, please visit the [Wireless wheels](../Tuner/Wireless%20wheels.md) page in the Tuner section.
+For Simucube Tuner wireless wheel pairing instructions, please visit the [Wireless wheels](../../Tuner/Wireless%20wheels.md) page in the Tuner section.
 
 ![](assets%2Ftahko_wheel_battery.svg#gh-light-mode-only)
 ![](assets%2Ftahko_wheel_battery_dark.svg#gh-dark-mode-only)

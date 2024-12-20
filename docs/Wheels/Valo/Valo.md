@@ -1,8 +1,8 @@
-# Simucube Valo GT-23
+# Simucube Valo
 ## Package contents
 | Item                            | Quantity |
 |---------------------------------|----------|
-| **1** Simucube Valo GT-23       | 1 pc     |
+| **1** Wheel                     | 1 pc     |
 | **2** USB Type-C charging cable | 1 pc     |
 | **3** Torx T-10 L-wrench        | 1 pc     |
 | **4** Quick Start Guide         | 1 pc     |
@@ -11,8 +11,8 @@
 ![](assets%2Fvalo_wheel_dark.svg#gh-dark-mode-only)
 
 ## Software & User guide
-The Simucube Valo GT-23 wheel is supported by the Simucube Tuner. Download the latest version of the Simucube software from [here](https://www.simucube.com/downloads)
-The user guide for the Simucube software can be found [here](../Tuner/index.md).
+The Simucube Valo wheels are supported by the Simucube Tuner. Download the latest version of the Simucube software from [here](https://www.simucube.com/downloads)
+The user guide for the Simucube software can be found [here](../../Tuner/index.md).
 
 ## Charging
 
