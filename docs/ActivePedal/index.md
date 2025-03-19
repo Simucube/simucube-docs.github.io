@@ -4,6 +4,8 @@ ActivePedal Ultimate is the world’s first pedal created by you. With unlimited
 
 ![](assets/triple%20activepedals.png)
 
+
+
 ## User guide
 
 Watch below the overview of installation. 

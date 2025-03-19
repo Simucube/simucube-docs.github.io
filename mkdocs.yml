@@ -151,9 +151,15 @@ nav:
         - Wheels/index.md
         - Valo: Wheels//Valo/Valo.md
         - Tahko: Wheels/Tahko/Tahko.md
-    - Tuner: 
+    - Tuner:
         - Tuner/index.md
         - Getting Tuner: Tuner/index.md
+        - Change log: Tuner/Changelog.md
+        - Overview: Tuner/overview/index.md
+        - Steering wheels: Tuner/Wireless wheels.md
+        - Wheelbase: Tuner/Wheelbase.md
+        - Pedal: ""
+        - Profiles: Tuner/Profiles.md
         - Enabling game telemetry effects:
           - Game telemetry setup: Tuner/games/index.md
           - Automobilista : Tuner/games/Automobilista.md
@@ -171,10 +177,7 @@ nav:
           - rFactor 2: Tuner/games/rf2.md
           - Richard Burns Rally: Tuner/games/RBR.md
           - WRC Generations: Tuner/games/WRC Generations.md
-        - Managing profiles: Tuner/Profiles.md
-        - Change log: Tuner/Changelog.md
         - Command line options: Tuner/Command line options.md
-        - Wireless wheels: Tuner/Wireless wheels.md
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:

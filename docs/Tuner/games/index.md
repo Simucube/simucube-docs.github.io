@@ -1,6 +1,6 @@
 # Game setup
 
-This section covers all supported simulator game titles. Overview of supported features and first time setup guides.
+This section covers all supported simulator game titles, mainly for Active Pedals. Overview of supported features and first time setup guides.
 
 Brake threshold vibration and clutch bite point effects don't require telemetry data and are available in all games.
 
