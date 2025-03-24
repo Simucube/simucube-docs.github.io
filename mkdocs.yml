@@ -156,9 +156,18 @@ nav:
         - Getting Tuner: Tuner/index.md
         - Change log: Tuner/Changelog.md
         - Overview: Tuner/overview/index.md
-        - Steering wheels: Tuner/Wireless wheels.md
-        - Wheelbase: Tuner/Wheelbase.md
-        - Pedal: ""
+        - Steering wheel: 
+          - Tuner/steeringwheel/index.md
+          - Input / Button Remap: Tuner/steeringwheel/Input_ButtonRemap.md
+          - LED Configuration: Tuner/steeringwheel/LedConfiguration.md
+        - Wheelbase:
+          - Tuner/wheelbase/index.md
+          - Effects: Tuner/wheelbase/WheelbaseEffects.md
+          - Settings: Tuner/wheelbase/WheelbaseSettings.md
+        - Pedals:
+          - Tuner/pedals/index.md
+          - Active Pedal: Tuner/pedals/ActivePedal.md
+          - Passive Pedal: Tuner/pedals/PassivePedal.md
         - Profiles: Tuner/Profiles.md
         - Enabling game telemetry effects:
           - Game telemetry setup: Tuner/games/index.md

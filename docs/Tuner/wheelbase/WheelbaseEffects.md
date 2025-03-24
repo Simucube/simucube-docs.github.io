@@ -1,31 +1,3 @@
-From version 2.5.0 onwards, the Tuner software supports Simucube 2 wheelbases.
-
-Wheelbase view gives an option to change how Simucube 2 wheelbases (Ultimate, Pro, Sport) feel.
-
-- In top left corner press "hamburger" menu to open the **Settings** or to reset the center of your steering wheel with **Reset Center** button.
-- Below the "hamburger" menu is couple of icons:
-    - <font color="orange">**Power icon**</font> = indicator if high torque mode is active.
-    - <font color="orange">**Fault icon**</font> = indicates if there is an issue with the wheelbase.
-    - <font color="orange">**Torque-off icon**</font> = indicates if the emergency button has been pressed.
-
-![](assets/WheelbaseView.png)
-
-### High Torque
-
-- Clicking the **High Torque** toggle button, popup will appear descriping the dangers of this feature.
-    - Scroll all the way down to unlock the **Activate high torque mode** button.
-
-- You can avoid having to do this process each time you toggle the high torque mode:
-    1. Scroll all the way down
-    2. Tap the **Automatic activation on each start**
-    3. Wait for 10 second counter that appears
-    4. Tap the **Automatic activation on each start** button again to check the box
-    5. Tap the **Activate high torque mode** button
-    6. Follow popup message instructions to confirm the automatic high torque mode feature
-
-
-![](assets/WheelbaseHighTorquePopup.png)
-
 ## Basic Settings
 These settings control the general behavior of the wheel base.
 ### Max Strength
@@ -90,6 +62,8 @@ How much the signal is removed at that frequency.
 ### Q Factor
 How accurately the signal frequency is removed. Higher Q factor is more accurate at that frequency, where as lower Q factor removes FFB signals also from around this frequency.
 
+---
+
 ## Ultimate Filters
 These are filters that are only available on Simucube 2 Ultimate.
 ### Static Force Reduction Speed
@@ -98,6 +72,8 @@ This controls how fast the static force is removed, if the static force reductio
 This adds additional damping around wheel center position. The additional damping is applied smoothly when wheel is turned to within certain limit of center position.
 ### Center Damping Angle Span
 This controls how wide rotation range around the wheel center point the Center Damping filter is being applied to.
+
+---
 
 ## Game Effects
 These are separate adjustments for any DirectInput effects that the simulator may use to create additional, non physics based FFB effects. The adjustments here are best left at 100%. Any sliders do not have any effect unless the particular simulator uses these effects. Not many modern racing simulators use these effects. Earlier simulators such as GTR from 2005 is using these extensively.

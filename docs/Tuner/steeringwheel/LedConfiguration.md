@@ -1,81 +1,3 @@
-From version 2.0.0 onwards, the Tuner software Simucube supports wireless steering wheels through [Simucube Link Hub](../Developers/Simucube%20Link.md#simucube-link-hub).
-
-## Getting started
-
-### Connect a new wheel
-
-1. Press **Add device** button
-
-![](assets/AddDevices.png)
-
-2. Select **Wireless wheel** from list
-3. Turn on the wheel
-
-## Manage Connections menu
-### Open Manage Connections menu
-1. Select Steering Wheel from the device list in overview or in left side panel
-2. In top left corner press "hamburger" menu which will open up the list of option and press **Manage Connections** button
-
-![](assets/SteeringWheelValoViewMenu.png)
-![](assets/SteeringWheelValoViewMenuManageConnections.png)
-
-### Disconnect a wheel
-1. From the wheel config menu press **Disconnect** button
-2. Turn off the wheel
-
-### Forget a connected wheel
-1. From the wheel config menu press **Forget** button on the row of the wheel you want to forget
-
-## Configure menu
-### Open Configure menu
-1. Select Steering Wheel from the device list in overview or in left side panel
-2. In top left corner press "hamburger" menu which will open up the list of option and press **Configure Wheel** button
-
-![](assets/SteeringWheelValoViewMenu.png)
-![](assets/SteeringWheelValoViewMenuConfigureWheel.png)
-
-### Calibrate analog paddles
-- Follow the instructions on the screen and adjust the maximum and minimum values of the analog paddles
-so that in the end the resting position the output is 0% and when the paddle is fully pressed the output is 100%
-
-### Change analog paddles function
-- Select the desired function for each analog paddle from the drop-down menu
-
-### Bite point adjustment
-- Use the slider labeled **Adjust Bite Point** to adjust the bite point
-    - this will adjust max value of the secondary axis.
-    - Test the bite point by pressing the analog paddles
-
-## Input
-### Open Input tab
-1. Select Steering Wheel from the device list in overview or in left side panel
-2. In top left corner under the  "hamburger" menu is a tab called "**Input**". Usually when you open the steering wheel this tab is automatically selected.
-
-![](assets/SteeringWheelValoViewInput.png)
-
-### Remap buttons
-
-By pressing any highlighted part of the steering wheel image, submenu will appear. Here, you can change your button to funcion however you like based on the labels.
-
-:bulb: <font color="orange">**CW** = clockwise, **CCW** = counter clockwise</font>
-
-
-![](assets/SteeringWheelValoViewInputRemapSubmenu.png)
-
-- If you see yellow color over a button, it means that the 
-
-### Configure Button Labels
-
-Button labels are useful for users who have multiple steering wheels. Button labels can be changed, added or deleted which will take affect also for other steering wheels, reducing the repative action of labeling all sterring wheels from the scratch.
-
-![](assets/SteeringWheelValoViewMenu.png)
-![](assets/SteeringWheelValoViewMenuConfigureButtonLabels.png)
-
-Colors and their meaning:
-
-- Orange = has already been used
-- Gray = Has not been used in anything
-
 ## LED
 ### Open LED config tab
 1. Select Steering Wheel from the device list in overview or in left side panel
@@ -121,7 +43,7 @@ Colors and their meaning:
 2. In the bottom panel you can now click the square. The square is divided into two parts, top and bottom (depending on the effect) and you can select them. 
     - When you select, an white indicator will tell you that that part of the LED has been selected.
 3. Choose a color picker and pick the color you like.
-    - Make sure you have color not selected as black, since more darker color you choose, more dimmer it appears.
+    - <font color="orange">Make sure you have color not selected as black, since more darker color you choose, more dimmer it appears.</font>
 4. For visualization, press test button. 
 
 ![](assets/SteeringWheelValoViewLEDEditSelectColor.png)
@@ -137,6 +59,7 @@ Each LED can be used in up to eight (8) different effects and you can see which 
 
 ![](assets/SteeringWheelValoViewLEDEditSelectLED.png)
 
+---
 
 ## Car configuration menu
 ### Open Car configuration menu

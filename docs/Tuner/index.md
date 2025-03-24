@@ -1,4 +1,4 @@
-# Simucube Tuner
+# Simucube Tuner Software
 
 Tuner is the configuration sofware tool for Simucube Link based devices, such as ActivePedal, wireless steering wheels and simucube 2 wheelbases.
 
