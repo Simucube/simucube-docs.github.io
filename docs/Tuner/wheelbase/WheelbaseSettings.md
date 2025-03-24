@@ -14,7 +14,7 @@ This setting allows to make the device give an audible notification whenever max
 
 This adds a centering spring effect to the wheel. The setting only has effect when no simulator is running and there are no FFB effects. This can be useful if there is a simulator or a game that does not have FFB at all.
 
-### Hands-off detection security
+### Hands-off detection sensitivity
 
 This setting controls how easily the wheel base will return into safe torque mode if driver lets go of the steering wheel. Wheel base returns to high torque mode again when hands are detected on the wheel.
 
