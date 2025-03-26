@@ -4,7 +4,7 @@ Wheelbase configure view allows to set some parameters that are typically not ad
 
 ### Audible notifications
 
-Some audible notifications can be turned off with this setting. However no device safety related audible notifications such as high torque mode beeps are affected.
+Some audible notifications can be turned off with this setting. However, no device safety related audible notifications such as high torque mode beeps are affected.
 
 ### Additional torque clipping notification
 
@@ -16,23 +16,22 @@ This adds a centering spring effect to the wheel. The setting only has effect wh
 
 ### Hands-off detection sensitivity
 
-This setting controls how easily the wheel base will return into safe torque mode if driver lets go of the steering wheel. Wheel base returns to high torque mode again when hands are detected on the wheel.
-
+This setting controls how easily the wheelbase will return into safe torque mode if driver lets go of the steering wheel. Wheelbase returns to high torque mode again when hands are detected on the wheel.
 
 ### Resonance reduction
 
-This sets a wheel base internal filter to cut off some frequencies that are known to audibly resonate some wheels, causing an unwanted constant faint beep type of tone from the combined wheel base + wheel system.
-
+This sets a wheelbase internal filter to cut off some frequencies that are known to audibly resonate some wheels, causing an unwanted constant faint beep type of tone from the combined wheelbase + wheel system.
 
 ### Reset FFB device state
 
-This button can be used to reset the internal FFB effect memory, 360 Hz data rate mode, and simulator-set steering angle. These can be left on the device if e.g. simulator or Windows has crashed but wheel base has stayed powered on.
+This button can be used to reset the internal FFB effect memory, 360 Hz data rate mode, and simulator-set steering angle. These can be left on the device if e.g. simulator or Windows has crashed but wheelbase has stayed powered on.
 
 ### Download device logs
 
-This downloads wheel base internal device state change logs. Logs have maximum of 1000 events, and are not saved. The log starts from the wheel base's latest startup.
+This downloads wheelbase internal device state change logs. Logs have maximum of 1000 events and are not saved. The log starts from the wheelbase’s latest startup.
 
 ### Configure analog inputs
 
 This opens a window where the analog inputs from Simucube 2 Accessory Port can be configured and calibrated.
+
 

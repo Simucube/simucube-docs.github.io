@@ -18,7 +18,7 @@ From version 2.0.0 onwards, the Tuner software Simucube supports wireless steeri
 ## Manage Connections menu
 ### Open Manage Connections menu
 1. Select Steering Wheel from the device list in overview or in left side panel
-2. In top left corner press "hamburger" menu which will open up the list of option and press **Manage Connections** button
+2. In top left corner press "hamburger" menu which will open the list of option and press **Manage Connections** button
 
 ![](assets/SteeringWheelValoViewMenu.png)
 ![](assets/SteeringWheelValoViewMenuManageConnections.png)
@@ -35,7 +35,7 @@ From version 2.0.0 onwards, the Tuner software Simucube supports wireless steeri
 ## Configure menu
 ### Open Configure menu
 1. Select Steering Wheel from the device list in overview or in left side panel
-2. In top left corner press "hamburger" menu which will open up the list of option and press **Configure Wheel** button
+2. In top left corner press "hamburger" menu which will open the list of option and press **Configure Wheel** button
 
 ![](assets/SteeringWheelValoViewMenu.png)
 ![](assets/SteeringWheelValoViewMenuConfigureWheel.png)
@@ -51,3 +51,5 @@ so that in the end the resting position the output is 0% and when the paddle is 
 - Use the slider labeled **Adjust Bite Point** to adjust the bite point
     - this will adjust max value of the secondary axis.
     - Test the bite point by pressing the analog paddles
+
+

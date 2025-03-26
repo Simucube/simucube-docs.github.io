@@ -166,9 +166,8 @@ nav:
           - Settings: Tuner/wheelbase/WheelbaseSettings.md
         - Pedals:
           - Tuner/pedals/index.md
-          - Active Pedal: Tuner/pedals/ActivePedal.md
-          - Passive Pedal: Tuner/pedals/PassivePedal.md
         - Profiles: Tuner/Profiles.md
+        - Command line options: Tuner/Command line options.md
         - Enabling game telemetry effects:
           - Game telemetry setup: Tuner/games/index.md
           - Automobilista : Tuner/games/Automobilista.md
@@ -186,7 +185,6 @@ nav:
           - rFactor 2: Tuner/games/rf2.md
           - Richard Burns Rally: Tuner/games/RBR.md
           - WRC Generations: Tuner/games/WRC Generations.md
-        - Command line options: Tuner/Command line options.md
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:

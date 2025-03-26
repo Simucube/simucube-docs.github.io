@@ -14,7 +14,7 @@ From version 2.0.0 onwards, the Tuner software Simucube supports wireless steeri
 ## Manage Connections menu
 ### Open Manage Connections menu
 1. Select Steering Wheel from the device list in overview or in left side panel
-2. In top left corner press "hamburger" menu which will open up the list of option and press **Manage Connections** button
+2. In top left corner press "hamburger" menu which will open the list of option and press **Manage Connections** button
 
 ![](assets/SteeringWheelValoViewMenu.png)
 ![](assets/SteeringWheelValoViewMenuManageConnections.png)
@@ -29,7 +29,7 @@ From version 2.0.0 onwards, the Tuner software Simucube supports wireless steeri
 ## Configure menu
 ### Open Configure menu
 1. Select Steering Wheel from the device list in overview or in left side panel
-2. In top left corner press "hamburger" menu which will open up the list of option and press **Configure Wheel** button
+2. In top left corner press "hamburger" menu which will open the list of option and press **Configure Wheel** button
 
 ![](assets/SteeringWheelValoViewMenu.png)
 ![](assets/SteeringWheelValoViewMenuConfigureWheel.png)
@@ -49,16 +49,15 @@ so that in the end the resting position the output is 0% and when the paddle is 
 ## Input
 ### Open Input tab
 1. Select Steering Wheel from the device list in overview or in left side panel
-2. In top left corner under the  "hamburger" menu is a tab called "**Input**". Usually when you open the steering wheel this tab is automatically selected.
+2. In top left corner under the ”hamburger" menu is a tab called "**Input**". Usually when you open the steering wheel this tab is automatically selected.
 
 ![](assets/SteeringWheelValoViewInput.png)
 
 ### Remap buttons
 
-By pressing any highlighted part of the steering wheel image, submenu will appear. Here, you can change your button to funcion however you like based on the labels.
+By pressing any highlighted part of the steering wheel image, submenu will appear. Here, you can change your button to function however you like based on the labels.
 
 :bulb: <font color="orange">**CW** = clockwise, **CCW** = counter clockwise</font>
-
 
 ![](assets/SteeringWheelValoViewInputRemapSubmenu.png)
 
@@ -66,7 +65,7 @@ By pressing any highlighted part of the steering wheel image, submenu will appea
 
 ### Configure Button Labels
 
-Button labels are useful for users who have multiple steering wheels. Button labels can be changed, added or deleted which will take affect also for other steering wheels, reducing the repative action of labeling all sterring wheels from the scratch.
+Button labels are useful for users who have multiple steering wheels. Button labels can be changed, added or deleted which will take affect also for other steering wheels, reducing the repetitive action of labeling all steering wheels from the scratch.
 
 ![](assets/SteeringWheelValoViewMenu.png)
 ![](assets/SteeringWheelValoViewMenuConfigureButtonLabels.png)
@@ -79,10 +78,9 @@ Colors and their meaning:
 ## LED
 ### Open LED config tab
 1. Select Steering Wheel from the device list in overview or in left side panel
-2. In top left corner under the  "hamburger" menu is a tab called "**LED**". Select the tab.
+2. In top left corner under the ”hamburger" menu is a tab called "**LED**". Select the tab.
 
 ![](assets/SteeringWheelValoViewLED.png)
-
 
 ### Adjust LED brightness
 - Use the slider labeled **LED Brightness** to adjust the brightness of the LEDs
@@ -106,22 +104,22 @@ Colors and their meaning:
 
 ![](assets/SteeringWheelValoViewLEDEditAddEffectSameEffect.png)
 
-- The right side panel is effect list and is in hierarchical order starting from the top.
+- The right-side panel is effect list and is in hierarchical order starting from the top.
     - Click any of the effects to select it, it will become highlighted with orange color.
     - Click and hold three (3) lines to move the effect up or down.
-    - X on the right side area will delete the effect from the list.
+    - X on the right-side area will delete the effect from the list.
 
-- Icon with three (3) hollowed circles indicate an ramping effect
-- Icon with circle and dot in middle idicates non-ramping effect
+- Icon with three (3) hollowed circles indicate a ramping effect
+- Icon with circle and dot in middle indicates non-ramping effect
 
 ### Editing LED colors ###
 
 1. Select the LED(s) you would like to change from the image, by clicking the LED location area. 
     - Selected LEDs will appear at the bottom panel.
 2. In the bottom panel you can now click the square. The square is divided into two parts, top and bottom (depending on the effect) and you can select them. 
-    - When you select, an white indicator will tell you that that part of the LED has been selected.
+    - When you select, a white indicator will tell you that that part of the LED has been selected.
 3. Choose a color picker and pick the color you like.
-    - Make sure you have color not selected as black, since more darker color you choose, more dimmer it appears.
+    - Make sure you have color not selected as black, since darker color you choose, more dimmer it appears.
 4. For visualization, press test button. 
 
 ![](assets/SteeringWheelValoViewLEDEditSelectColor.png)
@@ -136,7 +134,6 @@ Colors and their meaning:
 Each LED can be used in up to eight (8) different effects and you can see which effect the LED has by hovering over the LED.
 
 ![](assets/SteeringWheelValoViewLEDEditSelectLED.png)
-
 
 ## Car configuration menu
 ### Open Car configuration menu
@@ -166,9 +163,11 @@ RPM value for when the blinking starts.
 RPM value for the maximum RPM of the car.
 
 ### Adjusting RPM range values
-- If the game you are playing offers the car rpm range through the telemetry, the RPM values are ignored and can not be adjusted. 
+- If the game you are playing offers the car rpm range through the telemetry, the RPM values are ignored and cannot be adjusted. 
   To adjust the RPM range, you need to unselect the **Use car specific profile** checkbox and adjust values in the Default car profile.
 - The RPM range can be specified as **Relative** or **Absolute**.
   - **Relative** means that the RPM range values are relative to the **Engine rev limit RPM** and set as percentages between the different RPM values.
   - **Absolute** means that the RPM range values set as RPM values.
   - If desired, the RPM ranges can be adjusted separately for each gear using the table in section **Change shift lights by active transmission gear**.
+
+

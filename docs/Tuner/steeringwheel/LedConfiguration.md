@@ -1,10 +1,9 @@
 ## LED
 ### Open LED config tab
 1. Select Steering Wheel from the device list in overview or in left side panel
-2. In top left corner under the  "hamburger" menu is a tab called "**LED**". Select the tab.
+2. In top left corner under the ”hamburger" menu is a tab called "**LED**". Select the tab.
 
 ![](assets/SteeringWheelValoViewLED.png)
-
 
 ### Adjust LED brightness
 - Use the slider labeled **LED Brightness** to adjust the brightness of the LEDs
@@ -28,22 +27,22 @@
 
 ![](assets/SteeringWheelValoViewLEDEditAddEffectSameEffect.png)
 
-- The right side panel is effect list and is in hierarchical order starting from the top.
+- The right-side panel is effect list and is in hierarchical order starting from the top.
     - Click any of the effects to select it, it will become highlighted with orange color.
     - Click and hold three (3) lines to move the effect up or down.
-    - X on the right side area will delete the effect from the list.
+    - X on the right-side area will delete the effect from the list.
 
-- Icon with three (3) hollowed circles indicate an ramping effect
-- Icon with circle and dot in middle idicates non-ramping effect
+- Icon with three (3) hollowed circles indicate a ramping effect
+- Icon with circle and dot in middle indicates non-ramping effect
 
 ### Editing LED colors ###
 
 1. Select the LED(s) you would like to change from the image, by clicking the LED location area. 
     - Selected LEDs will appear at the bottom panel.
 2. In the bottom panel you can now click the square. The square is divided into two parts, top and bottom (depending on the effect) and you can select them. 
-    - When you select, an white indicator will tell you that that part of the LED has been selected.
+    - When you select, a white indicator will tell you that that part of the LED has been selected.
 3. Choose a color picker and pick the color you like.
-    - <font color="orange">Make sure you have color not selected as black, since more darker color you choose, more dimmer it appears.</font>
+    - <font color="orange">Make sure you have color not selected as black, since darker color you choose, dimmer it appears. </font>
 4. For visualization, press test button. 
 
 ![](assets/SteeringWheelValoViewLEDEditSelectColor.png)
@@ -89,9 +88,11 @@ RPM value for when the blinking starts.
 RPM value for the maximum RPM of the car.
 
 ### Adjusting RPM range values
-- If the game you are playing offers the car rpm range through the telemetry, the RPM values are ignored and can not be adjusted. 
+- If the game you are playing offers the car rpm range through the telemetry, the RPM values are ignored and cannot be adjusted. 
   To adjust the RPM range, you need to unselect the **Use car specific profile** checkbox and adjust values in the Default car profile.
 - The RPM range can be specified as **Relative** or **Absolute**.
   - **Relative** means that the RPM range values are relative to the **Engine rev limit RPM** and set as percentages between the different RPM values.
   - **Absolute** means that the RPM range values set as RPM values.
   - If desired, the RPM ranges can be adjusted separately for each gear using the table in section **Change shift lights by active transmission gear**.
+
+
