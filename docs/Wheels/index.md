@@ -6,4 +6,4 @@ Here are the manuals for the Simucube wheels.
 
 [Simucube Tahko GT-21 and Round-23](./Tahko/Tahko.md)
 
-For Tuner related wheel docs, please visit the [Tuner](../Tuner/Wireless%20wheels.md) page.
+For Tuner related wheel docs, please visit the [Tuner](../Tuner/steeringwheel/index.md) page.
