@@ -147,6 +147,22 @@ nav:
         - Specifications: Simucube Throttle/Specifications.md
         - Drawings & 3D models: Simucube Throttle/Drawings.md
         - Damper: Simucube Throttle/damper.md
+    - Simucube 2: 
+        - Simucube 2/index.md
+        - Hazards & safety: Simucube 2/Safety.md
+        - Hardware & software setup:
+          - Items needed: Simucube 2/Items needed.md
+          - Mounting: Simucube 2/Mounting.md
+          - Cabling: Simucube 2/Cabling.md
+          - Software setup: Simucube 2/Software/First use.md
+        - Driving tips: Simucube 2/Driving.md
+        - FFB Strength setup: Simucube 2/Setting up FFB strength.md
+        - Simucube 2 Quick Release: 
+          - Installing Quick release to a wheel: Simucube 2/simucube 2 quick release.md
+          - Simucube 2 Quick Release (motor side): Simucube 2/simucube 2 qr motor side.md
+        - Troubleshooting:
+          - Led color codes: Simucube 2/simucube 2 led cycles.md
+          - Self-service instructions: Simucube 2/simucube 2 self service.md
     - Wheels:
         - Wheels/index.md
         - Valo: Wheels//Valo/Valo.md

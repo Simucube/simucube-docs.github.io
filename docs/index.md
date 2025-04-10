@@ -5,6 +5,7 @@ These pages contain the latest information for the following Simucube products a
 - [ActivePedal Ultimate](ActivePedal/index.md)
 - [ActivePedal Pro](ActivePedalPro/index.md)
 - [Baseplate](ActivePedal/Baseplate.md)
+- [Simucube 2](Simucube 2/index.md)
 - [Tuner software](Tuner/index.md)
 - [Throttle](Simucube%20Throttle/index.md)
 - Developer information
