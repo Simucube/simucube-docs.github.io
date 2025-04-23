@@ -157,6 +157,8 @@ nav:
           - Software setup: Simucube 2/Software/First use.md
         - Driving tips: Simucube 2/Driving.md
         - FFB Strength setup: Simucube 2/Setting up FFB strength.md
+        - Drawings & 3D models: Simucube 2/Drawings.md
+
         - Simucube 2 Quick Release: 
           - Installing Quick release to a wheel: Simucube 2/simucube 2 quick release.md
           - Simucube 2 Quick Release (motor side): Simucube 2/simucube 2 qr motor side.md
@@ -205,4 +207,5 @@ nav:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:
         - Electrical pinouts: Developers/ActivePedal/Pinouts.md
+      - Simucube 2: Simucube 2/Developers.md
 #        - API: Developers/ActivePedal/API.md
