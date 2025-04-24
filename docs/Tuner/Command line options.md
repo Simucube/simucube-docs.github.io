@@ -2,19 +2,24 @@ Tuner accepts a few command line arguments for allowing automating some actions 
 
 ```
 sc-tuner.exe [options] [profile file...]
-  Launching secondary instance will pass the arguments to the primary instance
+  Launching secondary instance will pass the arguments to the primary instance
 
 Options:
-  profile file(s)         - Path to one or more profile files that should be imported to the local database.
-  --start-all             - Start all connected devices. Works only when given to the secondary
-                            instance. WILL CAUSE DEVICES TO MOVE.
-  --load uuid1,uuid2..    - Load profiles using unique identifiers. Profile identifiers must be followed in comma separated list.
-                            NOTE: Will overwrite any unsaved changes!
-  --tray                  - Don't create a window. Only launch as a tray icon.
-                            If given to secondary instance, then primary instance window won't be brought on top.
-  --no-minimize-to-tray   - Close application once the main window is closed.
-  --help                  - Print this information and exit.
-  --version               - Print software version number and exit.
+  profile file(s)         - Path to one or more profile files that should be imported to the local database.
+  --start-all             - Start all connected devices. Works only when given to the secondary
+                            instance. WILL CAUSE DEVICES TO MOVE.
+  --load uuid1,uuid2..    - Load profiles using unique identifiers. Profile identifiers must be followed in comma separated list.
+                            NOTE: Will overwrite any unsaved changes!
+  --tray                  - Don't create a window. Only launch as a tray icon.
+                            If given to secondary instance, then primary instance window won't be brought on top.
+  --no-minimize-to-tray   - Close application once the main window is closed.
+  --read-only-mode        - Starts Tuner in read only mode or changes already running Tuner instace to read only mode.
+                            In read only mode profiles can be changed but not edited
+  --locked-mode           - Starts Tuner in locked mode or changes already running Tuner instace to locked mode.
+                            In locked mode profiles can not be changed or edited
+  --normal-mode           - Changes already running Tuner instance to normal mode.
+  --help                  - Print this information and exit.
+  --version               - Print software version number and exit.
 
 ```
 
