@@ -5,7 +5,7 @@ Simucube 2 wheelbase must always be mounted rigidly on to the simulator rig for 
 Sport and Pro models have threaded mounting holes in the front flange, so locking nuts are not required.
 
 ### Front mounting with a separate Mount
-Simucube 2 supports front mounting to popular sim racing rigs by using a mounting brackets such as the Simucube Mount product.
+Simucube 2 supports front mounting to popular sim racing rigs by using a mounting brackets such as the [Simucube Mount](mount.md) product.
 
 ![](assets/sc2frontmountbracket.png)
 
