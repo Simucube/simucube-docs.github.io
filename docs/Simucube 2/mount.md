@@ -15,7 +15,7 @@ All dimensions are in mm.
 
 Print this file on A4 in 1:1 scale.
 
-[:material-download-circle: Simucube Mount drilling pattern](simucube_mount_drilling_guide_2021-08-12.pdf)
+[:material-download-circle: Simucube Mount drilling pattern](assets/simucube_mount_drilling_guide_2021-08-12.pdf)
 
 ### Installation
 
