@@ -6,6 +6,7 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 
 | Game                       | ABS              | TC <sup>1</sup>  | RPM              | G-Force          | Brake Lockup     | Setup <sup>2</sup>                         |
 |----------------------------|------------------|------------------| ---------------- | ---------------- |------------------|--------------------------------------------|
+| American Truck Simulator   |                  |                  | :material-check: | :material-check: |                  | Automatic                                  |
 | Assetto Corsa              | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                                  |
 | Assetto Corsa Competizione | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                                  |
 | Automobilista              |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](Automobilista.md)      |
@@ -14,6 +15,7 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 | Codemasters F1             |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](F1.md)                 |
 | Dirt Rally 1 & 2           |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](DirtRally.md)          |
 | EA Sports WRC              |                  |                  | :material-check: | :material-check: | :material-check: | [Automatic*](EA Sports WRC.md)             |
+| Euro Truck Simulator 2     |                  |                  | :material-check: | :material-check: |                  | Automatic                                  |
 | Forza Motorsport 8         |                  |                  | :material-check: | :material-check: |                  | [:material-wrench:](Forza Motorsport 8.md) |
 | Live for Speed             | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](LFS.md)                |
 | Le Mans Ultimate           | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](LMU.md)                |
