@@ -47,6 +47,6 @@ Insert the adapter around the cone clamp and the motor shaft. Tighten the four c
   
 ![](assets/sc2qr_motorside_assembly_2.png)
 
-Remove the paper towel, insert the motor side plate and tighten its three bolts.
+Remove the paper towel, insert the motor side plate and tighten its three bolts. The original bolts are M5x25 hex head bolts and the washer are locking washers.
 
 ![](assets/sc2qr_motorside_assembly_3.png)
