@@ -17,6 +17,7 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 | EA Sports WRC              |                  |                  | :material-check: | :material-check: | :material-check: | [Automatic*](EA Sports WRC.md)             |
 | Euro Truck Simulator 2     |                  |                  | :material-check: | :material-check: |                  | Automatic                                  |
 | Forza Motorsport 8         |                  |                  | :material-check: | :material-check: |                  | [:material-wrench:](Forza Motorsport 8.md) |
+| GTR 2                      |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](gtr2.md)               |
 | Live for Speed             | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](LFS.md)                |
 | Le Mans Ultimate           | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](LMU.md)                |
 | iRacing                    | :material-check: |                  | :material-check: | :material-check: |                  | Automatic                                  |
