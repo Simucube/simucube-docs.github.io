@@ -1,0 +1,2 @@
+## Enabling game support
+To enable game support in Tuner, create a **Plugins** folder in the root folder where the game is installed if it doesn't already exist, and copy **sc-gtr2-plugin-x86.dll** file from Tuner installation folder **data/game_plugins/** to it.
