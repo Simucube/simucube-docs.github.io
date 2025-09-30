@@ -13,6 +13,7 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 | Automobilista 2            | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](Automobilista2.md)     |
 | BeamNG.drive               | :material-check: | :material-check: | :material-check: | :material-check: |                  | [:material-wrench:](BeamNG.md)             |
 | Codemasters F1             |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](F1.md)                 |
+| Copa Petrobras de Marcas   |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](cpdm.md)               |
 | Dirt Rally 1 & 2           |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](DirtRally.md)          |
 | EA Sports WRC              | :material-check: |                  | :material-check: | :material-check: | :material-check: | [Automatic*](EA Sports WRC.md)             |
 | Euro Truck Simulator 2     |                  |                  | :material-check: | :material-check: |                  | Automatic                                  |
