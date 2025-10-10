@@ -93,7 +93,7 @@ The wheel has a power button (1) on the backside. When pressed down, the wheel i
 ### Connection
 The RGB lights on the wheel remain off until the wheel is connected. To connect the wheel, first press the power button (1) to turn the wheel on. When the wheel is attempting to connect, the power LED (3) will blink orange slowly. After pressing the power button (1), the wheel will attempt to connect for 10 seconds. If the connection is not made within this time, the wheel will enter sleep mode. To re-enter connection mode, press both paddles (3) simultaneously. The power LED will blink orange slowly for another 10 seconds as the wheel is trying to connect. Once a connection is successfully established, the power LED (3) will blink quickly three times, then turn off, and the RGB lights on the wheel will turn on. 
 
-Further instructions for connecting the wheel to the Tuner software can be found [here](../../Tuner/Wireless wheels.md).
+Further instructions for connecting the wheel to the Tuner software can be found [here](../../Tuner/steeringwheel/index.md).
 
 ![](assets%2Fconnection_sequel.svg#gh-light-mode-only)
 ![](assets%2Fconnection_sequel_dark.svg#gh-dark-mode-only)
