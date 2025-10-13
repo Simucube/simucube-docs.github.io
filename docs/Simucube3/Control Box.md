@@ -9,7 +9,7 @@ Before making configuration changes, make sure your Control Box is connected to 
 
 ### 1: Torque off
 
-Used as an emergency stop when all connected devices need to be quickly powered off. Press to activate, rotate clockwise to release.
+Used as an emergency stop when the wheelbase torque needs to be quickly powered off. Press to activate, rotate clockwise to release.
 
 ### 2: Torque adjustment / Quick zero
 
