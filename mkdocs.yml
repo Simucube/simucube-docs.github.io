@@ -64,8 +64,8 @@ plugins:
     - redirects:
         redirect_maps:
           'ActivePedal/Getting started.md': 'ActivePedal/index.md'
-          'Tuner/Download.md': 'Tuner/index.md'
-          'ActivePedal/games/index.md' : 'Tuner/games/index.md'
+          'TunerSoftware/TunerLegacy/Download.md': 'TunerSoftware/TunerLegacy/index.md'
+          'ActivePedal/games/index.md' : 'TunerSoftware/TunerLegacy/games/index.md'
 
 markdown_extensions:
   - admonition
@@ -184,7 +184,7 @@ nav:
         - Specifications: Simucube Throttle/Specifications.md
         - Drawings & 3D models: Simucube Throttle/Drawings.md
         - Damper: Simucube Throttle/damper.md
-    - Wheels:
+    - Steering Wheels:
         - Wheels/index.md
         - Valo: Wheels//Valo/Valo.md
         - Tahko: Wheels/Tahko/Tahko.md
@@ -195,45 +195,50 @@ nav:
         - Simucube 3 - 70mm Adapter: Accessories/70Adapter.md   
         - Simucube 3 - Shaft Extension Kit: Accessories/ExtensionKit.md        
         - Simucube 2 - Link Quick release Adapter: Accessories/SC2Adapter.md
-        - Simucube 2 - Wheel side Quick Release: Accessories/simucube 2 quick release.md
-        - Simucube Mount: Accessories/mount.md
+        - Simucube 2 - Wheel side Quick Release: Accessories/simucube 2 quick release.md1
+        - Simucube Mount: Accessories/mount.md  
         - ActivePedal - Baseplate: Accessories/Baseplate.md
         - ActivePedal - Heusinkveld Adapter: Accessories/Heusinkveld adapter.md
         - Throttle - Damper: Accessories/damper.md
-    - Tuner:
-        - Tuner/index.md
-        - Getting Tuner: Tuner/index.md
-        - Change log: Tuner/Changelog.md
-        - Overview: Tuner/overview/index.md
-        - Steering wheel: 
-          - Tuner/steeringwheel/index.md
-          - Input / Button Remap: Tuner/steeringwheel/Input_ButtonRemap.md
-          - LED Configuration: Tuner/steeringwheel/LedConfiguration.md
-        - Wheelbase:
-          - Tuner/wheelbase/index.md
-          - Effects: Tuner/wheelbase/WheelbaseEffects.md
-          - Settings: Tuner/wheelbase/WheelbaseSettings.md
+    - Tuner Software:
+        - TunerSoftware/index.md
+        - Change log: TunerSoftware/changelog.md
+        - Tuner 3.0: 
+          - TunerSoftware/userinterface/index.md
+          - Profiles: TunerSoftware/userinterface/profiles.md
+          - Profile Handling: TunerSoftware/userinterface/profilehandling.md
+          - Automatic Profile Switch: TunerSoftware/userinterface/automaticprofileswitch.md
+        - Tuner Legacy Version:
+          - TunerSoftware/tunerlegacy/index.md
+          - Legacy Overview: TunerSoftware/tunerlegacy/overview.md
+        - Steering Wheels: 
+          - TunerSoftware/steeringwheel/index.md
+          - Input / Button Remap: TunerSoftware/steeringwheel/inputbuttonremap.md
+          - LED Configuration: TunerSoftware/steeringwheel/ledconfiguration.md
+        - Wheelbases: 
+          - TunerSoftware/wheelbases/index.md
+          - Simucube 2 Effects: TunerSoftware/wheelbases/wheelbaseeffects.md
+          - Simucube 2 Settings: TunerSoftware/wheelbases/wheelbasesettings.md
         - Pedals:
-          - Tuner/pedals/index.md
-        - Profiles: Tuner/Profiles.md
-        - Command line options: Tuner/Command line options.md
+          - TunerSoftware/pedals/index.md
+        - Command Line Options: TunerSoftware/commandlineoptions.md
         - Enabling game telemetry effects:
-          - Game telemetry setup: Tuner/games/index.md
-          - Automobilista : Tuner/games/Automobilista.md
-          - Automobilista 2: Tuner/games/Automobilista2.md
-          - BeamNG.drive: Tuner/games/BeamNG.md
-          - Codemasters F1: Tuner/games/F1.md
-          - Dirt Rally 1 & 2: Tuner/games/DirtRally.md
-          - EA Sports WRC: Tuner/games/EA Sports WRC.md
-          - Forza Motorsport 8: Tuner/games/Forza Motorsport 8.md
-          - Live for Speed: Tuner/games/LFS.md
-          - Le Mans Ultimate: Tuner/games/LMU.md
-          - Project CARS: Tuner/games/pCARS.md
-          - Project CARS 2: Tuner/games/pCARS2.md
-          - rFactor : Tuner/games/rf.md
-          - rFactor 2: Tuner/games/rf2.md
-          - Richard Burns Rally: Tuner/games/RBR.md
-          - WRC Generations: Tuner/games/WRC Generations.md
+          - Game telemetry setup: TunerSoftware/games/index.md
+          - Automobilista : TunerSoftware/games/Automobilista.md
+          - Automobilista 2: TunerSoftware/games/Automobilista2.md
+          - BeamNG.drive: TunerSoftware/games/BeamNG.md
+          - Codemasters F1: TunerSoftware/games/F1.md
+          - Dirt Rally 1 & 2: TunerSoftware/games/DirtRally.md
+          - EA Sports WRC: TunerSoftware/games/EA Sports WRC.md
+          - Forza Motorsport 8: TunerSoftware/games/Forza Motorsport 8.md
+          - Live for Speed: TunerSoftware/games/LFS.md
+          - Le Mans Ultimate: TunerSoftware/games/LMU.md
+          - Project CARS: TunerSoftware/games/pCARS.md
+          - Project CARS 2: TunerSoftware/games/pCARS2.md
+          - rFactor : TunerSoftware/games/rf.md
+          - rFactor 2: TunerSoftware/games/rf2.md
+          - Richard Burns Rally: TunerSoftware/games/RBR.md
+          - WRC Generations: TunerSoftware/games/WRC Generations.md
     - Developers:
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:
