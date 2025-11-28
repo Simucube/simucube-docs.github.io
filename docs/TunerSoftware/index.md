@@ -1,6 +1,6 @@
 # Simucube Tuner 3.0
 
-Tuner 3.0 is the next generation configuration software for Simucube Link based devices, including Simucube 3 and 2 wheelbases, Active Pedals, Simucube Throttle and wireless steering wheels.
+Tuner 3.0 is the next generation configuration software for Simucube Link based devices, including Simucube 3, ActivePedals, Simucube Throttle and wireless steering wheels. Simucube 2 wheelbases are also supported.
 
 ![](assets/tuner3_overview.png)
 

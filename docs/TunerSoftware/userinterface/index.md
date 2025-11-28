@@ -42,7 +42,7 @@ The top middle section in any view shows the status of the Automatic Profiles. T
 The Automatic Profiles works when you launch a simulator session. Tuner will detect which car and simulator you are using. It will also remember the previously used car after the sim is closed.
 
 !!! success "Checkmark next to Simulator Title"
-    If you want to experiment with e.g. different sets of profiles, and don't want your exsiting Automatic Profile setup getting messed up, you can uncheck the checkmark, which will stop the Automatic Profiles.
+    If you want to experiment with e.g. different sets of profiles, and don't want your existing Automatic Profile setup getting messed up, you can uncheck the checkmark, which will stop the Automatic Profiles functionality until it is checked again.
 
 ### ➜ Read more how [Automatic Profile Switch](automaticprofileswitch.md) works.
 

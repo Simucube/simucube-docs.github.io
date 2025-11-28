@@ -5,7 +5,7 @@ Tuner Software contains profiles for Wheelbase and Pedal devices.
 Profiles are quick and handy way to adjust parameters of your device to desired needs. Tuner contains built in default profiles, templates and even driver profiles, and creating your own profiles is also easy to do.
 
 - Simucube 2 wheelbase profiles can be downloaded from **Paddock** (community-based profile sharing).
-- Pedal profiles can be uploaded and downloaded from our discord server [Simucube Active Pedal Profiles](https://discord.gg/Hav8gd4U).
+- Pedal profiles can be uploaded and downloaded from our discord server [Simucube Active Pedal Profiles](https://discord.gg/simucube).
 
 !!! note "Note"
     You can [**Create shortcut for profiles**](../commandlineoptions.md).
@@ -82,7 +82,7 @@ User profiles are found easily through "My Profiles" in [Profile Handling.](user
 4. Profile is permanently removed
 
 !!! note "Note"
-    Cannot Delete Default nor Simucube Presets.
+    Default or Simucube Presets cannot be deleted completely.
 
 ## Export/Import
 

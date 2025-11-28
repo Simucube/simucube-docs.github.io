@@ -28,7 +28,7 @@ The illustration below demostrates how to connect a Simucube 3 wheelbase to a PC
 	
 ## Wheelbase + Active pedals
 
-To connect multiple Simucube devices to a single Simucube Link Hub, such as Active Pedals, an ethernet switch is required. One such configuration with two Active Pedal Pros is demonstrated in the illustration below.
+To connect multiple Simucube devices to a single Simucube Link Hub, such as ActivePedals, an ethernet switch is required. One such configuration with two ActivePedal Pro pedals is demonstrated in the illustration below.
 
 ![](assets/WiringWithPedalsLight.svg#gh-light-mode-only){width="900"}
 ![](assets/WiringWithPedalsDark.svg#gh-dark-mode-only){width="900"}

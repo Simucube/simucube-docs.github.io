@@ -1,6 +1,6 @@
 # Tuner Legacy Version
 
-Tuner 2.5 is the configuration software for Simucube Link based devices, including Active Pedal, Simucube Throttle, wireless steering wheels, and Simucube 2 wheelbases.
+Tuner 2.5 is the configuration software for Simucube Link based devices, including ActivePedals, Simucube Throttle, wireless steering wheels, and Simucube 2 wheelbases.
 
 ![](assets/Overview.png)
 

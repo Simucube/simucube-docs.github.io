@@ -31,8 +31,8 @@ Passing path to profile will open up the import dialog. From there you can decid
 
 ## Create shortcut for profiles
 
-1. Go to overview
-2. Top left corner is a "hamburger" menu, click it and select "Create shortcut for profiles..." button.
+1. Go to Settings view from the left-hand menu.
+2. On the general tab, in the Tuner section, use the button"Create shortcut for profiles..." 
 	- All currently active profiles will be included in the shortcut.
 3. Select the location where you want to save the shortcut file.
 4. Now if the shortcut is clicked, Tuner is started if it isn't already running and included profiles are activated. Test that it works correctly.
