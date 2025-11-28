@@ -17,6 +17,16 @@ Telemetry for both **Dirt Rally** and **Dirt Rally 2.0** games needs to be enabl
 
 ![](assets/dirt_telemetry_2.png)
 
+## Enabling Force Feedback for Simucube 3 on Dirt Rally 2.0
+
+Find your 
+steamapps\common\DiRT Rally 2.0\input\devices\device_defines.xml file.
+
+file. Add a new xml entry after 
+```<device_list>``` as follows, on a single line:
+
+``device id="{0D6616D0-0000-0000-0000-504944564944}" name="simucube link" priority="90" type="wheel" official="false" />``
+
 
 ## FAQ
 

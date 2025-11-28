@@ -222,7 +222,7 @@ nav:
         - Pedals:
           - TunerSoftware/pedals/index.md
         - Command Line Options: TunerSoftware/commandlineoptions.md
-        - Enabling game telemetry effects:
+        - Enabling game telemetry effects and FFB:
           - Game telemetry setup: TunerSoftware/games/index.md
           - Automobilista : TunerSoftware/games/Automobilista.md
           - Automobilista 2: TunerSoftware/games/Automobilista2.md

@@ -1,10 +1,11 @@
 # Game setup
 
-This section covers all supported simulator game titles, mainly for Active Pedals. Overview of supported features and first time setup guides.
+This section covers all supported simulator game titles, mainly for ActivePedals. Overview of supported features and first time setup guides.
 
 Brake threshold vibration and clutch bite point effects don't require telemetry data and are available in all games.
 
-| Game                       | ABS              | TC <sup>1</sup>  | RPM              | G-Force          | Brake Lockup     | Setup <sup>2</sup>                         |
+
+| Game                       | ABS              | TC <sup>1</sup>  | RPM              | G-Force          | Brake Lockup     | Setup <sup>2</sup> |
 |----------------------------|------------------|------------------| ---------------- | ---------------- |------------------|--------------------------------------------|
 | American Truck Simulator   |                  |                  | :material-check: | :material-check: |                  | Automatic                                  |
 | Assetto Corsa              | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                                  |
@@ -14,8 +15,8 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 | BeamNG.drive               | :material-check: | :material-check: | :material-check: | :material-check: |                  | [:material-wrench:](BeamNG.md)             |
 | Codemasters F1             |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](F1.md)                 |
 | Copa Petrobras de Marcas   |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](cpdm.md)               |
-| Dirt Rally 1 & 2           |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](DirtRally.md)          |
-| EA Sports WRC              | :material-check: |                  | :material-check: | :material-check: | :material-check: | [Automatic*](EA Sports WRC.md)             |
+| Dirt Rally 1 & 2           |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench: FFB <sup>3</sup>](DirtRally.md)           |
+| EA Sports WRC              | :material-check: |                  | :material-check: | :material-check: | :material-check: | [Automatic* FFB <sup>3</sup>](EA Sports WRC.md) |
 | Euro Truck Simulator 2     |                  |                  | :material-check: | :material-check: |                  | Automatic                                  |
 | Forza Motorsport 8         |                  |                  | :material-check: | :material-check: |                  | [:material-wrench:](Forza Motorsport 8.md) |
 | GTR 2                      |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](gtr2.md)               |
@@ -34,6 +35,8 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 <sup>1</sup> TC stands for Traction Control effect. Some games do not provide telemetry data needed for this effect.
 
 <sup>2</sup> Automatic in the table means that the game does not require game configuration. Just have the Tuner app running in background to use telemetry data.
+
+<sup>3</sup> For Simucube 3, FFB may need to be manually enabled in some older games.
 
 ## Checking game telemetry status
 
