@@ -18,18 +18,18 @@ Tuner 2.5 is the stable, configuration tool for:
 
 ## Latest Version
 
-[View complete changelog →](../Changelog.md)
+[View complete changelog →](../changelog.md)
 
 ## Quick Start Guides
 
-- [Using Tuner with Simucube 2](../Simucube%202/Software/First%20use.md)
-- [Using Tuner with ActivePedal](../ActivePedal/Software/First%20use.md)
-- [Using Tuner with Simucube Throttle](../Simucube%20Throttle/setup.md)
+- [Using Tuner with Simucube 2](../../Simucube%202/Software/First%20use.md)
+- [Using Tuner with ActivePedal](../../ActivePedal/Software/First%20use.md)
+- [Using Tuner with Simucube Throttle](../../Simucube%20Throttle/setup.md)
 
 ## Community & Support
 
 - **Discord**: Join [Simucube Discord](https://discord.gg/simucube) to chat with developers and community
-- **FAQ**: [ActivePedal FAQ](../ActivePedal/FAQ.md) | [Simucube 2 Troubleshooting](../Simucube%202/simucube%202%20self%20service.md)
+- **FAQ**: [ActivePedal FAQ](../../ActivePedal/FAQ.md) | [Simucube 2 Troubleshooting](../../Simucube%202/simucube%202%20self%20service.md)
 
 ## Looking for Tuner 3.0?
 

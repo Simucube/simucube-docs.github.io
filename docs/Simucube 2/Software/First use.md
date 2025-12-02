@@ -4,7 +4,7 @@ This section goes through the basic first-time use setup of the Simucube 2 wheel
 
 ## 1. Install Tuner
 
-Simucube Tuner is the current configuration software for Simucube 2 wheelbase. To get started [download Tuner](../../Tuner/index.md) and launch the installer.
+Simucube Tuner is the current configuration software for Simucube 2 wheelbase. To get started [download Tuner](../../TunerSoftware/index.md) and launch the installer.
 
 ## 2. Check cabling
 

@@ -27,7 +27,7 @@ Tuner 3.0 includes professional profiles:
 - **Car Type Profiles**: Optimized for Formula, GT, Rally, etc.
 - **Game Profiles**: Specific to popular simulators
 
-Built-in profiles are read-only but can be duplicated and customized. Built-in profiles are found easily through "Simucube Presets" in [Profile Handling.](userinterface/profilehandling.md#collections)
+Built-in profiles are read-only but can be duplicated and customized. Built-in profiles are found easily through "Simucube Presets" in [Profile Handling.](profilehandling.md#collections)
 
 ### User Profiles
 
@@ -38,7 +38,7 @@ Your custom configurations:
 - Export for backup or sharing
 - Import from community
 
-User profiles are found easily through "My Profiles" in [Profile Handling.](userinterface/profilehandling.md#collections)
+User profiles are found easily through "My Profiles" in [Profile Handling.](profilehandling.md#collections)
 
 ## Managing/Editing Profiles
 

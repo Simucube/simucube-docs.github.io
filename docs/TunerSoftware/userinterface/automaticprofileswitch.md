@@ -1,6 +1,7 @@
 # Automatic Profile Switch
 
 ![Tuner 3.0 Main Interface](assets/tuner3_overview_no_sim_automatic_profile_switch.png)
+
 If no simulator is running, there will be 'block' preventing the automatic switch from working. 
 
 ### How It Works

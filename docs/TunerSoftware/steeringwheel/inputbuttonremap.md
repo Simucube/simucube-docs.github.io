@@ -18,24 +18,13 @@ By pressing any highlighted part of the steering wheel image, submenu will appea
 
 :bulb: <font color="orange">**CW** = clockwise, **CCW** = counter clockwise</font>
 
-![](assets/SteeringWheelValoViewInputRemapSubmenu.png)
+![](assets/tuner3_steeringwheel_savupro_view_input_edit_button_expanded.png)
 
 ### Configure Button Labels
 
 Button labels are useful for users who have multiple steering wheels. Button labels can be changed, added or deleted and will affect also other steering wheels — reducing the repetitive action of labeling all steering wheels from the scratch.
 
-![](assets/tuner3_steeringwheel_savupro_view_menu.png)
-![](assets/tuner3_steeringwheel_savupro_view_configure_button_labels.png)
+!!! warning "Colours of the buttons may indicate conflicts"
+    You may encounter an issue with your **inputs**, and this will be shown to you in the bottom left corner of the input window with an exclamation mark and an explanation. Please follow the message suggestion to resolve the issue.
 
-:bulb: <font color="orange">Colors and their meaning:</font>
-
-- <font color="orange">Orange = has already been used</font>
-- <font color="orange">Gray = Has not been used in anything</font>
-
-You may encounter an issue which is highlighted in the **Input** tab as yellow color on a button. This is an indication that the label isn't configured.
-
-- To fix this, please make sure that you have assigned a label in **Configure Button Labels** window through the "hamburger" menu in top left corner.
-- Or remap the button to some other label.
-
-![](assets/SteeringWheelValoViewInputNoButtonLabel.png)
-
+![](assets/tuner3_steeringwheel_savupro_view_input_edit_button_warning.png)

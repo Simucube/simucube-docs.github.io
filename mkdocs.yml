@@ -64,8 +64,8 @@ plugins:
     - redirects:
         redirect_maps:
           'ActivePedal/Getting started.md': 'ActivePedal/index.md'
-          'TunerSoftware/TunerLegacy/Download.md': 'TunerSoftware/TunerLegacy/index.md'
-          'ActivePedal/games/index.md' : 'TunerSoftware/TunerLegacy/games/index.md'
+          'TunerSoftware/Download.md': 'TunerSoftware/index.md'
+          'ActivePedal/games/index.md' : 'TunerSoftware/games/index.md'
 
 markdown_extensions:
   - admonition
@@ -195,7 +195,7 @@ nav:
         - Simucube 3 - 70mm Adapter: Accessories/70Adapter.md   
         - Simucube 3 - Shaft Extension Kit: Accessories/ExtensionKit.md        
         - Simucube 2 - Link Quick release Adapter: Accessories/SC2Adapter.md
-        - Simucube 2 - Wheel side Quick Release: Accessories/simucube 2 quick release.md1
+        - Simucube 2 - Wheel side Quick Release: Accessories/simucube 2 quick release.md
         - Simucube Mount: Accessories/mount.md  
         - ActivePedal - Baseplate: Accessories/Baseplate.md
         - ActivePedal - Heusinkveld Adapter: Accessories/Heusinkveld adapter.md
@@ -228,9 +228,12 @@ nav:
           - Automobilista 2: TunerSoftware/games/Automobilista2.md
           - BeamNG.drive: TunerSoftware/games/BeamNG.md
           - Codemasters F1: TunerSoftware/games/F1.md
+          - Copa Petrobras de Marcas: TunerSoftware/games/cpdm.md
           - Dirt Rally 1 & 2: TunerSoftware/games/DirtRally.md
           - EA Sports WRC: TunerSoftware/games/EA Sports WRC.md
+          - F1: TunerSoftware/games/F1.md
           - Forza Motorsport 8: TunerSoftware/games/Forza Motorsport 8.md
+          - GTR2: TunerSoftware/games/gtr2.md
           - Live for Speed: TunerSoftware/games/LFS.md
           - Le Mans Ultimate: TunerSoftware/games/LMU.md
           - Project CARS: TunerSoftware/games/pCARS.md
