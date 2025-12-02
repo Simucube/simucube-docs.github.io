@@ -89,5 +89,5 @@ To fine tune the force feedback your wheelbase outputs, use the different slider
 - **Telemetry Effects:** Settings that control the additional effects applied on top of the pure force feedback signal, such as engine vibration and ABS.
 - **Device Settings:** Settings that control safety and general features of the wheelbase.
 
-For a description of each adjustment, see [Tuner documentation](../../Tuner/index.md) for detailed documentation or hover over each setting for summarized descriptions of their functions.
+For a description of each adjustment, see [Tuner documentation](../../TunerSoftware/index.md) for detailed documentation or hover over each setting for summarized descriptions of their functions.
 

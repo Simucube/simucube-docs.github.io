@@ -18,9 +18,10 @@
 	
 ??? question "Which steering wheels work with Simucube 3?"
 
-    All steering wheels shipped with Link Quick Release are natively supported with additional Link features such as wireless power and data transfer.
+	Simucube 3 does not require any particular wheel technology to be utilized for the wheelbase to work. 
 	
-	Other wireless wheels using bluetooth communications may also be equipped with a wheelside Link Quick Release to enable use with Simucube 3. These type of wheels may be connected to Link Hub via bluetooth for data transfer.
+	
+	Simucube Wireless Wheels work, since the connect to the Simucube Link Hub. They may also be equipped with a wheelside Link Quick Release to enable use with Simucube 3.
 	
 	USB-based wheels may also be equipped with Link Quick Release to enable use with Simucube 3. These wheels should be connected directly to the PC via an USB-cable for data transfer.
 	

@@ -21,10 +21,10 @@ h1,h2,h3,.md-ellipsis {
   mystic serenity: #02232b  hsl(192deg 91% 9%);*/
 
   --md-hue: 192;
-  --md-primary-fg-color:   rgb(243, 139, 21); /*title bar text color*/
+  --md-primary-fg-color:   rgb(232, 78, 15); /*title bar text color*/
   --md-default-fg-color--light: hsl(192deg 25% 70%); /*page title*/
-  --md-default-bg-color:  hsl(192deg 91% 10%); /*page bg*/
-  --md-footer-bg-color: hsl(192deg 91% 7%); /*nav footer*/
+  --md-default-bg-color:  hsl(192deg 15% 10%); /*page bg*/
+  --md-footer-bg-color: hsl(192deg 15% 7%); /*nav footer*/
   --md-footer-bg-color--dark : hsl(192deg 91% 4%); /*copyright & social links footer*/
 }
 

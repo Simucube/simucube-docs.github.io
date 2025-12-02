@@ -34,7 +34,7 @@ The depth of these mounting holes is 21mm (≈13/16") from the round mounting su
 ![](assets/FrontMount.svg)
 
 !!! Warning
-	**Do not remove the hex caps of the wheelbase. The screw will pass through the hexagonal hole.**
+	**Do not remove the hex caps of the wheelbase front flange. The mounting screws will pass through the hexagonal holes.**
 
 !!! Info
     - Use four (4) of the supplied M8 screws and corresponding washers to secure the wheelbase to a vertical mounting plate. 
@@ -56,7 +56,7 @@ The width of the bottom mounting bolt pattern is 78.4mm, whereas the depth can b
 
 	- The screws may not poke out more than 9mm (≈3/8") from the mounting surface.
 	- Always use the supplied washers when mounting the wheelbase.
-	- *Hint: Your Simucube 3 is supplied with four M6x16 screws, which are suitable for mounting plates with the thickness of around 5 — 7mm (≈3/16" — 1/4").*
+	- *Hint: Your Simucube 3 is supplied with four M6x16 screws, which are suitable for mounting plates with the thickness of around 5 — 7mm (≈3/16" — 1/4"). For thicker plates, use longer screws.*
 
 ### Installing the wheelbase
 

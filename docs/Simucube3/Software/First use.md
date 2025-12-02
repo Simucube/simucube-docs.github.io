@@ -8,7 +8,7 @@
 
 ## 1. Install Tuner
 
-Simucube Tuner is a configuration software for Simucube 3 Wheelbases and other Simucube devices. To get started [download Tuner](../../Tuner/index.md) and launch the installer.
+Simucube Tuner is a configuration software for Simucube 3 Wheelbases and other Simucube devices. To get started [download Tuner](../../TunerSoftware/index.md) and launch the installer.
 
 ## 2. Check cabling
 

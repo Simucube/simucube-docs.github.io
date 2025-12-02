@@ -1,6 +1,6 @@
-## Connect a new wheel via Bluetooth
+## Connect a new wheel
 
-To connect a wheel with bluetooth data transfer, follow the instructions below:
+To connect a wheel, follow the instructions below:
 
 1. Press **Add device** button on the bottom left corner of Tuner
 2. Select **Wireless wheel** from list

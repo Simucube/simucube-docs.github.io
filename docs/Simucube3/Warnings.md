@@ -29,7 +29,7 @@ off button.
 
 - Keep your hands away from the steering wheel when starting/resetting the simulator software. Some simulators may cause a sudden spike in torque as the wheel aligns itself.
 
-- Preventing motion by the means of True Drive, Tuner, or simulator software are not reliable ways
+- Preventing motion by the means of Tuner or simulator software are not reliable ways
 to prevent motion.
 
 - The device user must be a physically and mentally fit adult.
@@ -37,7 +37,7 @@ to prevent motion.
 - Usage of the device is allowed only by an instructed person who understands and follows
 the above safety instructions.
 
-- If the device becomes damaged in any way, stop using it immediately and contact the reseller.
+- If the device becomes damaged in any way, stop using it immediately and contact Simucube support or the reseller.
 
 - Using the vibration and force feedback may cause damage to your health.
 

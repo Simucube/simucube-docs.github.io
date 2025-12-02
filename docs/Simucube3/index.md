@@ -1,7 +1,7 @@
 # Simucube 3
 
 Simucube 3 wheelbase line up provides a high-end direct drive force feedback platform for sim racing enthusiasts and professionals. 
-Our 3rd generation of wheelbases feature improved feedback quality, a new quick release system with wireless data & power transfer, and stunning looks with superb Simucube build quality.
+Our 3rd generation of wheelbases feature improved feedback quality, a new quick release system with wireless data & power transfer, and stunning looks with Simucube build quality.
 
 ![](assets/SC3 Render.png)
 
