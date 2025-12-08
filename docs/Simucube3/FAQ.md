@@ -10,7 +10,8 @@
 
 ??? question "Does Simucube 3 require also the Simucube Link Hub?"
 
-    Yes. Simucube 3 uses Simucube Link to ensure fast & stable communications between the device and Tuner. A Simucube Link Hub is required to use the device. For list of required items, see [Items needed](Items needed.md).
+    Yes. Simucube 3 uses Simucube Link to ensure fast & stable communications between the device and Tuner. **One** Simucube Link Hub is required for any system using **one or more** Simucube Link devices. For systems with more than one Simucube Link device,
+	an ethernet switch is also required. For list of required items, see [Items needed](Items needed.md).
 
 ??? question "Do I need additional items to use my ActivePedal with Simucube 3?"
 

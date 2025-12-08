@@ -15,7 +15,7 @@ The 70mm Adapter for Simucube 3 is aimed at users who own a Simucube 3 wheelbase
 | ------------------------ | ----- |
 | 1. Simucube 3 - 70mm adapter       | 1 pc  |
 | 2. Fastener kit <br> &ensp; &ensp; - M5x20 hex head screw <br> &ensp; &ensp; - M5x16 hex head screw <br> &ensp; &ensp; - M5 locking washer <br>| <br> 3 pcs <br> 6 pcs <br> 3 pcs |
-| 2. Tool kit <br> &ensp; &ensp; - L-key 3 mm Hex <br> &ensp; &ensp; - L-key T10 Torx <br> | <br> 1 pcs <br> 1 pcs|
+| 3. Tool kit <br> &ensp; &ensp; - L-key 3 mm Hex <br> &ensp; &ensp; - L-key T10 Torx <br> | <br> 1 pcs <br> 1 pcs|
 
 
 ## Removing Link Quick Release
