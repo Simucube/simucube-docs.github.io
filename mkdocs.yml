@@ -172,6 +172,18 @@ nav:
         - Accessories:
           - Baseplate: ActivePedalPro/Baseplate.md
           - Heusinkveld adapter: ActivePedalPro/Heusinkveld adapter.md
+    - Co-Pedal:
+        - CoPedal/index.md
+        - Hardware & software setup:
+            - Items needed: CoPedal/Items needed.md
+            - Mechanical adjustments: CoPedal/Mechanical adjustments.md
+            - Mounting: CoPedal/Mounting.md
+            - Software setup: CoPedal/setup.md
+        - Troubleshooting: CoPedal/Troubleshooting.md
+        - FAQ: CoPedal/FAQ.md
+        - Specifications: CoPedal/Specifications.md
+        - Drawings & 3D models: CoPedal/Drawings.md
+        - Damper: CoPedal/damper.md
     - Throttle:
         - Simucube Throttle/index.md
         - Hardware & software setup:

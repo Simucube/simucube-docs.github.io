@@ -21,7 +21,7 @@ the longer shaft moves it 200mm.
 | 4. Extension shaft, sort (total extension 100mm)         	 | 1 pc  |
 | 5. Extension cable, long						         	 | 1 pc  |
 | 6. Extension cable, short						         	 | 1 pc  |
-| 7. Fastener kit <br> &ensp; &ensp; - M5x16 allen head screw <br> &ensp; &ensp; - M5 Lock washer <br>| <br> 11 pcs <br> 11 pcs|
+| 7. Fastener kit <br> &ensp; &ensp; - M5x16 allen head screw <br> &ensp; &ensp; - M5x12 countersunk allen head screw <br> &ensp; &ensp; - M5 Lock washer <br>| <br> 11 pcs <br> 3 pcs <br> 11 pcs|
 | 8. Tool kit <br> &ensp; &ensp; - L-key 3 mm Hex <br> &ensp; &ensp; - L-key T10 Torx <br>| <br> 1 pcs <br> 1 pcs|
 
 ## Removing Link Quick Release
@@ -71,7 +71,7 @@ There are two available extension shaft lenghts included in the package: 100mm &
 !!! Info 
     - Select the suitable extension cable and connect it to the wheelbase.
 	- Pass the connected cable through the wheel extension.
-	- Use three (3) supplied M5x16 and M5 lock washers hex screws to mount the extension to the wheelbase axle with a 3mm hex key.
+	- Use three (3) supplied M5x16 and M5 lock washers hex screws to **tightly** mount the extension to the wheelbase axle with a 3mm hex key (sufficient torque ~6Nm).
 
 ### Step 5
 
@@ -87,7 +87,7 @@ There are two available extension shaft lenghts included in the package: 100mm &
 ![](assets/ExtensionStep6.svg)
 
 !!! Info
-    - Attach the quick release male part to the extension with a 3mm hex key, and the three (3) m5x12 countersunk hex screws included with your package.
+    - Attach the quick release male part to the extension with a 3mm hex key, and the three (3) m5x12 countersunk hex screws included with your package (sufficient torque ~5Nm).
 	- Pass the cable through the slot in part.
 
 ### Step 7
@@ -99,8 +99,10 @@ There are two available extension shaft lenghts included in the package: 100mm &
     - Connect the cable to the circuit board, that was removed during step 1.
 	- Attach the circuit board to the quick release part, while pushing the cable inside the extension shaft.
 	- *Hint: If you have difficulty pushing the circuit board back to its place, you can try carefully twisting the extension cable 360 degrees.*
-	- Use the two (2) torx screws that were removed during step 1.
-	
+	- Use the two (2) torx screws that were removed during step 1 and a T10 Torx key to fasten the circuit board (max torque ~1,1 Nm).
+
+!!! Warning
+	The T10 Torx screws can be damaged during installation if incorrectly fastened. Ensure that the key stays straight and maintain firm downwards pressure while turning the key. Do not over tighten.
 
 ## Important note
 

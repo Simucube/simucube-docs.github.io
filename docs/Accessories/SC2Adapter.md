@@ -43,7 +43,7 @@ This mounting option provides the most rigid connection between the wheelbase an
 ![](assets/SC2AdapterStep3.svg){width=650}
 
 !!! Info
-	- Use the three (3) supplied countersunk M5 screws with a 3mm hex key to secure the quick release to the adapter plate.
+	- Use the three (3) supplied countersunk M5 screws with a 3mm hex key to secure the quick release to the adapter plate (sufficient torque ~5Nm).
 
 ## Installation option 2
 
@@ -64,7 +64,7 @@ by following the steps below. **Note that the wedge shaped SQR1 wheel side part 
 
 !!! Info
     - Attach the Link Quick Release male part using the three threaded holes of the adapter.
-	- Use the three (3) supplied M5x16 countersunk hex screws and a 3mm hex key.
+	- Use the three (3) supplied M5x16 countersunk hex screws and a 3mm hex key (sufficient torque ~5Nm).
 	
 ### Step 3
 
