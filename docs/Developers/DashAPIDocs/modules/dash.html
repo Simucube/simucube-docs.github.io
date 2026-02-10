@@ -1,0 +1,1518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Simucube Dash</title>
+    <link rel="stylesheet" href="../ldoc_fixed.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>Simucube Dash</h1>
+
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+<li><a href="#Tables">Tables</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><strong>dash</strong></li>
+  <li><a href="../modules/dash.led.html">dash.led</a></li>
+  <li><a href="../modules/manufacturer.html">manufacturer</a></li>
+  <li><a href="../modules/dash.sim.html">dash.sim</a></li>
+  <li><a href="../modules/dash.telemetry.html">dash.telemetry</a></li>
+  <li><a href="../modules/dash.unit.html">dash.unit</a></li>
+  <li><a href="../modules/dash.wheel.html">dash.wheel</a></li>
+</ul>
+<h2>Classes</h2>
+<ul class="nowrap">
+  <li><a href="../classes/DashObject.html">DashObject</a></li>
+  <li><a href="../classes/Timer.html">Timer</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>dash</code></h1>
+<p>dash module</p>
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#update">update ()</a></td>
+	<td class="summary">Update the dash.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#uptime">uptime ()</a></td>
+	<td class="summary">Get uptime</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_object">create_object (parent_obj, params)</a></td>
+	<td class="summary">Create new dash object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_box">create_box (parent_obj, params)</a></td>
+	<td class="summary">Create new box dash object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_label">create_label (parent_obj, params)</a></td>
+	<td class="summary">Create new label dash object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_image">create_image (parent_obj, params)</a></td>
+	<td class="summary">Create new image dash object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_line">create_line (parent_obj, params)</a></td>
+	<td class="summary">Create new line dash object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_circle">create_circle (parent_obj, params)</a></td>
+	<td class="summary">Create new circle dash object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_triangle">create_triangle (parent_obj, params)</a></td>
+	<td class="summary">Create new triangle dash object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_graph">create_graph (parent_obj, params)</a></td>
+	<td class="summary">Create new graph dash object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_class_inherit_from_object">create_class_inherit_from_object (name)</a></td>
+	<td class="summary">Create new class derived from object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_class_inherit_from_box">create_class_inherit_from_box (name)</a></td>
+	<td class="summary">Create new class derived from box</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_class_inherit_from_label">create_class_inherit_from_label (name)</a></td>
+	<td class="summary">Create new class derived from label</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_class_inherit_from_image">create_class_inherit_from_image (name)</a></td>
+	<td class="summary">Create new class derived from image</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_class_inherit_from_line">create_class_inherit_from_line (name)</a></td>
+	<td class="summary">Create new class derived from line</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_class_inherit_from_circle">create_class_inherit_from_circle (name)</a></td>
+	<td class="summary">Create new class derived from circle</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_class_inherit_from_triangle">create_class_inherit_from_triangle (name)</a></td>
+	<td class="summary">Create new class derived from triangle</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_page">create_page (image)</a></td>
+	<td class="summary">Create new dash page</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_page">get_page (index)</a></td>
+	<td class="summary">Get dash page</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_current_page">get_current_page ()</a></td>
+	<td class="summary">Get current page</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_current_page_index">get_current_page_index ()</a></td>
+	<td class="summary">Get index of current page</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#change_page">change_page (index)</a></td>
+	<td class="summary">Change the current page</td>
+	</tr>
+</table>
+<h2><a href="#Tables">Tables</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#create_object_params">create_object_params</a></td>
+	<td class="summary">create_object parameters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_box_params">create_box_params</a></td>
+	<td class="summary">create_box parameters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_label_params">create_label_params</a></td>
+	<td class="summary">create_label parameters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_image_params">create_image_params</a></td>
+	<td class="summary">create_image parameters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_line_params">create_line_params</a></td>
+	<td class="summary">create_line parameters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_circle_params">create_circle_params</a></td>
+	<td class="summary">create_circle parameters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_triangle_params">create_triangle_params</a></td>
+	<td class="summary">create_triangle parameters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#create_graph_params">create_graph_params</a></td>
+	<td class="summary">create_graph parameters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#telemetry">telemetry</a></td>
+	<td class="summary">Telemetry table.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#font">font</a></td>
+	<td class="summary">Font table.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#image">image</a></td>
+	<td class="summary">Image table.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#wheel">wheel</a></td>
+	<td class="summary">Wheel table.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sim">sim</a></td>
+	<td class="summary">Sim table.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#unit">unit</a></td>
+	<td class="summary">Unit table.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#led">led</a></td>
+	<td class="summary">Led table.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "update"></a>
+    <strong>update ()</strong>
+    </dt>
+    <dd>
+    Update the dash.
+ Should be called repeatedly to refresh the screen
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "uptime"></a>
+    <strong>uptime ()</strong>
+    </dt>
+    <dd>
+    Get uptime
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        uptime in milliseconds
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_object"></a>
+    <strong>create_object (parent_obj, params)</strong>
+    </dt>
+    <dd>
+    Create new dash object
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">parent_obj</span>
+            <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+         the parent object of the new object
+        </li>
+        <li><span class="parameter">params</span>
+         <a href="../modules/dash.html#create_object_params">create_object_params</a>
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        a new dash object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_box"></a>
+    <strong>create_box (parent_obj, params)</strong>
+    </dt>
+    <dd>
+    Create new box dash object
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">parent_obj</span>
+            <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+         the parent object of the new object
+        </li>
+        <li><span class="parameter">params</span>
+         <a href="../modules/dash.html#create_box_params">create_box_params</a>
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        a new dash box object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_label"></a>
+    <strong>create_label (parent_obj, params)</strong>
+    </dt>
+    <dd>
+    Create new label dash object
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">parent_obj</span>
+            <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+         the parent object of the new object
+        </li>
+        <li><span class="parameter">params</span>
+         <a href="../modules/dash.html#create_label_params">create_label_params</a>
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        a new dash label object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_image"></a>
+    <strong>create_image (parent_obj, params)</strong>
+    </dt>
+    <dd>
+    Create new image dash object
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">parent_obj</span>
+            <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+         the parent object of the new object
+        </li>
+        <li><span class="parameter">params</span>
+         <a href="../modules/dash.html#create_image_params">create_image_params</a>
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        a new dash image object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_line"></a>
+    <strong>create_line (parent_obj, params)</strong>
+    </dt>
+    <dd>
+    Create new line dash object
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">parent_obj</span>
+            <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+         the parent object of the new object
+        </li>
+        <li><span class="parameter">params</span>
+         <a href="../modules/dash.html#create_line_params">create_line_params</a>
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        a new dash line object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_circle"></a>
+    <strong>create_circle (parent_obj, params)</strong>
+    </dt>
+    <dd>
+    Create new circle dash object
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">parent_obj</span>
+            <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+         the parent object of the new object
+        </li>
+        <li><span class="parameter">params</span>
+         <a href="../modules/dash.html#create_circle_params">create_circle_params</a>
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        a new dash circle object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_triangle"></a>
+    <strong>create_triangle (parent_obj, params)</strong>
+    </dt>
+    <dd>
+    Create new triangle dash object
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">parent_obj</span>
+            <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+         the parent object of the new object
+        </li>
+        <li><span class="parameter">params</span>
+         <a href="../modules/dash.html#create_triangle_params">create_triangle_params</a>
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        a new dash triangle object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_graph"></a>
+    <strong>create_graph (parent_obj, params)</strong>
+    </dt>
+    <dd>
+    Create new graph dash object
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">parent_obj</span>
+            <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+         the parent object of the new object
+        </li>
+        <li><span class="parameter">params</span>
+         <a href="../modules/dash.html#create_graph_params">create_graph_params</a>
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        a new dash graph object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_class_inherit_from_object"></a>
+    <strong>create_class_inherit_from_object (name)</strong>
+    </dt>
+    <dd>
+    Create new class derived from object
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">name</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         name of new class
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the new class
+    </ol>
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.html#create_object">dash.create_object</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "create_class_inherit_from_box"></a>
+    <strong>create_class_inherit_from_box (name)</strong>
+    </dt>
+    <dd>
+    Create new class derived from box
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">name</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         name of new class
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the new class
+    </ol>
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.html#create_box">dash.create_box</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "create_class_inherit_from_label"></a>
+    <strong>create_class_inherit_from_label (name)</strong>
+    </dt>
+    <dd>
+    Create new class derived from label
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">name</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         name of new class
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the new class
+    </ol>
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.html#create_label">dash.create_label</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "create_class_inherit_from_image"></a>
+    <strong>create_class_inherit_from_image (name)</strong>
+    </dt>
+    <dd>
+    Create new class derived from image
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">name</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         name of new class
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the new class
+    </ol>
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.html#create_image">dash.create_image</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "create_class_inherit_from_line"></a>
+    <strong>create_class_inherit_from_line (name)</strong>
+    </dt>
+    <dd>
+    Create new class derived from line
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">name</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         name of new class
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the new class
+    </ol>
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.html#create_line">dash.create_line</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "create_class_inherit_from_circle"></a>
+    <strong>create_class_inherit_from_circle (name)</strong>
+    </dt>
+    <dd>
+    Create new class derived from circle
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">name</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         name of new class
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the new class
+    </ol>
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.html#create_circle">dash.create_circle</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "create_class_inherit_from_triangle"></a>
+    <strong>create_class_inherit_from_triangle (name)</strong>
+    </dt>
+    <dd>
+    Create new class derived from triangle
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">name</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         name of new class
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the new class
+    </ol>
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.html#create_triangle">dash.create_triangle</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "create_page"></a>
+    <strong>create_page (image)</strong>
+    </dt>
+    <dd>
+    Create new dash page
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">image</span>
+         image handle, e.g. "dash.image.background_image"
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        a new dash page
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_page"></a>
+    <strong>get_page (index)</strong>
+    </dt>
+    <dd>
+    Get dash page
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">index</span>
+            <span class="types"><span class="type">int</span></span>
+         index of page
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        the dash page
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_current_page"></a>
+    <strong>get_current_page ()</strong>
+    </dt>
+    <dd>
+    Get current page
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        the current dash page
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_current_page_index"></a>
+    <strong>get_current_page_index ()</strong>
+    </dt>
+    <dd>
+    Get index of current page
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        the current dash page index
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "change_page"></a>
+    <strong>change_page (index)</strong>
+    </dt>
+    <dd>
+    Change the current page
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">index</span>
+            <span class="types"><span class="type">int</span></span>
+         the index of the page to change to
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+    <h2 class="section-header "><a name="Tables"></a>Tables</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "create_object_params"></a>
+    <strong>create_object_params</strong>
+    </dt>
+    <dd>
+    create_object parameters
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">width</span>
+            <span class="types"><span class="type">int</span></span>
+         width of object
+         (<em>default</em> 100)
+        </li>
+        <li><span class="parameter">height</span>
+            <span class="types"><span class="type">int</span></span>
+         height of object
+         (<em>default</em> 100)
+        </li>
+        <li><span class="parameter">align</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         alignment of object.
+ One of "default", "top\_left", "top\_mid", "top\_right", "bottom\_left", "bottom\_mid", "bottom\_right", "center\_left", "center\_right", "center".
+         (<em>default</em> "default")
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_box_params"></a>
+    <strong>create_box_params</strong>
+    </dt>
+    <dd>
+    create_box parameters
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">width</span>
+            <span class="types"><span class="type">int</span></span>
+         width of object
+         (<em>default</em> 100)
+        </li>
+        <li><span class="parameter">height</span>
+            <span class="types"><span class="type">int</span></span>
+         height of object
+         (<em>default</em> 100)
+        </li>
+        <li><span class="parameter">background_color</span>
+            <span class="types"><span class="type">int</span></span>
+         background color
+         (<em>default</em> 0xffffff)
+        </li>
+        <li><span class="parameter">border_color</span>
+            <span class="types"><span class="type">int</span></span>
+         border color
+         (<em>default</em> 0xffffff)
+        </li>
+        <li><span class="parameter">border_width</span>
+            <span class="types"><span class="type">int</span></span>
+         border width
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">border_radius</span>
+            <span class="types"><span class="type">int</span></span>
+         border radius
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">align</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         alignment of object.
+ One of "default", "top\_left", "top\_mid", "top\_right", "bottom\_left", "bottom\_mid", "bottom\_right", "center\_left", "center\_right", "center".
+         (<em>default</em> "default")
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_label_params"></a>
+    <strong>create_label_params</strong>
+    </dt>
+    <dd>
+    create_label parameters
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">width</span>
+            <span class="types"><span class="type">int</span></span>
+         width of object
+         (<em>default</em> width of text)
+        </li>
+        <li><span class="parameter">height</span>
+            <span class="types"><span class="type">int</span></span>
+         height of object
+         (<em>default</em> height of text)
+        </li>
+        <li><span class="parameter">text</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         the displayed text
+         (<em>default</em> "")
+        </li>
+        <li><span class="parameter">color</span>
+            <span class="types"><span class="type">int</span></span>
+         text color
+         (<em>default</em> 0x000000)
+        </li>
+        <li><span class="parameter">align</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         alignment of object
+ One of "default", "top\_left", "top\_mid", "top\_right", "bottom\_left", "bottom\_mid", "bottom\_right", "center\_left", "center\_right", "center".
+         (<em>default</em> "default")
+        </li>
+        <li><span class="parameter">text_align</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         the alignment of the text. One of "auto", "left", "center", "right".
+         (<em>default</em> "left")
+        </li>
+        <li><span class="parameter">long_mode</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         mode of long text. One of "wrap", "dot", "scroll", "clip".
+         (<em>default</em> "wrap")
+        </li>
+        <li><span class="parameter">font</span>
+         text font handle, e.g. "dash.font.montserrat_24"
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_image_params"></a>
+    <strong>create_image_params</strong>
+    </dt>
+    <dd>
+    create_image parameters
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">width</span>
+            <span class="types"><span class="type">int</span></span>
+         width of object
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">height</span>
+            <span class="types"><span class="type">int</span></span>
+         height of object
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">align</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         alignment of object.
+ One of "default", "top\_left", "top\_mid", "top\_right", "bottom\_left", "bottom\_mid", "bottom\_right", "center\_left", "center\_right", "center".
+         (<em>default</em> "default")
+        </li>
+        <li><span class="parameter">image</span>
+         image handle, e.g. "dash.image.background_image"
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_line_params"></a>
+    <strong>create_line_params</strong>
+    </dt>
+    <dd>
+    create_line parameters
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">width</span>
+            <span class="types"><span class="type">int</span></span>
+         width of object
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">height</span>
+            <span class="types"><span class="type">int</span></span>
+         height of object
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">align</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         alignment of object.
+ One of "default", "top\_left", "top\_mid", "top\_right", "bottom\_left", "bottom\_mid", "bottom\_right", "center\_left", "center\_right", "center".
+         (<em>default</em> "default")
+        </li>
+        <li><span class="parameter">x1</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate of first point
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y1</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate of first point
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">x2</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate of second point
+         (<em>default</em> 100)
+        </li>
+        <li><span class="parameter">y2</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate of second point
+         (<em>default</em> 100)
+        </li>
+        <li><span class="parameter">color</span>
+            <span class="types"><span class="type">int</span></span>
+         line color
+         (<em>default</em> 0xffffff)
+        </li>
+        <li><span class="parameter">line_width</span>
+            <span class="types"><span class="type">int</span></span>
+         width of line
+         (<em>default</em> 5)
+        </li>
+        <li><span class="parameter">rounded</span>
+            <span class="types"><span class="type">bool</span></span>
+         true if line ends are rounded
+         (<em>default</em> true)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_circle_params"></a>
+    <strong>create_circle_params</strong>
+    </dt>
+    <dd>
+    create_circle parameters
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">radius</span>
+            <span class="types"><span class="type">int</span></span>
+         radius of circle
+         (<em>default</em> 100)
+        </li>
+        <li><span class="parameter">background_color</span>
+            <span class="types"><span class="type">int</span></span>
+         background color
+         (<em>default</em> 0xffffff)
+        </li>
+        <li><span class="parameter">background_visible</span>
+            <span class="types"><span class="type">bool</span></span>
+         true if background is visible
+         (<em>default</em> false)
+        </li>
+        <li><span class="parameter">border_color</span>
+            <span class="types"><span class="type">int</span></span>
+         border color
+         (<em>default</em> 0xffffff)
+        </li>
+        <li><span class="parameter">border_width</span>
+            <span class="types"><span class="type">int</span></span>
+         border width
+         (<em>default</em> 1)
+        </li>
+        <li><span class="parameter">align</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         alignment of object.
+ One of "default", "top\_left", "top\_mid", "top\_right", "bottom\_left", "bottom\_mid", "bottom\_right", "center\_left", "center\_right", "center".
+         (<em>default</em> "default")
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_triangle_params"></a>
+    <strong>create_triangle_params</strong>
+    </dt>
+    <dd>
+    create_triangle parameters
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">width</span>
+            <span class="types"><span class="type">int</span></span>
+         width of object
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">height</span>
+            <span class="types"><span class="type">int</span></span>
+         height of object
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">align</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         alignment of object.
+ One of "default", "top\_left", "top\_mid", "top\_right", "bottom\_left", "bottom\_mid", "bottom\_right", "center\_left", "center\_right", "center".
+         (<em>default</em> "default")
+        </li>
+        <li><span class="parameter">x1</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate of first point
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y1</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate of first point
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">x2</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate of second point
+         (<em>default</em> 100)
+        </li>
+        <li><span class="parameter">y2</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate of second point
+         (<em>default</em> 100)
+        </li>
+        <li><span class="parameter">x3</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate of third point
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y3</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate of third point
+         (<em>default</em> 100)
+        </li>
+        <li><span class="parameter">background_color</span>
+            <span class="types"><span class="type">int</span></span>
+         background color
+         (<em>default</em> 0xffffff)
+        </li>
+        <li><span class="parameter">background_visible</span>
+            <span class="types"><span class="type">bool</span></span>
+         true if background is visible
+         (<em>default</em> false)
+        </li>
+        <li><span class="parameter">border_color</span>
+            <span class="types"><span class="type">int</span></span>
+         border color
+         (<em>default</em> 0xffffff)
+        </li>
+        <li><span class="parameter">border_width</span>
+            <span class="types"><span class="type">int</span></span>
+         border width
+         (<em>default</em> 1)
+        </li>
+        <li><span class="parameter">rounded</span>
+            <span class="types"><span class="type">bool</span></span>
+         true if triangle corners are rounded
+         (<em>default</em> true)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "create_graph_params"></a>
+    <strong>create_graph_params</strong>
+    </dt>
+    <dd>
+    create_graph parameters
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">y</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">width</span>
+            <span class="types"><span class="type">int</span></span>
+         width of object
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">height</span>
+            <span class="types"><span class="type">int</span></span>
+         height of object
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">align</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         alignment of object.
+ One of "default", "top\_left", "top\_mid", "top\_right", "bottom\_left", "bottom\_mid", "bottom\_right", "center\_left", "center\_right", "center".
+         (<em>default</em> "default")
+        </li>
+        <li><span class="parameter">value_count</span>
+            <span class="types"><span class="type">int</span></span>
+         number of values the graph shows
+         (<em>default</em> 10)
+        </li>
+        <li><span class="parameter">value_min</span>
+            <span class="types"><span class="type">int</span></span>
+         the minimum value shown on the graph
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">value_max</span>
+            <span class="types"><span class="type">int</span></span>
+         the maximum value shown on the graph
+         (<em>default</em> 0)
+        </li>
+        <li><span class="parameter">line_color</span>
+            <span class="types"><span class="type">int</span></span>
+         value line color
+         (<em>default</em> 0xffffff)
+        </li>
+        <li><span class="parameter">line_width</span>
+            <span class="types"><span class="type">int</span></span>
+         value line width
+         (<em>default</em> 1)
+        </li>
+        <li><span class="parameter">background_color</span>
+            <span class="types"><span class="type">int</span></span>
+         background color
+         (<em>default</em> 0xffffff)
+        </li>
+        <li><span class="parameter">background_visible</span>
+            <span class="types"><span class="type">bool</span></span>
+         true if background is visible
+         (<em>default</em> false)
+        </li>
+        <li><span class="parameter">border_color</span>
+            <span class="types"><span class="type">int</span></span>
+         border color
+         (<em>default</em> 0xffffff)
+        </li>
+        <li><span class="parameter">border_width</span>
+            <span class="types"><span class="type">int</span></span>
+         border width
+         (<em>default</em> 1)
+        </li>
+        <li><span class="parameter">border_radius</span>
+            <span class="types"><span class="type">int</span></span>
+         border radius
+         (<em>default</em> 1)
+        </li>
+        <li><span class="parameter">fill</span>
+            <span class="types"><span class="type">bool</span></span>
+         true if graph is filled
+         (<em>default</em> false)
+        </li>
+        <li><span class="parameter">fill_color</span>
+            <span class="types"><span class="type">int</span></span>
+         fill color
+         (<em>default</em> 0xffffff)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "telemetry"></a>
+    <strong>telemetry</strong>
+    </dt>
+    <dd>
+    Telemetry table.
+ Table containing all telemetry objects, e.g. dash.telemetry.engine_rpm
+
+
+
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.telemetry.html#">dash.telemetry</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "font"></a>
+    <strong>font</strong>
+    </dt>
+    <dd>
+    Font table.
+ Table containing all fonts defined in json configuration file, e.g. dash.font.montserrat_24
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "image"></a>
+    <strong>image</strong>
+    </dt>
+    <dd>
+    Image table.
+ Table containing all images defined in json configuration file, e.g. dash.image.background_image
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "wheel"></a>
+    <strong>wheel</strong>
+    </dt>
+    <dd>
+    Wheel table.
+
+
+
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.wheel.html#">dash.wheel</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "sim"></a>
+    <strong>sim</strong>
+    </dt>
+    <dd>
+    Sim table.
+
+
+
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.sim.html#">dash.sim</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "unit"></a>
+    <strong>unit</strong>
+    </dt>
+    <dd>
+    Unit table.
+
+
+
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.unit.html#">dash.unit</a>
+    </ul>
+
+
+</dd>
+    <dt>
+    <a name = "led"></a>
+    <strong>led</strong>
+    </dt>
+    <dd>
+    Led table.
+
+
+
+
+
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.led.html#">dash.led</a>
+    </ul>
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/lunarmodules/LDoc">LDoc 1.5.0</a></i>
+<i style="float:right;">Last updated 2026-02-16 08:30:13 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>
