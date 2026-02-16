@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Simucube Dash</title>
+    <link rel="stylesheet" href="../ldoc_fixed.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>Simucube Dash</h1>
+
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><a href="../modules/dash.html">dash</a></li>
+  <li><a href="../modules/dash.led.html">dash.led</a></li>
+  <li><a href="../modules/manufacturer.html">manufacturer</a></li>
+  <li><a href="../modules/dash.sim.html">dash.sim</a></li>
+  <li><a href="../modules/dash.telemetry.html">dash.telemetry</a></li>
+  <li><a href="../modules/dash.unit.html">dash.unit</a></li>
+  <li><strong>dash.wheel</strong></li>
+</ul>
+<h2>Classes</h2>
+<ul class="nowrap">
+  <li><a href="../classes/DashObject.html">DashObject</a></li>
+  <li><a href="../classes/Timer.html">Timer</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>dash.wheel</code></h1>
+<p>wheel module</p>
+<p></p>
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.html#">dash</a>
+    </ul>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#get_analog_input_count">get_analog_input_count ()</a></td>
+	<td class="summary">Get the number of analog inputs.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_analog_input">get_analog_input (input)</a></td>
+	<td class="summary">Get analog input value.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_raw_analog_input">get_raw_analog_input (input)</a></td>
+	<td class="summary">Get raw analog input value.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_analog_input_type">get_analog_input_type (input)</a></td>
+	<td class="summary">Get analog input type.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_raw_digital_input_count">get_raw_digital_input_count ()</a></td>
+	<td class="summary">Get the number of raw digital inputs.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_raw_digital_input">get_raw_digital_input (input)</a></td>
+	<td class="summary">Get raw digital input value.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_digital_input_count">get_digital_input_count ()</a></td>
+	<td class="summary">Get the number of digital inputs.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_digital_input">get_digital_input (input)</a></td>
+	<td class="summary">Get digital input value.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#get_touch_input">get_touch_input ()</a></td>
+	<td class="summary">Get touch input.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#enable_mouse_input">enable_mouse_input (enable)</a></td>
+	<td class="summary">Enable mouse input.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "get_analog_input_count"></a>
+    <strong>get_analog_input_count ()</strong>
+    </dt>
+    <dd>
+    Get the number of analog inputs.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        the analog input count
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_analog_input"></a>
+    <strong>get_analog_input (input)</strong>
+    </dt>
+    <dd>
+    Get analog input value.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">input</span>
+            <span class="types"><span class="type">int</span></span>
+         the analog input index
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        the analog input value
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_raw_analog_input"></a>
+    <strong>get_raw_analog_input (input)</strong>
+    </dt>
+    <dd>
+    Get raw analog input value.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">input</span>
+            <span class="types"><span class="type">int</span></span>
+         the analog input index
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        the raw analog input value
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_analog_input_type"></a>
+    <strong>get_analog_input_type (input)</strong>
+    </dt>
+    <dd>
+    Get analog input type.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">input</span>
+            <span class="types"><span class="type">int</span></span>
+         the analog input index
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+        the input type. One of "none", "throttle", "brake", "clutch\_m", "clutch\_s", "bite\_point".
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_raw_digital_input_count"></a>
+    <strong>get_raw_digital_input_count ()</strong>
+    </dt>
+    <dd>
+    Get the number of raw digital inputs.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        the raw digital input count
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_raw_digital_input"></a>
+    <strong>get_raw_digital_input (input)</strong>
+    </dt>
+    <dd>
+    Get raw digital input value.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">input</span>
+            <span class="types"><span class="type">int</span></span>
+         the digital input index
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        the raw digital input value
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_digital_input_count"></a>
+    <strong>get_digital_input_count ()</strong>
+    </dt>
+    <dd>
+    Get the number of digital inputs.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        the digital input count
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_digital_input"></a>
+    <strong>get_digital_input (input)</strong>
+    </dt>
+    <dd>
+    Get digital input value.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">input</span>
+            <span class="types"><span class="type">int</span></span>
+         the digital input index
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        the digital input value
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "get_touch_input"></a>
+    <strong>get_touch_input ()</strong>
+    </dt>
+    <dd>
+    Get touch input.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+        <li>
+           <span class="types"><span class="type">int</span></span>
+        X coordinate</li>
+        <li>
+           <span class="types"><span class="type">int</span></span>
+        Y coordinate</li>
+        <li>
+           <span class="types"><span class="type">bool</span></span>
+        pressed</li>
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "enable_mouse_input"></a>
+    <strong>enable_mouse_input (enable)</strong>
+    </dt>
+    <dd>
+    Enable mouse input.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">enable</span>
+            <span class="types"><span class="type">bool</span></span>
+         enable or disable mouse input
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/lunarmodules/LDoc">LDoc 1.5.0</a></i>
+<i style="float:right;">Last updated 2026-02-16 08:30:13 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

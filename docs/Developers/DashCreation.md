@@ -149,3 +149,6 @@ to bytecode, and any errors will be printed. If reading the configuration file s
 Dash Viewer uses Tuner through SC-API for telemetry. Tuner must be running so that the viewer receives telemetry values
 from a game. Debug prints from the lua scripts will also be visible.
 Dash Viewer can also be used to create a preview image for Tuner by using File->Save screen capture …
+
+## Lua API Documentation
+[Lua API documentation](DashAPIDocs/index.html)

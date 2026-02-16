@@ -1,0 +1,938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Simucube Dash</title>
+    <link rel="stylesheet" href="../ldoc_fixed.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>Simucube Dash</h1>
+
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Classes</h2>
+<ul class="nowrap">
+  <li><strong>DashObject</strong></li>
+  <li><a href="../classes/Timer.html">Timer</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><a href="../modules/dash.html">dash</a></li>
+  <li><a href="../modules/dash.led.html">dash.led</a></li>
+  <li><a href="../modules/manufacturer.html">manufacturer</a></li>
+  <li><a href="../modules/dash.sim.html">dash.sim</a></li>
+  <li><a href="../modules/dash.telemetry.html">dash.telemetry</a></li>
+  <li><a href="../modules/dash.unit.html">dash.unit</a></li>
+  <li><a href="../modules/dash.wheel.html">dash.wheel</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Class <code>DashObject</code></h1>
+<p>DashObject class.</p>
+<p>
+ Functions of DashObjects which are created with dash.create_label etc.
+ Not all functions can be used for all types of DashObjects.</p>
+    <h3>See also:</h3>
+    <ul>
+         <a href="../modules/dash.html#">dash</a>
+    </ul>
+    <h3>Usage:</h3>
+    <ul>
+        <li><pre class="example">-- create label DashObject
+local label1 = dash.create_label(dash.get_current_page(),
+                                 {x=5,
+                                  y=10,
+                                  text=&quot;text1&quot;,
+                                  color=0xff0000,
+                                  font=dash.font.bold_24})
+-- show label on screen
+dash.update()
+
+label1:set_color(&quot;text&quot;, 0x0000ff)
+label1:set_position(label1:get_x() + 10, label1:get_y() + 10)
+-- label has changed text color and position
+dash.update()
+</pre></li>
+        <li><pre class="example">-- create new class inherited from label
+local TelemetryLabel = dash.create_class_inherit_from_label(&quot;TelemetryLabel&quot;)
+
+TelemetryLabel.default_properties_meta = {
+    __index={
+        font=dash.font.Bold_24,
+        align=&quot;top_left&quot;,
+        text_align=&quot;left&quot;,
+        update_rate=30,
+        color=0x00ff00}}
+
+function TelemetryLabel:new(parent, properties)
+    -- get default values from TelemetryLabel.default_properties_meta
+    setmetatable(properties, self.default_properties_meta)
+
+    local w = self:__new_base(parent, properties)
+    setmetatable(w, self)
+
+    w._telemetry = properties.telemetry
+
+    w:set_telemetry_update_hook(properties.update_rate, self.update, properties.telemetry)
+    return w
+end
+
+function TelemetryLabel:update()
+    self:set_text(string.format(&quot;%d&quot;, self._telemetry:value()))
+end
+
+-- create instance of the class
+local telemetrylabel = TelemetryLabel:new(dash.get_current_page(), {telemetry=dash.telemetry.engine_rpm})
+</pre></li>
+    </ul>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_position">DashObject:set_position (x, y)</a></td>
+	<td class="summary">Set position.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_visible">DashObject:set_visible (visible)</a></td>
+	<td class="summary">Set visible.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_size">DashObject:set_size (w, h)</a></td>
+	<td class="summary">Set size.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_color">DashObject:set_color (colortype, color)</a></td>
+	<td class="summary">Set color.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_recolor">DashObject:set_recolor (color)</a></td>
+	<td class="summary">Set recolor.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_text">DashObject:set_text (text)</a></td>
+	<td class="summary">Set text.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_align">DashObject:set_align (align)</a></td>
+	<td class="summary">Set alignment.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_image">DashObject:set_image (image)</a></td>
+	<td class="summary">Set image.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_source_x">DashObject:set_source_x (offset_x)</a></td>
+	<td class="summary">Set source x coordinate.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_source_y">DashObject:set_source_y (offset_y)</a></td>
+	<td class="summary">Set source y coordinate.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_point">DashObject:set_point (point, x, y)</a></td>
+	<td class="summary">Set point of line or triangle.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_parent">DashObject:set_parent (parent)</a></td>
+	<td class="summary">Set parent.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_position">DashObject:get_position ()</a></td>
+	<td class="summary">Get position relative to parent.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_telemetry_update_hook">DashObject:set_telemetry_update_hook (update_rate, callback, telemetryhandle[, telemetryhandle2[, telemetryhandle3[, telemetryhandle4[, telemetryhandle5]]]])</a></td>
+	<td class="summary">Set hook to call when a telemetry value has changed.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:set_graph_next_value">DashObject:set_graph_next_value (value)</a></td>
+	<td class="summary">Set next value of graph.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_x">DashObject:get_x ()</a></td>
+	<td class="summary">Get X position relative to parent.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_y">DashObject:get_y ()</a></td>
+	<td class="summary">Get Y position relative to parent.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_visible">DashObject:get_visible ()</a></td>
+	<td class="summary">Get object visible status.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_size">DashObject:get_size ()</a></td>
+	<td class="summary">Get size.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_width">DashObject:get_width ()</a></td>
+	<td class="summary">Get width.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_height">DashObject:get_height ()</a></td>
+	<td class="summary">Get height.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_parent">DashObject:get_parent ()</a></td>
+	<td class="summary">Get parent.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_children">DashObject:get_children ()</a></td>
+	<td class="summary">Get children.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_children">DashObject:get_children ()</a></td>
+	<td class="summary">Get children.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_source_x">DashObject:get_source_x ()</a></td>
+	<td class="summary">Get source X coordinate.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_source_y">DashObject:get_source_y ()</a></td>
+	<td class="summary">Get source Y coordinate.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_point_x">DashObject:get_point_x (point)</a></td>
+	<td class="summary">Get X coordinate of line or triangle point.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:get_point_y">DashObject:get_point_y (point)</a></td>
+	<td class="summary">Get Y coordinate of line or triangle point.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:clear">DashObject:clear ()</a></td>
+	<td class="summary">Clear values from graph.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DashObject:destroy">DashObject:destroy ()</a></td>
+	<td class="summary">Destroy this DashObject and all child objects.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "DashObject:set_position"></a>
+    <strong>DashObject:set_position (x, y)</strong>
+    </dt>
+    <dd>
+    Set position.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate
+        </li>
+        <li><span class="parameter">y</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_visible"></a>
+    <strong>DashObject:set_visible (visible)</strong>
+    </dt>
+    <dd>
+    Set visible.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">visible</span>
+            <span class="types"><span class="type">bool</span></span>
+         true if object is visible
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_size"></a>
+    <strong>DashObject:set_size (w, h)</strong>
+    </dt>
+    <dd>
+    Set size.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">w</span>
+            <span class="types"><span class="type">int</span></span>
+         width
+        </li>
+        <li><span class="parameter">h</span>
+            <span class="types"><span class="type">int</span></span>
+         Y height
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_color"></a>
+    <strong>DashObject:set_color (colortype, color)</strong>
+    </dt>
+    <dd>
+    Set color.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">colortype</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         color type. One of "text", "background", "border", "line".
+        </li>
+        <li><span class="parameter">color</span>
+            <span class="types"><span class="type">int</span></span>
+         color value
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_recolor"></a>
+    <strong>DashObject:set_recolor (color)</strong>
+    </dt>
+    <dd>
+    Set recolor.
+ Sets color of alpha-channel-only image
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">color</span>
+            <span class="types"><span class="type">int</span></span>
+         color value
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_text"></a>
+    <strong>DashObject:set_text (text)</strong>
+    </dt>
+    <dd>
+    Set text.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">text</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         label text
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_align"></a>
+    <strong>DashObject:set_align (align)</strong>
+    </dt>
+    <dd>
+    Set alignment.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">align</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.2/manual.html#6.4">string</a></span>
+         alignment of this object on its parent.
+ One of "default", "top\_left", "top\_mid", "top\_right", "bottom\_left", "bottom\_mid", "bottom\_right", "center\_left", "center\_right", "center"
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_image"></a>
+    <strong>DashObject:set_image (image)</strong>
+    </dt>
+    <dd>
+    Set image.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">image</span>
+         image handle, e.g. "dash.image.background_image"
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_source_x"></a>
+    <strong>DashObject:set_source_x (offset_x)</strong>
+    </dt>
+    <dd>
+    Set source x coordinate.
+ Sets x offset of image.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">offset_x</span>
+            <span class="types"><span class="type">int</span></span>
+         x offset value
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_source_y"></a>
+    <strong>DashObject:set_source_y (offset_y)</strong>
+    </dt>
+    <dd>
+    Set source y coordinate.
+ Sets y offset of image.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">offset_y</span>
+            <span class="types"><span class="type">int</span></span>
+         y offset value
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_point"></a>
+    <strong>DashObject:set_point (point, x, y)</strong>
+    </dt>
+    <dd>
+    Set point of line or triangle.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">point</span>
+            <span class="types"><span class="type">int</span></span>
+         point of line or triangle to set
+        </li>
+        <li><span class="parameter">x</span>
+            <span class="types"><span class="type">int</span></span>
+         X coordinate of point
+        </li>
+        <li><span class="parameter">y</span>
+            <span class="types"><span class="type">int</span></span>
+         Y coordinate of point
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_parent"></a>
+    <strong>DashObject:set_parent (parent)</strong>
+    </dt>
+    <dd>
+    Set parent.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">parent</span>
+            <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+         new parent object
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_position"></a>
+    <strong>DashObject:get_position ()</strong>
+    </dt>
+    <dd>
+    Get position relative to parent.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+        <li>
+           <span class="types"><span class="type">int</span></span>
+        X coordinate</li>
+        <li>
+           <span class="types"><span class="type">int</span></span>
+        Y coordinate</li>
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_telemetry_update_hook"></a>
+    <strong>DashObject:set_telemetry_update_hook (update_rate, callback, telemetryhandle[, telemetryhandle2[, telemetryhandle3[, telemetryhandle4[, telemetryhandle5]]]])</strong>
+    </dt>
+    <dd>
+    Set hook to call when a telemetry value has changed.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">update_rate</span>
+            <span class="types"><span class="type">int</span></span>
+         how many times per second the values will be checked
+        </li>
+        <li><span class="parameter">callback</span>
+            <span class="types"><span class="type">function</span></span>
+         the function which is called when a telemetryvalue changes
+        </li>
+        <li><span class="parameter">telemetryhandle</span>
+         telemetry handle
+        </li>
+        <li><span class="parameter">telemetryhandle2</span>
+         telemetry handle
+         (<em>optional</em>)
+        </li>
+        <li><span class="parameter">telemetryhandle3</span>
+         telemetry handle
+         (<em>optional</em>)
+        </li>
+        <li><span class="parameter">telemetryhandle4</span>
+         telemetry handle
+         (<em>optional</em>)
+        </li>
+        <li><span class="parameter">telemetryhandle5</span>
+         telemetry handle
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:set_graph_next_value"></a>
+    <strong>DashObject:set_graph_next_value (value)</strong>
+    </dt>
+    <dd>
+    Set next value of graph.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">value</span>
+            <span class="types"><span class="type">int</span></span>
+         the new value. If graph is full, the oldest value is dropped.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_x"></a>
+    <strong>DashObject:get_x ()</strong>
+    </dt>
+    <dd>
+    Get X position relative to parent.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        X coordinate
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_y"></a>
+    <strong>DashObject:get_y ()</strong>
+    </dt>
+    <dd>
+    Get Y position relative to parent.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        Y coordinate
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_visible"></a>
+    <strong>DashObject:get_visible ()</strong>
+    </dt>
+    <dd>
+    Get object visible status.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">bool</span></span>
+        true if object is visible
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_size"></a>
+    <strong>DashObject:get_size ()</strong>
+    </dt>
+    <dd>
+    Get size.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+        <li>
+           <span class="types"><span class="type">int</span></span>
+        width</li>
+        <li>
+           <span class="types"><span class="type">int</span></span>
+        height</li>
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_width"></a>
+    <strong>DashObject:get_width ()</strong>
+    </dt>
+    <dd>
+    Get width.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        width
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_height"></a>
+    <strong>DashObject:get_height ()</strong>
+    </dt>
+    <dd>
+    Get height.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        height
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_parent"></a>
+    <strong>DashObject:get_parent ()</strong>
+    </dt>
+    <dd>
+    Get parent.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">DashObject</a></span>
+        parent object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_children"></a>
+    <strong>DashObject:get_children ()</strong>
+    </dt>
+    <dd>
+    Get children.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">{DashObject,</a></span>
+        ...} table of child objects
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_children"></a>
+    <strong>DashObject:get_children ()</strong>
+    </dt>
+    <dd>
+    Get children.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/DashObject.html#">{DashObject,</a></span>
+        ...} table of child objects
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_source_x"></a>
+    <strong>DashObject:get_source_x ()</strong>
+    </dt>
+    <dd>
+    Get source X coordinate.
+ Get X offset of image.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        X offset value
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_source_y"></a>
+    <strong>DashObject:get_source_y ()</strong>
+    </dt>
+    <dd>
+    Get source Y coordinate.
+ Get Y offset of image.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        Y offset value
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_point_x"></a>
+    <strong>DashObject:get_point_x (point)</strong>
+    </dt>
+    <dd>
+    Get X coordinate of line or triangle point.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">point</span>
+            <span class="types"><span class="type">int</span></span>
+         point of line or triangle
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        X coordinate of point
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:get_point_y"></a>
+    <strong>DashObject:get_point_y (point)</strong>
+    </dt>
+    <dd>
+    Get Y coordinate of line or triangle point.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">point</span>
+            <span class="types"><span class="type">int</span></span>
+         point of line or triangle
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        Y coordinate of point
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:clear"></a>
+    <strong>DashObject:clear ()</strong>
+    </dt>
+    <dd>
+    Clear values from graph.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DashObject:destroy"></a>
+    <strong>DashObject:destroy ()</strong>
+    </dt>
+    <dd>
+    Destroy this DashObject and all child objects.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        number of objects destroyed
+    </ol>
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/lunarmodules/LDoc">LDoc 1.5.0</a></i>
+<i style="float:right;">Last updated 2026-02-16 08:30:13 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>
