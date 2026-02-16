@@ -79,7 +79,8 @@ This part can be detached by mechanically inclined users by following the steps 
 !!! Info
     - Remove the two (2) torx T10 screws holding the circuit board.
 	- Remove the circuit board. A small flat head screwdriver may be used to pry around the screw holes of the board.
-	- Disconnect the wire connecting the board to the wheelbase by pulling the connector.
+	- Disconnect the wire connecting the Link QR circuit board to the wheelbase by pulling the connector.
+	- **Do not try to detach the cable from the wheelbase shaft. This will cause damage your wheelbase.**
 	
 !!! Warning
 	The T10 Torx screws can be damaged during removal if they are not opened with utmost care. Ensure that the key stays straight and maintain firm downwards pressure while turning the key.

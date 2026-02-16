@@ -30,7 +30,8 @@ To begin installing the 70mm Adapter to your Simucube 3 wheelbase start by remov
 	- Power off your wheelbase and unplug the power supply.
     - Remove the two (2) torx screws holding the circuit board, using a T10 torx key .
 	- Remove the circuit board. A small flat head screwdriver may be used to pry around the screw holes of the board.
-	- Disconnect the wire connecting the board to the wheelbase by pulling the connector.
+	- Disconnect the wire connecting the Link QR circuit board to the wheelbase by pulling the connector.
+	- **Do not try to detach the cable from the wheelbase shaft. This will cause damage your wheelbase.**
 
 !!! Warning
 	The T10 torx screws can be damaged during removal if they are not opened with utmost care. Ensure that the key stays straight and maintain firm downwards pressure while turning the key.
