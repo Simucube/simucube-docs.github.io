@@ -226,7 +226,7 @@ nav:
           - Legacy Overview: TunerSoftware/tunerlegacy/overview.md
         - Steering Wheels: 
           - TunerSoftware/steeringwheel/index.md
-          - Input / Button Remap: TunerSoftware/steeringwheel/inputbuttonremap.md
+          - Button Remapping: TunerSoftware/steeringwheel/inputbuttonremap.md
           - LED Configuration: TunerSoftware/steeringwheel/ledconfiguration.md
         - Wheelbases: 
           - TunerSoftware/wheelbases/index.md
