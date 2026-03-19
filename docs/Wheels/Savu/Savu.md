@@ -128,6 +128,14 @@ To install the extra paddles, use the provided Torx T-20 T-wrench to remove the 
 This product has a 3-year limited warranty.
 Warranty terms are available at [https://simucube.com/limited-warranty/](https://simucube.com/limited-warranty/)
 
+## 3D Models
+
+[:material-download-circle: Savu Sport](assets/Savu Sport SC3 Simplified.step)
+
+[:material-download-circle: Savu Pro](assets/Savu Pro SC3 Simplified.step)
+
+Granite Devices Inc. is the copyright owner of all models and drawings. All rights reserved. For commercial use or reproduction, contact Granite Devices for permissions.
+
 ## Manufacturer information
 Granite Devices Oy
 
