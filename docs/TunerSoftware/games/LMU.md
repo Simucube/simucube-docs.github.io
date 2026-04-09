@@ -1,2 +1,5 @@
 ## Enabling game support
-To enable game support in Tuner, copy **sc-le-mans-ultimate-plugin-x64.dll** file from Tuner installation folder **data/game_plugins/** to the **Plugins** folder in the root folder where the game is installed.
+Le Mans Ultimate game support works automatically in Tuner — no manual plugin setup is needed.
+
+!!! note
+    If you have previously copied **sc-le-mans-ultimate-plugin-x64.dll** to the game's **Plugins** folder, it is recommended to remove it. This is not mandatory, as Tuner no longer uses data from the plugin DLL.
