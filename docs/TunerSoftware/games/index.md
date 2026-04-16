@@ -10,6 +10,7 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 | American Truck Simulator   |                  |                  | :material-check: | :material-check: |                  | Automatic                                  |
 | Assetto Corsa              | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                                  |
 | Assetto Corsa Competizione | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                                  |
+| Assetto Corsa EVO          | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | Automatic                                  |
 | Automobilista              |                  |                  | :material-check: | :material-check: | :material-check: | [:material-wrench:](Automobilista.md)      |
 | Automobilista 2            | :material-check: | :material-check: | :material-check: | :material-check: | :material-check: | [:material-wrench:](Automobilista2.md)     |
 | BeamNG.drive               | :material-check: | :material-check: | :material-check: | :material-check: |                  | [:material-wrench:](BeamNG.md)             |
