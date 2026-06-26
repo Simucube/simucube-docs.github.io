@@ -24,7 +24,8 @@ The illustration below demostrates how to connect a Simucube 3 wheelbase to a PC
 ![](assets/WiringDark.svg#gh-dark-mode-only){width="900"}
 
 !!! Warning
-    To avoid damaging devices and prevent physical hazards, make changes to cabling only when DC power source has been **fully unplugged** from the mains input (house wall AC power socket). Powering off with POWER button alone is not sufficient.
+    - To avoid damaging devices and prevent physical hazards, make changes to cabling only when DC power source has been **fully unplugged** from the mains input (house wall AC power socket). Powering off with POWER button alone is not sufficient.
+	- Only use the power supply shipped with your device (Sport: GST280, Pro & Ultimate: GST360). Using an incompatible power supply may damage your device.
 	
 ## Wheelbase + Active pedals
 

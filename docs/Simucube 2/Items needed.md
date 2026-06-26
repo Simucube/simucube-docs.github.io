@@ -14,7 +14,7 @@
 
 | Item                     | Qty   |
 | ------------------------ | ----- |
-| 1. Simucube 2 wheelbase           | 1 pc  |
+| 1. Simucube 2 wheelbase <br> &ensp; &ensp; - Simucube 2 Sport: GST280 <br> &ensp; &ensp; - Simucube 2 Pro: GST360 <br> | 1 pc  |
 | 2.  Power adapter and DC cable        | 1 pc  |
 | 3.  AC power cord        | 1 pc |
 | 4. Torque off button and cable           | 1 pc  |
@@ -30,7 +30,7 @@
 | Item                       | Qty   |
 | -------------------------- | ----- |
 | 1. Simucube 2 wheelbase            | 1 pc  |
-| 2. Power supply           | 1 pc  |
+| 2. Power supply: Simucube 2 Ultimate Power Supply | 1 pc  |
 | 3. AC power cord | 1 pc  |
 | 4. DC power cord             | 1 pc |
 | 5. Torque off button cable | 1 pc |

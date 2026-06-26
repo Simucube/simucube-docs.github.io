@@ -26,7 +26,7 @@ For systems with total of two or three ActivePedals:
 | Item                     | Qty   |
 | ------------------------ | ----- |
 | 1. ActivePedal Ultimate           | 1 pc  |
-| 2.  Power adapter        | 1 pc  |
+| 2.  Power supply: GST360        | 1 pc  |
 | 3.  AC power cord        | 1 pc |
 | 4. SC-Link Hub           | 1 pc  |
 | 5. USB cable             | 1 pc  |

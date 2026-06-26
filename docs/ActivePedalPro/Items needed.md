@@ -33,7 +33,7 @@ For systems with multiple ActivePedals:
 | Item                     | Qty   |
 | ------------------------ | ----- |
 | 1. ActivePedal Pro       | 1 pc  |
-| 2. Power adapter         | 1 pc  |
+| 2. Power supply: GST280  | 1 pc  |
 | 3. AC power cord         | 2 pcs |
 | 4. RJ45 cable            | 1 pc  |
 | 5. Screw kit <br> &ensp; &ensp; - M5x20 allen head bolts <br> &ensp; &ensp; - M5x30 allen head bolts <br> &ensp; &ensp; - M5 washers, small <br> &ensp; &ensp; - M5 washers, large <br> &ensp; &ensp; - M5 nylock nut <br> &ensp; &ensp; - M5 t-slot nut, 8mm slot <br> | <br> 7 pcs <br> 7 pcs <br> 7 pcs <br> 7 pcs <br> 7 pcs <br> 7 pcs  |

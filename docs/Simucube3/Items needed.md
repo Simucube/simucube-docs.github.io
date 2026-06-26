@@ -38,7 +38,7 @@ When using Simucube 3 in combination with ActivePedals you need:
 | Item                     | Qty   |
 | ------------------------ | ----- |
 | 1. Simucube 3 Wheelbase           | 1 pc  |
-| 2. Power adapter   				 | 1 pc  |
+| 2. Power Supply <br> &ensp; &ensp; - Simucube 3 Sport: GST280 <br> &ensp; &ensp; - Simucube 3 Pro & Ultimate: GST360| 1 pc  |
 | 3. RJ45 Cable       				 | 1 pc  |
 | 4. AC power cord			         | 1 pc  |
 | 5. Fastener kit <br> &ensp; &ensp; - M8 washer <br> &ensp; &ensp; - M6 washer <br> &ensp; &ensp; - M5 washer <br> &ensp; &ensp; - M8x35 allen head screw <br> &ensp; &ensp; - M8x30 allen head screw <br> &ensp; &ensp; - M5x30 allen head screw <br> &ensp; &ensp; - M6x16 allen head screw <br> &ensp; &ensp; - M5 t-slot nut, 8mm slot <br> &ensp; &ensp; - Hook & loop tie <br>| <br> 4 pcs <br> 4 pcs <br> 2 pcs <br> 4 pcs <br> 4 pcs <br> 2 pcs <br> 4 pcs <br> 2 pcs <br> 1 pc|
