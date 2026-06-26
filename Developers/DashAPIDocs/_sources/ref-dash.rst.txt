@@ -1,0 +1,116 @@
+Main Module
+===========
+
+.. lua:automodule:: dash
+   :members:
+   :exclude-members: Params, Object, Page, Box, Label, Image, Line, Circle, Triangle, Graph, Canvas, wheel, led, unit, sim
+
+
+Dash Objects
+============
+
+.. lua:autoclass:: dash.Params
+   :members:
+
+.. lua:autoclass:: dash.Object
+   :members:
+
+.. lua:autoclass:: dash.Page
+   :members:
+   :recursive:
+   :inherited-members-table:
+   :class-doc-from: both
+
+.. lua:autoclass:: dash.Box
+   :members:
+   :recursive:
+   :inherited-members-table:
+   :class-doc-from: both
+
+.. lua:autoclass:: dash.Label
+   :members:
+   :recursive:
+   :inherited-members-table:
+   :index-table:
+   :special-members:
+   :class-doc-from: both
+
+.. lua:autoclass:: dash.Image
+   :members:
+   :recursive:
+   :inherited-members-table:
+   :class-doc-from: both
+
+.. lua:autoclass:: dash.Line
+   :members:
+   :recursive:
+   :inherited-members-table:
+   :class-doc-from: both
+
+.. lua:autoclass:: dash.Circle
+   :members:
+   :recursive:
+   :inherited-members-table:
+   :class-doc-from: both
+
+.. lua:autoclass:: dash.Triangle
+   :members:
+   :recursive:
+   :inherited-members-table:
+   :class-doc-from: both
+
+.. lua:autoclass:: dash.Graph
+   :members:
+   :recursive:
+   :inherited-members-table:
+   :class-doc-from: both
+
+.. lua:autoclass:: dash.Canvas
+   :members:
+   :recursive:
+   :inherited-members-table:
+   :class-doc-from: both
+
+Telemetry Data
+==============
+
+.. lua:autoclass:: Telemetry
+   :members:
+
+.. lua:autotable:: Telemetries
+   :members:
+
+Simulation Data
+===============
+
+.. lua:autotable:: dash.sim
+   :members:
+
+.. lua:autoclass:: dash.sim.Session
+   :members:
+
+.. lua:autoclass:: dash.sim.Participant
+   :members:
+
+.. lua:autoclass:: dash.sim.Vehicle
+   :members:
+
+.. lua:autoclass:: dash.sim.Track
+   :members:
+
+
+.. lua:autoclass:: dash.sim.Tire
+   :members:
+
+
+Submodules
+==========
+
+.. lua:autotable:: dash.wheel
+   :members:
+
+.. lua:autotable:: dash.led
+   :members:
+
+.. lua:autotable:: dash.unit
+   :members:

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "TTSupermolot-Regular";
+  src: url("../assets/TT Supermolot Regular.otf") format("opentype")
+}
+
+@font-face { 
+  font-family: "TTSupermolot-BoldItalic";
+  src: url("../assets/TT Supermolot Bold Italic.otf") format("opentype") 
+}
+
+
+h1,h2,h3,.md-ellipsis {
+  font-family: "TTSupermolot-BoldItalic"; 
+}
+
+[data-md-color-scheme="slate"] 
+{
+  /*
+  Simucube brand colors:
+  orange: #e84e0f  hsl(17deg 88% 48%)
+  mystic serenity: #02232b  hsl(192deg 91% 9%);*/
+
+  --md-hue: 192;
+  --md-primary-fg-color:   rgb(232, 78, 15); /*title bar text color*/
+  --md-default-fg-color--light: hsl(192deg 25% 70%); /*page title*/
+  --md-default-bg-color:  hsl(192deg 15% 10%); /*page bg*/
+  --md-footer-bg-color: hsl(192deg 15% 7%); /*nav footer*/
+  --md-footer-bg-color--dark : hsl(192deg 91% 4%); /*copyright & social links footer*/
+}
+
+
+div.md-content article.md-content__inner.md-typeset p img
+{
+	border-radius: 20px;
+}
