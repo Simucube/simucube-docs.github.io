@@ -38,7 +38,7 @@
 	
 	Simucube 3 can be quickly powered on/off by using the white power switch on the Link Control Box.
 
-??? question "Force feedback is disabled on my wheelbase. What should I Do?"
+??? question "Force feedback is disabled on my wheelbase. What should I do?"
 
 	- Check that the Link Control Box is connected and that the power switch of the Control Box is in the "On" position.
 	- Check if the Torque Off button of the Link Control Box is pressed. Release it by twisting it clockwise.
