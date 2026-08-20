@@ -1,0 +1,448 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Getting Started &mdash; Simucube Dash  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/lua.css" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Main Module" href="ref-dash.html" />
+    <link rel="prev" title="Simucube Dash Lua API" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Simucube Dash
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#dashboard-structure">Dashboard Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#json-configuration">JSON Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#loading-the-dash-module">Loading the Dash Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#minimal-example">Minimal Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#main-loop">Main Loop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#node-types">Node Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#colors">Colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#telemetry">Telemetry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#custom-widgets-with-oop-inheritance">Custom Widgets with OOP Inheritance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#layout-helpers">Layout Helpers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#multiple-pages">Multiple Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#unit-conversion">Unit Conversion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modular-scripts">Modular Scripts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#editor-support">Editor Support</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ref-dash.html">Main Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ref-dash.html#dash-objects">Dash Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ref-dash.html#telemetry-data">Telemetry Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ref-dash.html#simulation-data">Simulation Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ref-dash.html#submodules">Submodules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ref-libraries.html">Library Modules</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Simucube Dash</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Getting Started</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/getting-started.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading"></a></h1>
+<p>This guide walks through creating a dashboard from scratch and covers the
+key concepts of the Simucube Dash Lua scripting API.</p>
+<section id="dashboard-structure">
+<h2>Dashboard Structure<a class="headerlink" href="#dashboard-structure" title="Link to this heading"></a></h2>
+<p>A dashboard is a directory containing a JSON configuration file, Lua scripts,
+and optional assets (fonts, images).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>my_dash/
+├── dash.json           # configuration file
+├── script/
+│   └── main.lua        # main Lua script (entry point)
+├── fonts/
+│   └── MyFont.ttf      # font files
+└── images/
+    └── background.png  # image files
+</pre></div>
+</div>
+</section>
+<section id="json-configuration">
+<h2>JSON Configuration<a class="headerlink" href="#json-configuration" title="Link to this heading"></a></h2>
+<p>The JSON file declares fonts, images, and scripts used by the dashboard.
+All paths are relative to the dashboard directory.</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.0.0&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;My Dashboard&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Your Name&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;preview_image&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;images/preview.png&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;fonts&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;main_font&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;path&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;fonts/MyFont.ttf&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;size&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">24</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;additional_chars&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;0123456789:. &quot;</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="nt">&quot;large_font&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;path&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;fonts/MyFont.ttf&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;size&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">48</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;scripts&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;main&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;script/main.lua&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;images&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;background&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;images/background.png&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">fonts</span></code>:</dt><dd><p>Each entry defines a font with a name (used as <code class="docutils literal notranslate"><span class="pre">dash.font.&lt;name&gt;</span></code> in
+Lua), a path to the font file, and a pixel size. The optional
+<code class="docutils literal notranslate"><span class="pre">additional_chars</span></code> field lists characters to pre-render – useful for
+optimizing memory on embedded displays when only certain characters
+are needed.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">scripts</span></code>:</dt><dd><p>The <code class="docutils literal notranslate"><span class="pre">&quot;main&quot;</span></code> script is the entry point. Additional scripts (e.g.
+<code class="docutils literal notranslate"><span class="pre">&quot;widgets&quot;</span></code>) are loaded before main and can be accessed via
+<code class="docutils literal notranslate"><span class="pre">require()</span></code>. The following names are reserved and cannot be used
+as script names: <code class="docutils literal notranslate"><span class="pre">dash</span></code>, <code class="docutils literal notranslate"><span class="pre">manufacturer</span></code>, <code class="docutils literal notranslate"><span class="pre">sc</span></code>, <code class="docutils literal notranslate"><span class="pre">simucube</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">images</span></code>:</dt><dd><p>Each entry can be a path string or an object with <code class="docutils literal notranslate"><span class="pre">&quot;path&quot;</span></code> and optional
+<code class="docutils literal notranslate"><span class="pre">&quot;format&quot;</span></code> (e.g. <code class="docutils literal notranslate"><span class="pre">&quot;alpha_only&quot;</span></code> for mask images).</p>
+</dd>
+</dl>
+</section>
+<section id="loading-the-dash-module">
+<h2>Loading the Dash Module<a class="headerlink" href="#loading-the-dash-module" title="Link to this heading"></a></h2>
+<p>Scripts must load the <code class="docutils literal notranslate"><span class="pre">dash</span></code> module with <code class="docutils literal notranslate"><span class="pre">require</span></code> before using it.
+Usually this is the first thing a dash script does:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="kd">local</span><span class="w"> </span><span class="nv">dash</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">require</span><span class="p">(</span><span class="s2">&quot;dash&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Every script file that uses the <code class="docutils literal notranslate"><span class="pre">dash</span></code> API needs its own <code class="docutils literal notranslate"><span class="pre">require</span></code>
+call – this includes widget modules and other helper scripts, not just
+the main entry point.</p>
+</section>
+<section id="minimal-example">
+<h2>Minimal Example<a class="headerlink" href="#minimal-example" title="Link to this heading"></a></h2>
+<p>A complete minimal dashboard:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="c1">-- main.lua</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">dash</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">require</span><span class="p">(</span><span class="s2">&quot;dash&quot;</span><span class="p">)</span>
+
+<span class="kd">local</span><span class="w"> </span><span class="nv">page</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="nf">Page</span><span class="p">()</span>
+<span class="nv">page</span><span class="p">:</span><span class="nf">set_background_color</span><span class="p">(</span><span class="mh">0xFF000000</span><span class="p">)</span><span class="w">  </span><span class="c1">-- black background</span>
+
+<span class="kd">local</span><span class="w"> </span><span class="nv">label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="nf">Label</span><span class="p">(</span><span class="nv">page</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nv">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">    </span><span class="nv">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;Hello!&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nv">font</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">font</span><span class="p">.</span><span class="py">main_font</span><span class="p">,</span>
+<span class="w">    </span><span class="nv">text_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0xFFFFFFFF</span>
+<span class="p">})</span>
+
+<span class="kr">while</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="kr">do</span>
+<span class="w">    </span><span class="nv">dash</span><span class="p">.</span><span class="nf">update</span><span class="p">()</span>
+<span class="kr">end</span>
+</pre></div>
+</div>
+</section>
+<section id="main-loop">
+<h2>Main Loop<a class="headerlink" href="#main-loop" title="Link to this heading"></a></h2>
+<p>Every dashboard script must have a main loop that calls <code class="docutils literal notranslate"><span class="pre">dash.update()</span></code>.
+This function processes input events, runs telemetry update hooks, advances
+timers, and renders the current frame.</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="kr">while</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="kr">do</span>
+<span class="w">    </span><span class="c1">-- your per-frame logic here</span>
+<span class="w">    </span><span class="nv">dash</span><span class="p">.</span><span class="nf">update</span><span class="p">()</span>
+<span class="kr">end</span>
+</pre></div>
+</div>
+</section>
+<section id="node-types">
+<h2>Node Types<a class="headerlink" href="#node-types" title="Link to this heading"></a></h2>
+<p>All visual elements are <strong>nodes</strong> in a parent-child tree. The root of each
+tree is a <strong>Page</strong>. Available node types:</p>
+<ul class="simple">
+<li><p><strong>Page</strong> – root container, one per screen layout</p></li>
+<li><p><strong>Box</strong> – filled rectangle with optional border and rounded corners</p></li>
+<li><p><strong>Label</strong> – text display with auto-sizing or fixed-rect modes</p></li>
+<li><p><strong>Image</strong> – displays an image resource with automatic mosaic repeat for oversized nodes</p></li>
+<li><p><strong>Line</strong> – line segment between two points</p></li>
+<li><p><strong>Circle</strong> – circle with optional fill and border</p></li>
+<li><p><strong>Triangle</strong> – triangle with three vertices</p></li>
+<li><p><strong>Graph</strong> – scrolling line chart</p></li>
+<li><p><strong>Canvas</strong> – free-form pixel drawing</p></li>
+</ul>
+<p>Nodes are created with factory functions on the <code class="docutils literal notranslate"><span class="pre">dash</span></code> module:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="kd">local</span><span class="w"> </span><span class="nv">page</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="nf">Page</span><span class="p">()</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">box</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="nf">Box</span><span class="p">(</span><span class="nv">page</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nv">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="nv">y</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="nv">width</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="nv">height</span><span class="o">=</span><span class="mi">50</span><span class="w"> </span><span class="p">})</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="nf">Label</span><span class="p">(</span><span class="nv">box</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nv">text</span><span class="o">=</span><span class="s2">&quot;Inside box&quot;</span><span class="p">,</span><span class="w"> </span><span class="nv">font</span><span class="o">=</span><span class="nv">dash</span><span class="p">.</span><span class="py">font</span><span class="p">.</span><span class="py">main_font</span><span class="w"> </span><span class="p">})</span>
+</pre></div>
+</div>
+<p>Each node’s position is relative to its parent. Hiding a parent hides all
+its children.</p>
+</section>
+<section id="colors">
+<h2>Colors<a class="headerlink" href="#colors" title="Link to this heading"></a></h2>
+<p>Colors use ARGB32 format where alpha is in the highest byte:
+<code class="docutils literal notranslate"><span class="pre">0xAARRGGBB</span></code>. Full opacity is <code class="docutils literal notranslate"><span class="pre">0xFF</span></code>.</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="mh">0xFFFF0000</span><span class="w">  </span><span class="c1">-- opaque red</span>
+<span class="mh">0xFF00FF00</span><span class="w">  </span><span class="c1">-- opaque green</span>
+<span class="mh">0x80FFFFFF</span><span class="w">  </span><span class="c1">-- 50% transparent white</span>
+</pre></div>
+</div>
+<p>Color helper functions:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="nv">dash</span><span class="p">.</span><span class="nf">rgb</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w">         </span><span class="c1">-- opaque red</span>
+<span class="nv">dash</span><span class="p">.</span><span class="nf">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">128</span><span class="p">)</span><span class="w">   </span><span class="c1">-- 50% transparent red</span>
+<span class="nv">dash</span><span class="p">.</span><span class="nf">color</span><span class="p">(</span><span class="s2">&quot;#FF0000&quot;</span><span class="p">)</span><span class="w">       </span><span class="c1">-- opaque red from hex string</span>
+</pre></div>
+</div>
+<p>Hex string formats: <code class="docutils literal notranslate"><span class="pre">&quot;#RGB&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;#ARGB&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;#RRGGBB&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;#AARRGGBB&quot;</span></code>.</p>
+</section>
+<section id="telemetry">
+<h2>Telemetry<a class="headerlink" href="#telemetry" title="Link to this heading"></a></h2>
+<p>Telemetry objects provide live data from the connected racing simulator.
+Access them through <code class="docutils literal notranslate"><span class="pre">dash.telemetry.&lt;name&gt;</span></code>:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="kd">local</span><span class="w"> </span><span class="nv">rpm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">telemetry</span><span class="p">.</span><span class="py">engine_rpm</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">speed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">telemetry</span><span class="p">.</span><span class="py">speed</span>
+
+<span class="kr">if</span><span class="w"> </span><span class="nv">rpm</span><span class="p">:</span><span class="nf">valid</span><span class="p">()</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="nv">rpm</span><span class="p">:</span><span class="nf">value</span><span class="p">())</span>
+<span class="kr">end</span>
+</pre></div>
+</div>
+<p><strong>Polling</strong> – read values in the main loop:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="kr">while</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="kr">do</span>
+<span class="w">    </span><span class="nv">label</span><span class="p">:</span><span class="nf">set_text</span><span class="p">(</span><span class="nb">string.format</span><span class="p">(</span><span class="s2">&quot;%d RPM&quot;</span><span class="p">,</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">telemetry</span><span class="p">.</span><span class="py">engine_rpm</span><span class="p">:</span><span class="nf">value</span><span class="p">()))</span>
+<span class="w">    </span><span class="nv">dash</span><span class="p">.</span><span class="nf">update</span><span class="p">()</span>
+<span class="kr">end</span>
+</pre></div>
+</div>
+<p><strong>Update hooks</strong> – more efficient, only called when values change:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="kd">local</span><span class="w"> </span><span class="nv">rpm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">telemetry</span><span class="p">.</span><span class="py">engine_rpm</span>
+<span class="nv">label</span><span class="p">:</span><span class="nf">set_telemetry_update_hook</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="kr">function</span><span class="p">()</span>
+<span class="w">    </span><span class="nv">label</span><span class="p">:</span><span class="nf">set_text</span><span class="p">(</span><span class="nb">string.format</span><span class="p">(</span><span class="s2">&quot;%d RPM&quot;</span><span class="p">,</span><span class="w"> </span><span class="nv">rpm</span><span class="p">:</span><span class="nf">value</span><span class="p">()))</span>
+<span class="kr">end</span><span class="p">,</span><span class="w"> </span><span class="nv">rpm</span><span class="p">)</span>
+
+<span class="kr">while</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="kr">do</span>
+<span class="w">    </span><span class="nv">dash</span><span class="p">.</span><span class="nf">update</span><span class="p">()</span>
+<span class="kr">end</span>
+</pre></div>
+</div>
+<p>The first argument to <code class="docutils literal notranslate"><span class="pre">set_telemetry_update_hook</span></code> is the maximum check
+rate in Hz. The callback fires only when a watched value actually changes.</p>
+</section>
+<section id="custom-widgets-with-oop-inheritance">
+<h2>Custom Widgets with OOP Inheritance<a class="headerlink" href="#custom-widgets-with-oop-inheritance" title="Link to this heading"></a></h2>
+<p>Use <code class="docutils literal notranslate"><span class="pre">extend()</span></code> to create reusable widget classes:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="c1">-- Define a reusable telemetry display widget</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">TelemetryLabel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">Label</span><span class="p">:</span><span class="nf">extend</span><span class="p">({</span>
+<span class="w">    </span><span class="nv">font</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">font</span><span class="p">.</span><span class="py">main_font</span><span class="p">,</span>
+<span class="w">    </span><span class="nv">text_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0xFFFFFFFF</span>
+<span class="p">})</span>
+
+<span class="kr">function</span><span class="w"> </span><span class="nc">TelemetryLabel</span><span class="p">:</span><span class="nf">init</span><span class="p">(</span><span class="nv">parent</span><span class="p">,</span><span class="w"> </span><span class="nv">props</span><span class="p">)</span>
+<span class="w">    </span><span class="nv">self</span><span class="p">.</span><span class="py">_telemetry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">props</span><span class="p">.</span><span class="py">telemetry</span>
+<span class="w">    </span><span class="nv">self</span><span class="p">.</span><span class="py">_format</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">props</span><span class="p">.</span><span class="py">format</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="s2">&quot;%d&quot;</span>
+<span class="w">    </span><span class="nv">self</span><span class="p">:</span><span class="nf">set_telemetry_update_hook</span><span class="p">(</span>
+<span class="w">        </span><span class="nv">props</span><span class="p">.</span><span class="py">update_rate</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span>
+<span class="w">        </span><span class="nv">self</span><span class="p">.</span><span class="py">update</span><span class="p">,</span>
+<span class="w">        </span><span class="nv">props</span><span class="p">.</span><span class="py">telemetry</span>
+<span class="w">    </span><span class="p">)</span>
+<span class="w">    </span><span class="nv">self</span><span class="p">:</span><span class="nf">update</span><span class="p">()</span>
+<span class="kr">end</span>
+
+<span class="kr">function</span><span class="w"> </span><span class="nc">TelemetryLabel</span><span class="p">:</span><span class="nf">update</span><span class="p">()</span>
+<span class="w">    </span><span class="nv">self</span><span class="p">:</span><span class="nf">set_text</span><span class="p">(</span><span class="nb">string.format</span><span class="p">(</span><span class="nv">self</span><span class="p">.</span><span class="py">_format</span><span class="p">,</span><span class="w"> </span><span class="nv">self</span><span class="p">.</span><span class="py">_telemetry</span><span class="p">:</span><span class="nf">value</span><span class="p">()))</span>
+<span class="kr">end</span>
+
+<span class="c1">-- Create instances</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">rpm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">TelemetryLabel</span><span class="p">(</span><span class="nv">page</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nv">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">    </span><span class="nv">telemetry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">telemetry</span><span class="p">.</span><span class="py">engine_rpm</span><span class="p">,</span>
+<span class="w">    </span><span class="nv">format</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;%d RPM&quot;</span>
+<span class="p">})</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">speed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">TelemetryLabel</span><span class="p">(</span><span class="nv">page</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nv">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">40</span><span class="p">,</span>
+<span class="w">    </span><span class="nv">telemetry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">telemetry</span><span class="p">.</span><span class="py">speed</span><span class="p">,</span>
+<span class="w">    </span><span class="nv">format</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;%.0f km/h&quot;</span>
+<span class="p">})</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">defaults</span></code> table in <code class="docutils literal notranslate"><span class="pre">extend()</span></code> provides default creation parameters.
+Child defaults override parent defaults. The <code class="docutils literal notranslate"><span class="pre">init</span></code> method is called
+automatically after the node is created.</p>
+<p>Multi-level inheritance is supported:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="kd">local</span><span class="w"> </span><span class="nv">WarningLabel</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">TelemetryLabel</span><span class="p">:</span><span class="nf">extend</span><span class="p">({</span>
+<span class="w">    </span><span class="nv">text_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0xFFFF0000</span><span class="w">  </span><span class="c1">-- red text</span>
+<span class="p">})</span>
+</pre></div>
+</div>
+</section>
+<section id="layout-helpers">
+<h2>Layout Helpers<a class="headerlink" href="#layout-helpers" title="Link to this heading"></a></h2>
+<p>Two helpers simplify positioning nodes:</p>
+<p><strong>align_in_parent</strong> – position a node within its parent using a 9-point grid:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="nv">label</span><span class="p">:</span><span class="nf">align_in_parent</span><span class="p">(</span><span class="s2">&quot;center&quot;</span><span class="p">)</span>
+<span class="nv">label</span><span class="p">:</span><span class="nf">align_in_parent</span><span class="p">(</span><span class="s2">&quot;bottom_right&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>anchor_to</strong> – position a node relative to a sibling:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="c1">-- Place label2 below label1 with 5px gap</span>
+<span class="nv">label2</span><span class="p">:</span><span class="nf">anchor_to</span><span class="p">(</span><span class="nv">label1</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;bottom_left&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;top_left&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="multiple-pages">
+<h2>Multiple Pages<a class="headerlink" href="#multiple-pages" title="Link to this heading"></a></h2>
+<p>Dashboards can have multiple pages. The first page created is shown
+initially:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="kd">local</span><span class="w"> </span><span class="nv">dash</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">require</span><span class="p">(</span><span class="s2">&quot;dash&quot;</span><span class="p">)</span>
+
+<span class="kd">local</span><span class="w"> </span><span class="nv">page1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="nf">Page</span><span class="p">()</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">page2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="nf">Page</span><span class="p">()</span>
+
+<span class="nv">dash</span><span class="p">.</span><span class="nf">Label</span><span class="p">(</span><span class="nv">page1</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nv">text</span><span class="o">=</span><span class="s2">&quot;Page 1&quot;</span><span class="p">,</span><span class="w"> </span><span class="nv">font</span><span class="o">=</span><span class="nv">dash</span><span class="p">.</span><span class="py">font</span><span class="p">.</span><span class="py">main_font</span><span class="w"> </span><span class="p">})</span>
+<span class="nv">dash</span><span class="p">.</span><span class="nf">Label</span><span class="p">(</span><span class="nv">page2</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nv">text</span><span class="o">=</span><span class="s2">&quot;Page 2&quot;</span><span class="p">,</span><span class="w"> </span><span class="nv">font</span><span class="o">=</span><span class="nv">dash</span><span class="p">.</span><span class="py">font</span><span class="p">.</span><span class="py">main_font</span><span class="w"> </span><span class="p">})</span>
+
+<span class="kr">while</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="kr">do</span>
+<span class="w">    </span><span class="c1">-- Switch pages with a button press</span>
+<span class="w">    </span><span class="kr">if</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">wheel</span><span class="p">.</span><span class="nf">get_digital_input</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+<span class="w">        </span><span class="kd">local</span><span class="w"> </span><span class="nv">current</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="nf">get_current_page_index</span><span class="p">()</span>
+<span class="w">        </span><span class="nv">dash</span><span class="p">.</span><span class="nf">change_page</span><span class="p">(</span><span class="nv">current</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span>
+<span class="w">    </span><span class="kr">end</span>
+<span class="w">    </span><span class="nv">dash</span><span class="p">.</span><span class="nf">update</span><span class="p">()</span>
+<span class="kr">end</span>
+</pre></div>
+</div>
+</section>
+<section id="unit-conversion">
+<h2>Unit Conversion<a class="headerlink" href="#unit-conversion" title="Link to this heading"></a></h2>
+<p>Display values in the user’s preferred units:</p>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="kd">local</span><span class="w"> </span><span class="nv">speed_ms</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">telemetry</span><span class="p">.</span><span class="py">speed</span><span class="p">:</span><span class="nf">value</span><span class="p">()</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">speed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">unit</span><span class="p">.</span><span class="nf">convert_to_user_speed</span><span class="p">(</span><span class="nv">speed_ms</span><span class="p">)</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">unit_str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="py">unit</span><span class="p">.</span><span class="nf">get_user_speed_unit</span><span class="p">()</span>
+<span class="nv">label</span><span class="p">:</span><span class="nf">set_text</span><span class="p">(</span><span class="nb">string.format</span><span class="p">(</span><span class="s2">&quot;%.0f %s&quot;</span><span class="p">,</span><span class="w"> </span><span class="nv">speed</span><span class="p">,</span><span class="w"> </span><span class="nv">unit_str</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>Input units are always SI: m/s for speed, meters for distance, celsius for
+temperature, litres for volume, kPa for pressure.</p>
+</section>
+<section id="modular-scripts">
+<h2>Modular Scripts<a class="headerlink" href="#modular-scripts" title="Link to this heading"></a></h2>
+<p>Organize larger dashboards into multiple script files. All scripts listed
+in the JSON <code class="docutils literal notranslate"><span class="pre">&quot;scripts&quot;</span></code> section are loaded before the main script runs.
+Use <code class="docutils literal notranslate"><span class="pre">require()</span></code> to access them:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;scripts&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;main&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;script/main.lua&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;widgets&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;script/widgets.lua&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;style&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;script/style.lua&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="c1">-- style.lua</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">style</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span>
+<span class="nv">style</span><span class="p">.</span><span class="py">COLOR_BG</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0xFF1A1A1A</span>
+<span class="nv">style</span><span class="p">.</span><span class="py">COLOR_TEXT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0xFFFFFFFF</span>
+<span class="nv">style</span><span class="p">.</span><span class="py">COLOR_ACCENT</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0xFF00AAFF</span>
+<span class="kr">return</span><span class="w"> </span><span class="nv">style</span>
+</pre></div>
+</div>
+<div class="highlight-lua notranslate"><div class="highlight"><pre><span></span><span class="c1">-- main.lua</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">dash</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">require</span><span class="p">(</span><span class="s2">&quot;dash&quot;</span><span class="p">)</span>
+<span class="kd">local</span><span class="w"> </span><span class="nv">style</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">require</span><span class="p">(</span><span class="s2">&quot;style&quot;</span><span class="p">)</span>
+
+<span class="kd">local</span><span class="w"> </span><span class="nv">page</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">dash</span><span class="p">.</span><span class="nf">Page</span><span class="p">()</span>
+<span class="nv">page</span><span class="p">:</span><span class="nf">set_background_color</span><span class="p">(</span><span class="nv">style</span><span class="p">.</span><span class="py">COLOR_BG</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="editor-support">
+<h2>Editor Support<a class="headerlink" href="#editor-support" title="Link to this heading"></a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">.lua</span></code> files in this documentation directory are LuaLS-annotated
+definition stubs. Configure your editor to use them as a workspace library
+for autocompletion, type checking, and hover documentation.</p>
+<p>See the <code class="docutils literal notranslate"><span class="pre">readme.md</span></code> file in this directory for setup instructions for
+VS Code (EmmyLua and LuaLS extensions) and other editors.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Simucube Dash Lua API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="ref-dash.html" class="btn btn-neutral float-right" title="Main Module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

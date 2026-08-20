@@ -1,0 +1,12 @@
+Library Modules
+===============
+
+These modules are not loaded by default. Use ``require()`` to load them.
+
+.. lua:autoclass:: Timer
+   :members:
+
+.. only:: internal
+
+   .. lua:automodule:: manufacturer
+      :members:
