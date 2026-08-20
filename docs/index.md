@@ -9,6 +9,6 @@ These pages contain the latest information for the following Simucube products a
 - [Throttle](Simucube%20Throttle/index.md)
 - [Baseplate](ActivePedal/Baseplate.md)
 - [Tuner software](TunerSoftware/index.md)
-- Developer information
+- [Developer information](Developers/index.md)
 
 You may download an offline copy of this guide in web page format. [:material-download-circle: Download.](https://github.com/Simucube/simucube-docs.github.io/archive/refs/heads/gh-pages.zip)

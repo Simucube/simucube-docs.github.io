@@ -259,6 +259,7 @@ nav:
           - Richard Burns Rally: TunerSoftware/games/RBR.md
           - WRC Generations: TunerSoftware/games/WRC Generations.md
     - Developers:
+      - Developers/index.md
       - Simucube Link: Developers/Simucube Link.md
       - ActivePedal:
         - Electrical pinouts: Developers/ActivePedal/Pinouts.md
