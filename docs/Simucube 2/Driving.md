@@ -28,7 +28,7 @@ from simulator to simulator.
 Some audible beeps may already be heard from the wheel base on the first drive. These are the potential causes for these audible notifications:
 
 1. Torque saturation / clipping is detected. The game is giving maximum torque and no additional signal details can be felt. Tune game FFB level to lower value to solve this. You can turn this feature on/off on the configuration view for the wheelbase in Tuner.
-2. On rally- and drifting type games or other aggressive driving, Simucube 2 might beep many times. This is due to automatic hands-off safety mode kicking in momentarily, which resultsin these beeps. The normal operating mode is automatically resumed when the driver is detected to be using the wheel again (additional beeps are played by the device). You can tune this feature on the configuration view for the wheelbase in Tuner and it can be turned off.
+2. On rally- and drifting type games or other aggressive driving, Simucube 2 might beep many times. This is due to automatic hands-off safety mode kicking in momentarily, which results in these beeps. The normal operating mode is automatically resumed when the driver is detected to be using the wheel again (additional beeps are played by the device). You can tune this feature on the configuration view for the wheelbase in Tuner and it can be turned off.
 
 ### Updates to simulators and games
 The game developers can update their games at any time via automatic software deployment platforms such as Steam. They can also change their Force Feedback implementation and game controller detection codes. 

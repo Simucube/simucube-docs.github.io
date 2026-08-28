@@ -64,7 +64,7 @@ After removing the original Link Quick Release male part from the wheelbase, att
 	- **Pay attention to the orientation of the lock washers: The convex side of the washer should face the screw head.**
 	- *Note: You may experience some resistance as the locking washer compresses during tightening.*
 	
-You may now attach your 3rd party quick release system to the threaded holes on the adapter plate. Use atleast three (3) of the available mounting holes.
+You may now attach your 3rd party quick release system to the threaded holes on the adapter plate. Use at least three (3) of the available mounting holes.
 
-Note that the thickness of the selected quick release part effects the lenght of the mounting screws to be used. The screws may not poke out more than 
+Note that the thickness of the selected quick release part affects the length of the mounting screws to be used. The screws may not poke out more than 
 10mm from the mounting surface of the quick release part. For thin quick release parts, additional fasteners may be required.

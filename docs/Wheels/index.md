@@ -1,4 +1,4 @@
-# Simcube Wheels
+# Simucube Wheels
 
 Here are the manuals for the Simucube wheels.
 

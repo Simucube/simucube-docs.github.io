@@ -5,7 +5,7 @@
 Telemetry needs to be enabled in-game from the settings menu. Navigate to  **SETTINGS > GAMEPLAY & HUD > "UDP RACE TELEMETRY"** header and set:
 
 1. Data out: **ON**
-2. Data out IP Adress: **127.0.0.1**
+2. Data out IP Address: **127.0.0.1**
 3. Port: **9876**
 4. Data out packet format: **Car Dash**
 

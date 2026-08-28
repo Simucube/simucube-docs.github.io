@@ -114,7 +114,7 @@ See above for fault codes. If the LED indicator is red, the wheel is not chargin
 
 ## Adjustments
 ### Changing button caps
-To change the button caps, use the provided Torx T-8 L-wrench to remove the covers around the buttons (1). Pull out the button caps and clip a new ones in place (2). Screw the button covers back in place. Be carefull not to overtighten the bolts (max 0.5 Nm).
+To change the button caps, use the provided Torx T-8 L-wrench to remove the covers around the buttons (1). Pull out the button caps and clip a new ones in place (2). Screw the button covers back in place. Be careful not to overtighten the bolts (max 0.5 Nm).
 
 ![](assets%2Fbutton_cap_change.svg)
 

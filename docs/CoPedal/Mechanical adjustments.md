@@ -36,7 +36,7 @@ To adjust the angle of the pedal face:
 1. Remove the cotter pin
 2. Pull out the clevis pin
 3. Lift the arm and loosen the locknut.
-4. Twist the the arm counter-clockwise to extend the arm.
+4. Twist the arm counter-clockwise to extend the arm.
 5. Reverse steps and tighten the locknut with fingers towards the end of the arm.
 
 ### Important note

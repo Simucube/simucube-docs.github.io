@@ -6,7 +6,7 @@
 
 ??? question "Does Simucube Co-Pedal work with other pedal sets"
 
-    Simucube Co-Pedal is intended to be used with ActivePedal but does work atleast with Heusinkveld brake pedals. However, you need the Simucube ActivePedal Connector, which you would normally use to connect Heusinkveld pedals to ActivePedal.
+    Simucube Co-Pedal is intended to be used with ActivePedal but does work at least with Heusinkveld brake pedals. However, you need the Simucube ActivePedal Connector, which you would normally use to connect Heusinkveld pedals to ActivePedal.
 
 ??? question "Can Simucube Co-Pedal be used as stand-alone input device"
 

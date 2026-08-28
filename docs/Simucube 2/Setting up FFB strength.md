@@ -2,7 +2,7 @@
 
 FFB strength can be set up from many locations, including
 
- * The car in the simulator migth have separate control for it
+ * The car in the simulator might have separate control for it
  * The simulator can have a master setting for it
  * Device Driver software (Tuner FFB settings profile)
 
@@ -34,9 +34,9 @@ Then use the smoothness filters to set up how the FFB details feel.
 ## Simulation specific tips and tricks
 
 ### iRacing
-iRacing defaults to showing arbitary units for the in-sim FFB strength.
+iRacing defaults to showing arbitrary units for the in-sim FFB strength.
 
-Click on the strength label to set the slider to show Nm (Newton meter) based saturation point (Maximum Force) instead. Working with real units is preferred instead of the arbitary units.
+Click on the strength label to set the slider to show Nm (Newton meter) based saturation point (Maximum Force) instead. Working with real units is preferred instead of the arbitrary units.
 
 This point controls the torque level, at which the full torque is (set from Tuner) is requested. Bigger Nm based number results in smaller overall torque level.
 

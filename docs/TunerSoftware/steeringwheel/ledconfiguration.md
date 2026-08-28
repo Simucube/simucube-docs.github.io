@@ -64,7 +64,7 @@ Each LED can be used in up to eight (8) different effects and you can see which 
 
 ## Car configuration menu
 ### Open Car configuration menu
-- Select **Simulator Settings** from the the main navigator on the left side.
+- Select **Simulator Settings** from the main navigator on the left side.
 
 ![](assets/tuner3_simulatorsettings.png)
 

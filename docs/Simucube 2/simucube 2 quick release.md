@@ -21,7 +21,7 @@ Various installation options are explained in this video, and also in text below
 ![](assets/sc2qr_508_1.png)
 ![](assets/sc2qr_508_2.png)
 
-It is possible to use the SQR without a spacer, but the use of the spacer is recommended as itgives the user more space to use the locking pin. To attach the wheel side plate to your wheel, use suitable M5 screws and washers (3 or 6 screws depending on your wheel type) from the included ones or use your own if suitable length is not found. In case you have a need to find longer/shorter screws, the correct screw thread type is M5 size with 0.8 mm pitch.
+It is possible to use the SQR without a spacer, but the use of the spacer is recommended as it gives the user more space to use the locking pin. To attach the wheel side plate to your wheel, use suitable M5 screws and washers (3 or 6 screws depending on your wheel type) from the included ones or use your own if suitable length is not found. In case you have a need to find longer/shorter screws, the correct screw thread type is M5 size with 0.8 mm pitch.
 
 ### 50.8 mm PCD front and rear mounting with spacer
 

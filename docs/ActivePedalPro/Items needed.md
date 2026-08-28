@@ -14,7 +14,7 @@ For systems with multiple ActivePedals:
 
 * 2 or more ActivePedal Pro or ActivePedal Ultimate
 * SC-Link Hub
-* Ethernet swich with enough ports for SC-Link Hub and ActivePedals
+* Ethernet switch with enough ports for SC-Link Hub and ActivePedals
 
 ## Optional items
 

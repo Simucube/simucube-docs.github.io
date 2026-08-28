@@ -77,12 +77,12 @@ ActivePedal Ultimate has two mechanical settings. Choose the mode according to y
 To change the mode:
 
 1. Re-assemble parts as illustrated procedure
-2. Tighten screws to appriximately 3 Nm torque.
+2. Tighten screws to approximately 3 Nm torque.
 3. Update the setting under [ActivePedal Ultimate hardware configuration dialog](Mechanical%20adjustments.md#configuration) in Tuner.
 
 !!! tip
 
-    For most users, leaving this setting in default mode (high force & less travel) will be sufficient for all scenarions. 
+    For most users, leaving this setting in default mode (high force & less travel) will be sufficient for all scenarios. 
 
 ![](assets/changing%20force%20range.png)
 

@@ -10,7 +10,7 @@ From version 3.0.0 onwards, the Tuner software will automatically connect wirele
 2. Wheel will be connected automatically and appear in both left side Main Navigator and also in the Overview in its own section.
 
 !!! info "Managing the wireless steering wheel connections"
-    Open the settings from the bottom left corner and go to the manage connectons. Here you can forget and switch between existing connections.
+    Open the settings from the bottom left corner and go to the manage connections. Here you can forget and switch between existing connections.
 
 ### Connect a steering wheel with Simucube 3 Quick Release
 
@@ -27,7 +27,7 @@ Wireless Steering Wheels connection manager can be found under **Settings** and 
 ![asd](assets/tuner3_settings_simucube_wireless_wheel.png)
 
 ### Disconnect a wheel
-1. From the wheel config menu press **Disconnect** button in bottom left corner of thw window
+1. From the wheel config menu press **Disconnect** button in bottom left corner of the window
 2. Turn off the wheel
 
 ### Forget a connected wheel

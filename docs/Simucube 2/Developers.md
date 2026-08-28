@@ -1,6 +1,6 @@
 ## Simucube 2 Accessory Port
 
-The Accessory Port can be used to connect four analog inputs (0 to 5 V) and two digital button inputs (e.g. sequental shifter) to the wheelbase. Wiring pinouts and information is in a separate PDF guide:
+The Accessory Port can be used to connect four analog inputs (0 to 5 V) and two digital button inputs (e.g. sequential shifter) to the wheelbase. Wiring pinouts and information is in a separate PDF guide:
 
 [:material-download-circle: Simucube 2 Accessory Port Application Guide](https://granitedevices.com/w/images/c/c5/Simucube_2_Accessory_Port_Application_Guide.pdf)
 
@@ -14,9 +14,9 @@ Granite Devices does not recommend any new commercial products to be designed fo
 - Wheel axis: X axis, Unsigned 16 bit field, 0-65535 value
 - Y axis: Unsigned 16 bit field. 
     - This axis will idle at center position. However, users can map external pedal or handbrake to this axis.
-    - Do not utilize product X and Y axises for in-game menu browsing!
-- Pedal/handbrake axises: 6 additional axises, unsigned 16 bit values.
-    - These can be set by users to inteface with Simucube-compatible pedals or handbrakes, or with (upcoming) analog axises (clutch paddles) from Simucube Wireless Wheels
+    - Do not utilize product X and Y axes for in-game menu browsing!
+- Pedal/handbrake axes: 6 additional axes, unsigned 16 bit values.
+    - These can be set by users to interface with Simucube-compatible pedals or handbrakes, or with (upcoming) analog axes (clutch paddles) from Simucube Wireless Wheels
 - Buttons: There are 128 buttons.
     - All buttons can be used by Simucube 1 physical interface, and when combined with a Simucube wireless wheel, support for all 128 buttons is required for optimal user experience.
 

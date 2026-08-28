@@ -14,7 +14,7 @@
 !!! Warning
     The Simucube Co-Pedal does not include a USB hub and necessitates connection to an ActivePedal in order to function.
 
-## ActivePedal compability
+## ActivePedal compatibility
 
 Co-Pedal is designed to be used with ActivePedal and it may be wired to one of ActivePedal's external pedal ports. This allows you to configure Co-Pedal through Tuner.
 

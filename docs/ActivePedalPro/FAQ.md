@@ -30,9 +30,9 @@
 
 ??? question "Shall I power off ActivePedal Pro when not using it?"
 
-    ActivePedal Pro may be left powered on for unlimited amount of time without side effects. However it is a good practive to power them off to reduce idle power consumption, and for maximial safety (especially if untrailed person, children or pets have access to them).
+    ActivePedal Pro may be left powered on for unlimited amount of time without side effects. However it is a good practice to power them off to reduce idle power consumption, and for maximum safety (especially if untrained person, children or pets have access to them).
 
-    Tip: to eliminate the need to use the push-button behind the ActivePedal Pro for power on/off, one may connect power adapter to AC extension cord with a switch or to remote controllable AC switch. This way multiple pedals may be switched on/off simulatenously in more ergonomical way.
+    Tip: to eliminate the need to use the push-button behind the ActivePedal Pro for power on/off, one may connect power adapter to AC extension cord with a switch or to remote controllable AC switch. This way multiple pedals may be switched on/off simultaneously in more ergonomical way.
 
 ??? question "Is it normal that resistance/friction of pedal reduces after the initial use?"
 

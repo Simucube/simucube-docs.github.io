@@ -1,4 +1,4 @@
-Simucube 2 has either a status LED on the rear of the unit (revision 1 and Ultimate), or the led illuminates the white POWER IN connector (evision 2 Sport and Pro units).
+Simucube 2 has either a status LED on the rear of the unit (revision 1 and Ultimate), or the led illuminates the white POWER IN connector (revision 2 Sport and Pro units).
 
 ### Normal operation
 

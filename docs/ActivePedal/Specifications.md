@@ -45,7 +45,7 @@ Supported with separately sold link cable:
 
 ### Other passive pedals
 
-Generally any USB connected pedal should work with ActivePedals as long as they are physically fittable in the same rig. Using direct USB connection on passive pedals will rely on their respective software thus are not confugrable through Tuner.
+Generally any USB connected pedal should work with ActivePedals as long as they are physically fittable in the same rig. Using direct USB connection on passive pedals will rely on their respective software thus are not configurable through Tuner.
 
 Additional to USB connection, most of load cell sensor based passive pedals could work via ActivePedal external pedal input and with Tuner regardless of not being listed in this page. Fitting them in ActivePedal system may require third party or DIY adapter.
 

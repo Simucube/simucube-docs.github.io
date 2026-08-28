@@ -44,6 +44,6 @@ Brake threshold vibration and clutch bite point effects don't require telemetry 
 
 To check whether telemetry data is connected to Tuner, look at the left bottom edge telemetry status area of Tuner main window. When supported the simulator is detected as running, the status should say SIMULATOR CONNECTED and name of the simulator should be shown in the following line. 
 
-If game is running but Tuner hasn't received telemetry data yet, "Waiting for telemetry data" status text is displayed. Most games provide provide telemetry data only while the race is running thus it is expected to see this text in the status area when game is in menus. 
+If game is running but Tuner hasn't received telemetry data yet, "Waiting for telemetry data" status text is displayed. Most games provide telemetry data only while the race is running thus it is expected to see this text in the status area when game is in menus. 
 
 If there are no telemetry effects and this text is still shown when the simulation is running, see game specific instructions and verify that telemetry is suitably configured.

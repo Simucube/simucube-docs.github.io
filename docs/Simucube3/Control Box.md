@@ -40,8 +40,8 @@ On the Sleep / Activate button (number 4), an indicator LED can be found. The co
 
 | LED Colour				| State   						|
 | ------------------------  | ----- 						|
-| Continous green   		| Normal operating mode 		|
-| Continous purple    	    | Disabled						|
+| Continuous green  		| Normal operating mode 		|
+| Continuous purple   	    | Disabled						|
 | Cyan blinking   		    | Safe mode active				|
 | Red blinking	 			| Device fault  				|
 | Red / Orange blinking  	| Torque off pressed			|

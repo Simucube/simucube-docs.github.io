@@ -4,7 +4,7 @@
 Simucube 3 wheel extension kit allows the user to improve rig ergonomics by moving the steering wheel further away from the wheelbase.
 The narrow aluminium steering axle also allows the monitor to be placed as low as possible for improved vertical field of view, while still maintaining structural rigidness.
 
-This kit comes with two extension shafts included to find your perfect lenght. The shorter shaft moves the steering wheel 100mm backwards, while 
+This kit comes with two extension shafts included to find your perfect length. The shorter shaft moves the steering wheel 100mm backwards, while 
 the longer shaft moves it 200mm.
 
 
@@ -51,7 +51,7 @@ To begin the installation of the Shaft Extension Kit, start by detaching the ori
 
 ## Assembly of extension shaft
 
-There are two available extension shaft lenghts included in the package: 100mm & 200mm of total extension. Select the suitable extension lenght and follow the instructions below to install.
+There are two available extension shaft lengths included in the package: 100mm & 200mm of total extension. Select the suitable extension length and follow the instructions below to install.
 
 ### Step 3
 
@@ -110,5 +110,5 @@ There are two available extension shaft lenghts included in the package: 100mm &
 ![](assets/ExtensionWarning.svg){width=650}
 
 !!! Warning
-	- **Do not combine multiple extensions to increase extension lenght.**
+	- **Do not combine multiple extensions to increase extension length.**
 	- Extending the steering axle over 200mm may cause damage to your wheelbase.

@@ -46,6 +46,6 @@ The antenna cable used is Pulse Electronics W9006 U.FL to RP-SMA cable, Digikey 
 
 ### Firmware update does not find the device
 
-**Problem:** Firmware update is stuck after sending command to device, and does not update the device at all. True Drive or Tuner will not succesfully update the firmware. Cause: Razer mouse driver installs a filter driver that blocks the packets used by True Drive or Tuner to do the update.
+**Problem:** Firmware update is stuck after sending command to device, and does not update the device at all. True Drive or Tuner will not successfully update the firmware. Cause: Razer mouse driver installs a filter driver that blocks the packets used by True Drive or Tuner to do the update.
 
 [Simucube 2 Firmware Update does not start debugging PDF](https://granitedevices.com/w/images/3/3d/SC2_Sport%26Pro%26Ultimate_Firmware_Upgrade_does_not_start.pdf)

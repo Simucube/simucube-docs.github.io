@@ -14,7 +14,7 @@
 !!! Warning
     The Simucube Throttle does not include a USB hub and necessitates connection to an ActivePedal in order to function.
 
-## ActivePedal compability
+## ActivePedal compatibility
 
 Throttle is designed to be used with ActivePedal and it may be wired to one of ActivePedal's external pedal ports. This allows you to configure Throttle pedal through Tuner. In addition, you can continue to use "Connectable" passive pedals as previously for example as a clutch pedal. 
 

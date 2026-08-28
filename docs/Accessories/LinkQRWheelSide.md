@@ -42,7 +42,7 @@ Connect the cable of the Link Quick Release to the connector located on the circ
 
 For wheels with no electronic support for Link Quick Release features, the cable may be tucked inside the rectangular shaped cavity of the Quick Release.
 
-After connecting the cable, follow the intallation instructions below based on the type of attachment holes your steering wheel uses.
+After connecting the cable, follow the installation instructions below based on the type of attachment holes your steering wheel uses.
 
 
 ### Wheels with through holes

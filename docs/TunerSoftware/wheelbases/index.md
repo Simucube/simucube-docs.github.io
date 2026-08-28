@@ -25,7 +25,7 @@ Simucube 2 Configuration view gives an option to change how Simucube 2 wheelbase
 
 ### High Torque
 
-- Clicking the **High Torque** toggle button, popup will appear descriping the dangers of this feature.
+- Clicking the **High Torque** toggle button, popup will appear describing the dangers of this feature.
     - Scroll all the way down to unlock the **Activate high torque mode** button.
 
 - You can avoid having to do this process each time you toggle the high torque mode:
