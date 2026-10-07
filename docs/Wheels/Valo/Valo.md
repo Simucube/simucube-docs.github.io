@@ -11,7 +11,7 @@
 ![](assets%2Fvalo_wheel_dark.svg#gh-dark-mode-only)
 
 ## Software & User guide
-The Simucube Valo wheels are supported by the Simucube Tuner. Download the latest version of the Simucube software from [here](https://www.simucube.com/downloads)
+The Simucube Valo wheels are supported by the Simucube Tuner. Download the latest version of the Simucube software from [here](../../TunerSoftware/index.md#download)
 The user guide for the Simucube software can be found [here](../../TunerSoftware/index.md).
 
 ## Charging
