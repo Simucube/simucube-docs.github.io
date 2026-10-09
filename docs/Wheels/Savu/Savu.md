@@ -80,7 +80,7 @@ The Simucube Savu Sport and Savu Pro are sold in two configurations. One with Si
 
 
 ## Software & User guide
-The Simucube Savu wheels are supported by the Simucube Tuner. Download the latest version of the Simucube software from [here](https://www.simucube.com/downloads).
+The Simucube Savu wheels are supported by the Simucube Tuner. Download the latest version of the Simucube software from [here](../../TunerSoftware/index.md#download).
 The user guide for the Simucube software can be found [here](../../TunerSoftware/index.md).
 
 ## Power & connection
