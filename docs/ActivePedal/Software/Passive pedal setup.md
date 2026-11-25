@@ -1,11 +1,12 @@
 
 Passive pedals can be used with an ActivePedal. To use external pedals connected to ActivePedal they need to be added as a device to Tuner.
 
-![](assets/passivepedalconfig.png)
+![](../../ActivePedal/Software/assets/passivepedalconfig.png)
 
 ## Adding passive pedal
 
-To add passive pedal, press Add device -button found on bottom left corner of the Tuner and select "Passive pedal". Now a new device is seen on a device panel. The device has not been configured and therefore it shows yellow circle (not configured). Press the passive pedal on the device panel.
+To add passive pedal, press **Settings** -button found on bottom left of the Tuner. From the settings window, press **Add a passive pedal** -button found on 
+SC-Link Devices part of the window. Each press adds one passive pedal, so press it twice if you want to add 2 passive pedals. Now you can close the window selecting either **Save** or **Cancel** found on bottom right of the window. New device(s) is seen on a device panel. To configure pedal, select pedal on the device panel or press **Go to configuration** from the notification.
 
 ## Initial configuration and calibration
 
@@ -20,5 +21,5 @@ Then input range slider becomes visible, which allows finer adjustment of dead z
 The normal profile view of the passive pedal shows the current game input level as large slider.
 By default the input from the pedal is linearly sent to the game so the sensor value maps 1:1 to the game input. Optionally curve mapping can be enable that will allow creating non-linear mapping to the game.
 
-![](assets/passivepedalcurve.png)
+![](../../ActivePedal/Software/assets/passivepedalcurve.png)
 Vertical axis is the input sent to the game and the horizontal axis the linear input from the sensor.

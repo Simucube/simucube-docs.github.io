@@ -112,7 +112,7 @@ Quando ligado, toque no pedal apenas com a almofada plantar do pé e esteja prep
 
 ## :flag_fi: Turvallinen käyttö
 
-Laitteen moottoroidusti lilikkuvat osat voivat aiheuttaa vakavan vamman. Pidä liikkuvat osat vapaana esineistä ja kehon osista aina kun virtajohto on kytketty.
+Laitteen moottoroidusti liikkuvat osat voivat aiheuttaa vakavan vamman. Pidä liikkuvat osat vapaana esineistä ja kehon osista aina kun virtajohto on kytketty.
 
 Vain fyysisesti terveet aikuiset ihmiset saavat käyttää laitetta. Pidä lapset ja lemmikkieläimet aina loitolla laitteesta.
 

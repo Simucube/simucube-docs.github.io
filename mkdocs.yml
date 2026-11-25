@@ -173,6 +173,28 @@ nav:
         - Accessories:
           - Baseplate: ActivePedalPro/Baseplate.md
           - Heusinkveld adapter: ActivePedalPro/Heusinkveld adapter.md
+    - ActivePedal Sport: 
+        - ActivePedalSport/index.md
+        - Hazards & safety: ActivePedalSport/Safety.md
+        - Hardware & software setup:
+          - Items needed: ActivePedalSport/Items needed.md
+          - Mounting: ActivePedalSport/Mounting.md
+          - Cabling: ActivePedalSport/Cabling.md
+          - Software setup: ActivePedalSport/Software/First use.md
+          - Configuration & Mechanical adjustments: ActivePedalSport/Mechanical adjustments.md
+          - Adding passive pedal: ActivePedalSport/Software/Passive pedal setup.md
+        - Effect settings:
+          - Enabling game effects: ActivePedalSport/Game effect support.md
+          - Pedal feel: ActivePedalSport/Software/Pedal feel.md
+          - Simulator input mapping: ActivePedalSport/Software/input mapping.md
+          - Effects: ActivePedalSport/Software/Effects.md
+        - FAQ: ActivePedalSport/FAQ.md
+        - Troubleshooting: ActivePedalSport/Troubleshooting.md
+        - Specifications: ActivePedalSport/Specifications.md
+        - Drawings & 3D models: ActivePedalSport/Drawings.md
+        - Accessories:
+          - Baseplate: ActivePedalSport/Baseplate.md
+          - Heusinkveld adapter: ActivePedalSport/Heusinkveld adapter.md
     - Co-Pedal:
         - CoPedal/index.md
         - Hardware & software setup:
