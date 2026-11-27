@@ -1,0 +1,13 @@
+Simucube Dash Lua API
+=====================
+
+This is the API reference for writing Lua scripts for Simucube dashboard
+displays. Dashboards are defined by a JSON configuration file and one or more
+Lua scripts.
+
+.. toctree::
+   :maxdepth: 2
+
+   getting-started
+   ref-dash
+   ref-libraries

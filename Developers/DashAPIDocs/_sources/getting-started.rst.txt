@@ -1,0 +1,368 @@
+Getting Started
+===============
+
+This guide walks through creating a dashboard from scratch and covers the
+key concepts of the Simucube Dash Lua scripting API.
+
+Dashboard Structure
+-------------------
+
+A dashboard is a directory containing a JSON configuration file, Lua scripts,
+and optional assets (fonts, images).
+
+::
+
+    my_dash/
+    ├── dash.json           # configuration file
+    ├── script/
+    │   └── main.lua        # main Lua script (entry point)
+    ├── fonts/
+    │   └── MyFont.ttf      # font files
+    └── images/
+        └── background.png  # image files
+
+JSON Configuration
+------------------
+
+The JSON file declares fonts, images, and scripts used by the dashboard.
+All paths are relative to the dashboard directory.
+
+.. code-block:: json
+
+    {
+        "version": "1.0.0",
+        "name": "My Dashboard",
+        "author": "Your Name",
+        "preview_image": "images/preview.png",
+        "fonts": {
+            "main_font": {
+                "path": "fonts/MyFont.ttf",
+                "size": 24,
+                "additional_chars": "0123456789:. "
+            },
+            "large_font": {
+                "path": "fonts/MyFont.ttf",
+                "size": 48
+            }
+        },
+        "scripts": {
+            "main": "script/main.lua"
+        },
+        "images": {
+            "background": "images/background.png"
+        }
+    }
+
+``fonts``:
+    Each entry defines a font with a name (used as ``dash.font.<name>`` in
+    Lua), a path to the font file, and a pixel size. The optional
+    ``additional_chars`` field lists characters to pre-render -- useful for
+    optimizing memory on embedded displays when only certain characters
+    are needed.
+
+``scripts``:
+    The ``"main"`` script is the entry point. Additional scripts (e.g.
+    ``"widgets"``) are loaded before main and can be accessed via
+    ``require()``. The following names are reserved and cannot be used
+    as script names: ``dash``, ``manufacturer``, ``sc``, ``simucube``.
+
+``images``:
+    Each entry can be a path string or an object with ``"path"`` and optional
+    ``"format"`` (e.g. ``"alpha_only"`` for mask images).
+
+Loading the Dash Module
+-----------------------
+
+Scripts must load the ``dash`` module with ``require`` before using it.
+Usually this is the first thing a dash script does:
+
+.. code-block:: lua
+
+    local dash = require("dash")
+
+Every script file that uses the ``dash`` API needs its own ``require``
+call -- this includes widget modules and other helper scripts, not just
+the main entry point.
+
+Minimal Example
+---------------
+
+A complete minimal dashboard:
+
+.. code-block:: lua
+
+    -- main.lua
+    local dash = require("dash")
+
+    local page = dash.Page()
+    page:set_background_color(0xFF000000)  -- black background
+
+    local label = dash.Label(page, {
+        x = 10, y = 10,
+        text = "Hello!",
+        font = dash.font.main_font,
+        text_color = 0xFFFFFFFF
+    })
+
+    while true do
+        dash.update()
+    end
+
+Main Loop
+---------
+
+Every dashboard script must have a main loop that calls ``dash.update()``.
+This function processes input events, runs telemetry update hooks, advances
+timers, and renders the current frame.
+
+.. code-block:: lua
+
+    while true do
+        -- your per-frame logic here
+        dash.update()
+    end
+
+Node Types
+----------
+
+All visual elements are **nodes** in a parent-child tree. The root of each
+tree is a **Page**. Available node types:
+
+- **Page** -- root container, one per screen layout
+- **Box** -- filled rectangle with optional border and rounded corners
+- **Label** -- text display with auto-sizing or fixed-rect modes
+- **Image** -- displays an image resource with automatic mosaic repeat for oversized nodes
+- **Line** -- line segment between two points
+- **Circle** -- circle with optional fill and border
+- **Triangle** -- triangle with three vertices
+- **Graph** -- scrolling line chart
+- **Canvas** -- free-form pixel drawing
+
+Nodes are created with factory functions on the ``dash`` module:
+
+.. code-block:: lua
+
+    local page = dash.Page()
+    local box = dash.Box(page, { x=10, y=10, width=100, height=50 })
+    local label = dash.Label(box, { text="Inside box", font=dash.font.main_font })
+
+Each node's position is relative to its parent. Hiding a parent hides all
+its children.
+
+Colors
+------
+
+Colors use ARGB32 format where alpha is in the highest byte:
+``0xAARRGGBB``. Full opacity is ``0xFF``.
+
+.. code-block:: lua
+
+    0xFFFF0000  -- opaque red
+    0xFF00FF00  -- opaque green
+    0x80FFFFFF  -- 50% transparent white
+
+Color helper functions:
+
+.. code-block:: lua
+
+    dash.rgb(255, 0, 0)         -- opaque red
+    dash.rgba(255, 0, 0, 128)   -- 50% transparent red
+    dash.color("#FF0000")       -- opaque red from hex string
+
+Hex string formats: ``"#RGB"``, ``"#ARGB"``, ``"#RRGGBB"``, ``"#AARRGGBB"``.
+
+Telemetry
+---------
+
+Telemetry objects provide live data from the connected racing simulator.
+Access them through ``dash.telemetry.<name>``:
+
+.. code-block:: lua
+
+    local rpm = dash.telemetry.engine_rpm
+    local speed = dash.telemetry.speed
+
+    if rpm:valid() then
+        print(rpm:value())
+    end
+
+**Polling** -- read values in the main loop:
+
+.. code-block:: lua
+
+    while true do
+        label:set_text(string.format("%d RPM", dash.telemetry.engine_rpm:value()))
+        dash.update()
+    end
+
+**Update hooks** -- more efficient, only called when values change:
+
+.. code-block:: lua
+
+    local rpm = dash.telemetry.engine_rpm
+    label:set_telemetry_update_hook(30, function()
+        label:set_text(string.format("%d RPM", rpm:value()))
+    end, rpm)
+
+    while true do
+        dash.update()
+    end
+
+The first argument to ``set_telemetry_update_hook`` is the maximum check
+rate in Hz. The callback fires only when a watched value actually changes.
+
+Custom Widgets with OOP Inheritance
+------------------------------------
+
+Use ``extend()`` to create reusable widget classes:
+
+.. code-block:: lua
+
+    -- Define a reusable telemetry display widget
+    local TelemetryLabel = dash.Label:extend({
+        font = dash.font.main_font,
+        text_color = 0xFFFFFFFF
+    })
+
+    function TelemetryLabel:init(parent, props)
+        self._telemetry = props.telemetry
+        self._format = props.format or "%d"
+        self:set_telemetry_update_hook(
+            props.update_rate or 30,
+            self.update,
+            props.telemetry
+        )
+        self:update()
+    end
+
+    function TelemetryLabel:update()
+        self:set_text(string.format(self._format, self._telemetry:value()))
+    end
+
+    -- Create instances
+    local rpm = TelemetryLabel(page, {
+        x = 10, y = 10,
+        telemetry = dash.telemetry.engine_rpm,
+        format = "%d RPM"
+    })
+    local speed = TelemetryLabel(page, {
+        x = 10, y = 40,
+        telemetry = dash.telemetry.speed,
+        format = "%.0f km/h"
+    })
+
+The ``defaults`` table in ``extend()`` provides default creation parameters.
+Child defaults override parent defaults. The ``init`` method is called
+automatically after the node is created.
+
+Multi-level inheritance is supported:
+
+.. code-block:: lua
+
+    local WarningLabel = TelemetryLabel:extend({
+        text_color = 0xFFFF0000  -- red text
+    })
+
+Layout Helpers
+--------------
+
+Two helpers simplify positioning nodes:
+
+**align_in_parent** -- position a node within its parent using a 9-point grid:
+
+.. code-block:: lua
+
+    label:align_in_parent("center")
+    label:align_in_parent("bottom_right", -10, -10)
+
+**anchor_to** -- position a node relative to a sibling:
+
+.. code-block:: lua
+
+    -- Place label2 below label1 with 5px gap
+    label2:anchor_to(label1, "bottom_left", "top_left", 0, 5)
+
+Multiple Pages
+--------------
+
+Dashboards can have multiple pages. The first page created is shown
+initially:
+
+.. code-block:: lua
+
+    local dash = require("dash")
+
+    local page1 = dash.Page()
+    local page2 = dash.Page()
+
+    dash.Label(page1, { text="Page 1", font=dash.font.main_font })
+    dash.Label(page2, { text="Page 2", font=dash.font.main_font })
+
+    while true do
+        -- Switch pages with a button press
+        if dash.wheel.get_digital_input(1) then
+            local current = dash.get_current_page_index()
+            dash.change_page(current == 1 and 2 or 1)
+        end
+        dash.update()
+    end
+
+Unit Conversion
+---------------
+
+Display values in the user's preferred units:
+
+.. code-block:: lua
+
+    local speed_ms = dash.telemetry.speed:value()
+    local speed = dash.unit.convert_to_user_speed(speed_ms)
+    local unit_str = dash.unit.get_user_speed_unit()
+    label:set_text(string.format("%.0f %s", speed, unit_str))
+
+Input units are always SI: m/s for speed, meters for distance, celsius for
+temperature, litres for volume, kPa for pressure.
+
+Modular Scripts
+---------------
+
+Organize larger dashboards into multiple script files. All scripts listed
+in the JSON ``"scripts"`` section are loaded before the main script runs.
+Use ``require()`` to access them:
+
+.. code-block:: json
+
+    {
+        "scripts": {
+            "main": "script/main.lua",
+            "widgets": "script/widgets.lua",
+            "style": "script/style.lua"
+        }
+    }
+
+.. code-block:: lua
+
+    -- style.lua
+    local style = {}
+    style.COLOR_BG = 0xFF1A1A1A
+    style.COLOR_TEXT = 0xFFFFFFFF
+    style.COLOR_ACCENT = 0xFF00AAFF
+    return style
+
+.. code-block:: lua
+
+    -- main.lua
+    local dash = require("dash")
+    local style = require("style")
+
+    local page = dash.Page()
+    page:set_background_color(style.COLOR_BG)
+
+Editor Support
+--------------
+
+The ``.lua`` files in this documentation directory are LuaLS-annotated
+definition stubs. Configure your editor to use them as a workspace library
+for autocompletion, type checking, and hover documentation.
+
+See the ``readme.md`` file in this directory for setup instructions for
+VS Code (EmmyLua and LuaLS extensions) and other editors.
