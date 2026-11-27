@@ -10,11 +10,7 @@ Simucube Tuner is a configuration software for ActivePedals. To get started [dow
 
 If you haven't done connections yet, see [cabling](../Cabling.md).
 
-## 3. Power on
-
-After the installation steps are completed it is time to turn on the ActivePedal. This is done by pressing the button on the backside of the pedal.
-
-## 4. Software configuration
+## 3. Software configuration
 
 ### Device state indicators
 
